@@ -11,10 +11,11 @@
 body {
     margin: 0;
 }
-
+a{
+    transition: color .4s ease;
+}
 a, a:hover, a:focus, a:visited {
     text-decoration: none;
-    transition: color .4s ease;
 }
 
 .button {
@@ -27,6 +28,8 @@ a, a:hover, a:focus, a:visited {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
 }
 
 .button:hover {
@@ -48,8 +51,13 @@ a, a:hover, a:focus, a:visited {
 }
 .menu {
     width: 280px;
-    background: #020202;
+    background-color: #020202;
     position: relative;
+    background-position: -75px top;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-image: url("/assets/menu-background.jpg");
+    padding: 65px;
 }
 .menu-footer{
     position: absolute;
@@ -59,13 +67,14 @@ a, a:hover, a:focus, a:visited {
     text-align: center;
     padding-bottom: 27px;
 }
-.footer-info{
+.menu-footer-info{
     font-family: Gilroy, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
+    color: #AAA8AB;
 }
-.footer-info-row{
+.menu-footer-info-row{
     line-height: 18px;
     margin-bottom: 1.4px;
 }
@@ -104,14 +113,8 @@ a, a:hover, a:focus, a:visited {
 
 .menu-content {
     width: 100%;
-    background-position: -75px top;
-    background-size: initial;
-    background-repeat: no-repeat;
-    background-image: url("/assets/menu-background.jpg");
-    display: flex;
-    justify-content: center;
-    padding-top: 65px;
     height: 100%;
+    text-align: center;
 }
 .menu-links{
     font-family: Gilroy, sans-serif;
@@ -120,6 +123,7 @@ a, a:hover, a:focus, a:visited {
     font-size: 14px;
     width: 100%;
     padding-left: 75px;
+    text-align: left;
 }
 .menu-link-li{
     display: block;
@@ -138,7 +142,7 @@ a, a:hover, a:focus, a:visited {
 .menu-logo {
     max-width: 100%;
     display: block;
-    margin-bottom: 58px;
+    margin: 0 auto 58px;
 }
 
 .flex-block {
@@ -157,6 +161,8 @@ a, a:hover, a:focus, a:visited {
 .contacts-block {
     position: absolute;
     display: flex;
+    top: 0;
+    right: 0;
 }
 
 .contacts-block-phone {
@@ -169,8 +175,11 @@ a, a:hover, a:focus, a:visited {
     font-weight: bold;
     font-size: 20px;
     line-height: 28px;
+    color: #fff;
 }
-
+.choose-flat-button{
+    margin-bottom: 42px;
+}
 .contacts-block-mail {
     display: block;
     width: 68px;
@@ -182,6 +191,11 @@ a, a:hover, a:focus, a:visited {
     background-size: 35px;
 }
 
+@media (max-width: 1500px) {
+    .menu {
+        padding-top: 30px;
+    }
+}
 @media (max-width: 767px) {
     .menu {
         width: 100%
