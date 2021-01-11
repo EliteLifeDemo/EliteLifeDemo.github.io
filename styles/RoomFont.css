@@ -1,20 +1,19 @@
 @font-face {
     font-family: 'Room';
-    src: url('/fonts/Room/room_bold.woff2');
+    src: url('/fonts/Room/Room-bold.eot');
     src: local('Room Bold'), local('Room-Bold'),
-        url('/fonts/Room/room_bold.woff2') format('woff2'),
-        url('/fonts/Room/room_bold.woff') format('woff');
+        url('/fonts/Room/Room-bold.woff2') format('woff2'),
+        url('/fonts/Room/Room-bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-
 }
 
 @font-face {
     font-family: 'Room';
-    src: url('/fonts/Room/room_thin.woff2');
-    src: local('Room Thin'), local('Room-Thin'),
-        url('/fonts/Room/room_thin.woff2') format('woff2'),
-        url('/fonts/Room/room_thin.woff') format('woff');
+    src: url('/fonts/Room/Room-light.eot');
+    src: local('Room Light'), local('Room-Light'),
+    url('/fonts/Room/Room-light.woff2') format('woff2'),
+    url('/fonts/Room/Room-light.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
