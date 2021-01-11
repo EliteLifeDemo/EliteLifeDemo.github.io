@@ -1,0 +1,40 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    min-width: 0;
+    min-height: 0;
+}
+
+.menu{
+    width: 280px;
+
+}
+.menu.fixed{
+    position: fixed;
+    left: 0;
+    transform: translateX(-280px);
+    transition: transform .4s ease;
+}
+.menu.fixed.opened{
+    transform: translateX(0);
+}
+.menu-content{
+    width: 100%;
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("/assets/menu-background.jpg");
+}
+
+.flex-block{
+    display: flex;
+
+}
+
+.flex-block.menu{
+    flex: 280px 0 0;
+}
+@media (max-width: 767px) {
+    .menu{
+        width: 100%
+    }
+}
