@@ -271,13 +271,22 @@ a, a:hover, a:focus, a:visited {
     display: block;
     width: 68px;
     height: 68px;
-    background-color: #BDA269;
-    background-image: url("/assets/icons/005-email.svg");
-    background-repeat: no-repeat;
-    background-position: center;
+    background: #BDA269 url("/assets/icons/005-email.svg") no-repeat center;
     background-size: 35px;
 }
-
+.phone-block{
+    position: absolute;
+    right: 18px;
+    bottom: 25px;
+}
+.phone-block-button{
+    display: block;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #BDA269 url("/assets/icons/008-phone-call.svg") no-repeat center;
+    background-size: 30px;
+}
 @media (max-width: 1500px) {
     .menu {
         padding-top: 30px;
