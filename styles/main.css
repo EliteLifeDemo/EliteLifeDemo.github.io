@@ -50,6 +50,7 @@ a, a:hover, a:focus, a:visited {
     border-left-width: 0;
     border-bottom-width: 0;
     z-index: 0;
+    position: absolute;
 }
 
 .button-borders {
@@ -59,6 +60,12 @@ a, a:hover, a:focus, a:visited {
     width: 100%;
     height: 100%;
     z-index: 0;
+}
+
+.button-borders:before {
+    content: '';
+    display: block;
+    position: absolute;
 }
 
 .button-borders:after {
@@ -99,8 +106,8 @@ a, a:hover, a:focus, a:visited {
     border-bottom-width: 0;
 }
 .button-borders.-vertical:after{
-    height: 100%;
-    width: 18px;
+    width: 100%;
+    height: 15px;
     background: transparent;
     bottom: 0;
     left: 0;
@@ -248,7 +255,7 @@ a, a:hover, a:focus, a:visited {
     display: flex;
     align-items: center;
     padding: 0 36px;
-    font-family: Room, sans-serif;
+    font-family: "Room-Bold", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
