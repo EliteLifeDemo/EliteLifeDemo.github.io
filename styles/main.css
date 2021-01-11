@@ -11,9 +11,11 @@
 body {
     margin: 0;
 }
-a{
+
+a {
     transition: color .4s ease;
 }
+
 a, a:hover, a:focus, a:visited {
     text-decoration: none;
 }
@@ -30,25 +32,88 @@ a, a:hover, a:focus, a:visited {
     font-size: 14px;
     color: #fff;
     text-transform: uppercase;
+    position: relative;
 }
 
 .button:hover {
     background-color: #293F2C;
 }
 
-.button:before {
-    content: '';
-    display: block;
-}
-
 .button:after {
     content: '';
     display: block;
+    top: 0;
+    right: 0;
+    width: 18px;
+    height: 15px;
+    border: 1px solid #BDA269;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    z-index: 0;
 }
-.main-page-banner{
+
+.button-borders {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.button-borders:after {
+    content: '';
+    display: block;
+    position: absolute;
+}
+
+.button-borders.-horizontal:before{
+    height: 100%;
+    width: 18px;
+    background: transparent;
+    top: 0;
+    left: 0;
+    border: 1px solid #fff;
+    border-right-width: 0;
+    border-left-width: 0;
+}
+.button-borders.-horizontal:after{
+    height: 100%;
+    width: 18px;
+    background: transparent;
+    top: 0;
+    right: 0;
+    border: 1px solid #fff;
+    border-right-width: 0;
+    border-left-width: 0;
+}
+
+.button-borders.-vertical:before{
+    width: 100%;
+    height: 15px;
+    background: transparent;
+    top: 0;
+    left: 0;
+    border: 1px solid #fff;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+.button-borders.-vertical:after{
+    height: 100%;
+    width: 18px;
+    background: transparent;
+    bottom: 0;
+    left: 0;
+    border: 1px solid #fff;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+.main-page-banner {
     height: 970px;
     background-color: #060606;
 }
+
 .menu {
     width: 280px;
     background-color: #020202;
@@ -57,9 +122,10 @@ a, a:hover, a:focus, a:visited {
     background-size: initial;
     background-repeat: no-repeat;
     background-image: url("/assets/menu-background.jpg");
-    padding: 65px;
+    padding-top: 65px;
 }
-.menu-footer{
+
+.menu-footer {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -67,23 +133,27 @@ a, a:hover, a:focus, a:visited {
     text-align: center;
     padding-bottom: 27px;
 }
-.menu-footer-info{
+
+.menu-footer-info {
     font-family: Gilroy, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     color: #AAA8AB;
 }
-.menu-footer-info-row{
+
+.menu-footer-info-row {
     line-height: 18px;
     margin-bottom: 1.4px;
 }
-.social-buttons{
+
+.social-buttons {
     display: flex;
     justify-content: center;
     margin-bottom: 43px;
 }
-.social-button{
+
+.social-button {
     display: block;
     width: 30px;
     height: 30px;
@@ -93,10 +163,12 @@ a, a:hover, a:focus, a:visited {
     background-position: center;
     background-repeat: no-repeat;
 }
-.social-button.-instagram{
+
+.social-button.-instagram {
     background-image: url("/assets/icons/Instagram.svg");
 }
-.social-button.-facebook{
+
+.social-button.-facebook {
     background-image: url("/assets/icons/Facebook.svg");
 }
 
@@ -116,7 +188,8 @@ a, a:hover, a:focus, a:visited {
     height: 100%;
     text-align: center;
 }
-.menu-links{
+
+.menu-links {
     font-family: Gilroy, sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -125,20 +198,25 @@ a, a:hover, a:focus, a:visited {
     padding-left: 75px;
     text-align: left;
 }
-.menu-link-li{
+
+.menu-link-li {
     display: block;
     margin-bottom: 24px;
 }
-.menu-link-li:last-child{
+
+.menu-link-li:last-child {
     margin-bottom: 0;
 }
-.menu-link{
+
+.menu-link {
     line-height: 21px;
     color: #BCB4A3;
 }
-.menu-link:hover{
+
+.menu-link:hover {
     color: #BDA269;
 }
+
 .menu-logo {
     max-width: 100%;
     display: block;
@@ -177,9 +255,11 @@ a, a:hover, a:focus, a:visited {
     line-height: 28px;
     color: #fff;
 }
-.choose-flat-button{
+
+.choose-flat-button {
     margin-bottom: 42px;
 }
+
 .contacts-block-mail {
     display: block;
     width: 68px;
@@ -195,7 +275,20 @@ a, a:hover, a:focus, a:visited {
     .menu {
         padding-top: 30px;
     }
+
+    .menu-logo {
+        margin-bottom: 30px;
+    }
+
+    .choose-flat-button {
+        margin-bottom: 20px;
+    }
+
+    .social-buttons {
+        margin-bottom: 20px;
+    }
 }
+
 @media (max-width: 767px) {
     .menu {
         width: 100%
