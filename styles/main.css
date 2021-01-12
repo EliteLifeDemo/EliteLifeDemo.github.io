@@ -510,6 +510,7 @@ img {
     line-height: 18px;
     color: #BDA269;
     margin-bottom: 6px;
+    text-transform: uppercase;
 }
 
 .section.-full .section-title {
@@ -520,6 +521,7 @@ img {
     padding-bottom: 28px;
     margin-bottom: 20px;
     position: relative;
+    text-transform: uppercase;
 }
 
 .section.-full .section-title:before {
@@ -542,21 +544,27 @@ img {
     line-height: 37px;
     font-weight: 300;
 }
+.section.-full .section-footer {
+    position: absolute;
+    bottom: 33px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+}
 .detail-info{
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 .detail-number {
     font-family: Room, sans-serif;
     font-weight: bold;
     font-size: 72px;
-    vertical-align: bottom;
 }
 
 .detail-unit{
     font-family: Room, sans-serif;
     font-weight: bold;
     font-size: 24px;
-    vertical-align: bottom;
 }
 
 .detail-description {
