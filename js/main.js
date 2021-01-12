@@ -15,13 +15,14 @@ function initializeMainBanner(){
     let sliderBox = document.querySelector('.main-page-banner .splide');
     let slider = new Splide(sliderBox, {
         type   : 'loop',
-        /*autoplay: true,*/
+        autoplay: true,
         interval: 10000,
         lazyLoad: true,
         arrows: false,
         cover: true,
         perPage: 1,
         heightRatio: 0.592,
+        preloadPages: 0,
     });
     let reset = true;
     slider.on( 'autoplay:playing', function (rate) {

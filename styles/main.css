@@ -117,8 +117,7 @@ a, a:hover, a:focus, a:visited {
 }
 
 .main-page-banner {
-    height: 970px;
-    background-color: #060606;
+    background-color: #fff;
 }
 
 .menu {
