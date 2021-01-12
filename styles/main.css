@@ -364,13 +364,13 @@ a, a:hover, a:focus, a:visited {
 }
 .slide-content-right{
     flex: 1 1 0;
-    padding-left: 73px;
+    position: relative;
 }
 .slide-content-right-more{
     position: absolute;
     width: 100%;
     bottom: 72px;
-    left: 0;
+    left: 72px;
 }
 .line{
     display: block;

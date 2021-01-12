@@ -22,33 +22,33 @@ function initializeMainBanner(){
         cover: true,
         perPage: 1,
         heightRatio: 0.592,
-        preloadPages: 0,
     });
     slider.on( 'moved', function (newIndex) {
-        let dots = sliderBox.querySelectorAll('.splide__pagination__page');
-        for (let i = newIndex; i >= 0; i--){
-            let width = dots[i].outerWidth;
-            dots[i].parentElement.style.paddingRight = width + "px";
-            dots[i].classList.remove('-full');
-        }
-        for (let i = 0; i < newIndex; i++){
-            dots[i].parentElement.style.paddingRight = 0;
-            dots[i].classList.add('-full');
-        }
+        normalizePaginationButtons(sliderBox, newIndex);
+    });
+    slider.on( 'dragged', function (newIndex) {
+        normalizePaginationButtons(sliderBox, newIndex);
     });
     slider.on( 'autoplay:playing', function (rate) {
         let activeDot = sliderBox.querySelector('.splide__pagination__page.is-active');
         let width = activeDot.offsetWidth;
         let parent = activeDot.parentElement;
         let index = slider.index;
-        let dots = sliderBox.querySelectorAll('.splide__pagination__page');
-        for (let i = index-1; i >= 0; i--){
-            dots[i].parentElement.style.paddingRight = width + "px";
-        }
-        for (let i = 0; i < index; i++){
-            dots[i].parentElement.style.paddingRight = 0;
-        }
+        normalizePaginationButtons(sliderBox, index);
         activeDot && (parent.style.paddingRight = ((1 - rate) * width) + 'px');
     });
     slider.mount();
+}
+
+function normalizePaginationButtons(sliderBox, index) {
+    let dots = sliderBox.querySelectorAll('.splide__pagination__page');
+    for (let i = index - 1; i >= 0; i--){
+        dots[i].parentElement.style.paddingRight = "0";
+        dots[i].classList.add('-full');
+    }
+    for (let i = index; i < dots.length; i++){
+        let width = dots[i].outerWidth;
+        dots[i].parentElement.style.paddingRight = width + "px";
+        dots[i].classList.remove('-full');
+    }
 }
