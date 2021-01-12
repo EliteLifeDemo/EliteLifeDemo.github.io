@@ -116,6 +116,11 @@ a, a:hover, a:focus, a:visited {
     border-bottom-width: 0;
 }
 
+.button.-gradient{
+    background: radial-gradient(100% 100% at 50% 0%, #427049 0%, #293F2C 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .main-page-banner {
     background-color: #060606;
 }
@@ -323,6 +328,71 @@ a, a:hover, a:focus, a:visited {
     position: absolute;
     top: 0;
     left: 0;
+}
+.slide-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(6,6,6,0.2);
+    color: #fff;
+    font-family: Gilroy, sans-serif;
+}
+.slide-footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 214px;
+}
+.slide-content-flex{
+    display: flex;
+    padding-left: 204px;
+    padding-right: 183px;
+}
+.slide-content-left{
+    width: 680px;
+    flex: 0 0 680px;
+}
+.slide-content-right{
+    flex: 1 1 0;
+    padding-left: 73px;
+}
+.line{
+    display: block;
+    height: 1px;
+    background-color: #fff;
+    width: 100%;
+    margin-bottom: 36px;
+}
+.slide-slogan{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin-bottom: 7.6px;
+}
+.slide-title{
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 126px;
+    text-transform: uppercase;
+    margin-bottom: 17.7px;
+}
+.slide-description{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 43px;
+}
+.slide-footer .about{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 59px;
+    background-image: url("/assets/icons/002-right-chevron.svg");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 26px;
 }
 @media (max-width: 1500px) {
     .menu {
