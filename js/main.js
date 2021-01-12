@@ -13,7 +13,9 @@ function initializeMainBanner(){
         interval: 10000,
         lazyLoad: true,
         arrows: false,
-        cover: true
+        cover: true,
+        perPage: 1,
+        heightRatio: 0.5624,
     });
     slider.on( 'autoplay:playing', function (rate) {
         console.log(rate); // 0-1
