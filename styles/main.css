@@ -208,16 +208,12 @@ a, a:hover, a:focus, a:visited {
 
 .menu-link-li {
     display: block;
-    margin-bottom: 24px;
-}
-
-.menu-link-li:last-child {
-    margin-bottom: 0;
 }
 
 .menu-link {
     line-height: 21px;
     color: #BCB4A3;
+    padding: 12px 0;
 }
 
 .menu-link:hover {
@@ -264,7 +260,7 @@ a, a:hover, a:focus, a:visited {
 }
 
 .choose-flat-button {
-    margin-bottom: 42px;
+    margin-bottom: 30px;
 }
 
 .contacts-block-mail {
