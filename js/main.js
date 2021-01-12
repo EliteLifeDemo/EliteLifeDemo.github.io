@@ -27,7 +27,7 @@ function initializeMainBanner(){
     let reset = true;
     slider.on( 'autoplay:playing', function (rate) {
         let activeDot = sliderBox.querySelector('.splide__pagination__page.is-active');
-        let width = activeDot.width;
+        let width = activeDot.offsetWidth;
         let parent = activeDot.parentElement;
         let index = slider.index;
         if(index === 0 && reset){
