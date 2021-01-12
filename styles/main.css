@@ -20,7 +20,8 @@ a {
 a, a:hover, a:focus, a:visited {
     text-decoration: none;
 }
-img{
+
+img {
     max-width: 100%;
 }
 
@@ -279,6 +280,10 @@ img{
     display: flex;
 }
 
+.flex-block.-equal * {
+    flex: 1 1 0;
+}
+
 .flex-block .menu {
     flex: 0 0 280px;
 }
@@ -470,20 +475,24 @@ img{
     background-size: 26px;
     background-position-y: 47px;
 }
-.menu-opener{
+
+.menu-opener {
     background-color: #293F2C;
     width: 65px;
     flex: 0 0 65px;
 }
-.site-content-wrapper{
+
+.site-content-wrapper {
     width: calc(100% - 65px);
     flex: 1 1 0;
     padding-top: 112px;
 }
-.section{
+
+.section {
     position: relative;
 }
-.section.-full .section-header{
+
+.section.-full .section-header {
     width: 100%;
     text-align: center;
     color: #232323;
@@ -493,7 +502,8 @@ img{
     right: 0;
     top: 0;
 }
-.section.-full .section-catch{
+
+.section.-full .section-catch {
     font-family: Room, sans-serif;
     font-weight: bold;
     font-size: 18px;
@@ -501,7 +511,8 @@ img{
     color: #BDA269;
     margin-bottom: 6px;
 }
-.section.-full .section-title{
+
+.section.-full .section-title {
     font-family: Room, sans-serif;
     font-weight: bold;
     font-size: 64px;
@@ -510,7 +521,8 @@ img{
     margin-bottom: 20px;
     position: relative;
 }
-.section.-full .section-title:before{
+
+.section.-full .section-title:before {
     display: block;
     content: '';
     width: 96px;
@@ -523,12 +535,41 @@ img{
     top: 0;
     margin: auto auto 0;
 }
-.section.-full .section-description{
+
+.section.-full .section-description {
     font-family: Gilroy, sans-serif;
     font-size: 24px;
     line-height: 37px;
     font-weight: 300;
 }
+.detail-info{
+    margin-bottom: 12px;
+}
+.detail-number {
+    font-family: Room, sans-serif;
+    font-weight: bold;
+    font-size: 72px;
+    vertical-align: bottom;
+}
+
+.detail-unit{
+    font-family: Room, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    vertical-align: bottom;
+}
+
+.detail-description {
+    font-family: Gilroy, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+.switch-view-section{
+    background: #FEF9EE;
+}
+
 @media (max-width: 1500px) {
     .menu {
         padding-top: 30px;

@@ -21,8 +21,9 @@ function initializeMainBanner(){
         arrows: false,
         cover: true,
         perPage: 1,
-        heightRatio: 0.592,
+        heightRatio: 0.5987654321,
         pauseOnHover: false,
+        pauseOnFocus: false,
     });
     slider.on( 'moved', function (newIndex) {
         normalizePaginationButtons(sliderBox, newIndex);
