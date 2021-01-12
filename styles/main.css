@@ -10,6 +10,7 @@
 
 body {
     margin: 0;
+    color: #232323;
 }
 
 a {
@@ -466,7 +467,57 @@ a, a:hover, a:focus, a:visited {
     background-size: 26px;
     background-position-y: 47px;
 }
-
+.menu-opener{
+    background-color: #293F2C;
+    width: 65px;
+    flex: 0 0 65px;
+}
+.site-content-wrapper{
+    width: calc(100% - 65px);
+    flex: 1 1 0;
+    padding-top: 112px;
+}
+.section.-full .section-header{
+    width: 100%;
+    text-align: center;
+    color: #232323;
+}
+.section.-full .section-catch{
+    font-family: Room, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #BDA269;
+    margin-bottom: 6px;
+}
+.section.-full .section-title{
+    font-family: Room, sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+    padding-bottom: 28px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.section.-full .section-title:before{
+    display: block;
+    content: '';
+    width: 96px;
+    height: 1px;
+    position: absolute;
+    background-color: #BDA269;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto 0;
+}
+.section.-full .section-description{
+    font-family: Room, sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+}
 @media (max-width: 1500px) {
     .menu {
         padding-top: 30px;
