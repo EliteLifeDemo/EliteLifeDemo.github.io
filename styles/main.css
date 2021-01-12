@@ -75,7 +75,7 @@ a, a:hover, a:focus, a:visited {
     position: absolute;
 }
 
-.button-borders.-horizontal:before{
+.button-borders.-horizontal:before {
     height: 100%;
     width: 18px;
     background: transparent;
@@ -85,7 +85,8 @@ a, a:hover, a:focus, a:visited {
     border-right-width: 0;
     border-left-width: 0;
 }
-.button-borders.-horizontal:after{
+
+.button-borders.-horizontal:after {
     height: 100%;
     width: 18px;
     background: transparent;
@@ -96,7 +97,7 @@ a, a:hover, a:focus, a:visited {
     border-left-width: 0;
 }
 
-.button-borders.-vertical:before{
+.button-borders.-vertical:before {
     width: 100%;
     height: 15px;
     background: transparent;
@@ -106,7 +107,8 @@ a, a:hover, a:focus, a:visited {
     border-top-width: 0;
     border-bottom-width: 0;
 }
-.button-borders.-vertical:after{
+
+.button-borders.-vertical:after {
     width: 100%;
     height: 15px;
     background: transparent;
@@ -117,9 +119,41 @@ a, a:hover, a:focus, a:visited {
     border-bottom-width: 0;
 }
 
-.button.-gradient{
+.button.-gradient {
     background: radial-gradient(100% 100% at 50% 0%, #427049 0%, #293F2C 100%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button.-big {
+    padding: 18px 50px;
+}
+
+.button.-big .button-borders.-vertical:after {
+    bottom: 3px;
+    left: 3px;
+    right: 3px;
+    width: auto;
+}
+
+.button.-big .button-borders.-vertical:before {
+    top: 3px;
+    left: 3px;
+    right: 3px;
+    width: auto;
+}
+
+.button.-big .button-borders.-horizontal:before {
+    top: 3px;
+    left: 3px;
+    bottom: 3px;
+    height: auto;
+}
+
+.button.-big .button-borders.-horizontal:after {
+    top: 3px;
+    right: 3px;
+    bottom: 3px;
+    height: auto;
 }
 
 .main-page-banner {
@@ -276,12 +310,14 @@ a, a:hover, a:focus, a:visited {
     background: #BDA269 url("/assets/icons/005-email.svg") no-repeat center;
     background-size: 35px;
 }
-.phone-block{
+
+.phone-block {
     position: absolute;
     right: 18px;
     bottom: 25px;
 }
-.phone-block-button{
+
+.phone-block-button {
     display: block;
     width: 64px;
     height: 64px;
@@ -290,13 +326,14 @@ a, a:hover, a:focus, a:visited {
     background-size: 30px;
 }
 
-.main-page-banner .splide__pagination{
+.main-page-banner .splide__pagination {
     position: absolute;
     width: 100%;
     top: 26px;
     left: 0;
 }
-.main-page-banner .splide__pagination li{
+
+.main-page-banner .splide__pagination li {
     width: 86px;
     margin-right: 9px;
     height: 3px;
@@ -304,7 +341,8 @@ a, a:hover, a:focus, a:visited {
     overflow: hidden;
     padding-right: 86px;
 }
-.main-page-banner .splide__pagination li:after{
+
+.main-page-banner .splide__pagination li:after {
     content: '';
     position: relative;
     display: block;
@@ -315,10 +353,12 @@ a, a:hover, a:focus, a:visited {
     border-left-width: 0;
     border-right: none;
 }
-.main-page-banner .splide__pagination li:last-child{
+
+.main-page-banner .splide__pagination li:last-child {
     margin-right: 0;
 }
-.main-page-banner .splide__pagination button{
+
+.main-page-banner .splide__pagination button {
     width: 100%;
     height: 3px;
     border: 1px solid #fff;
@@ -330,77 +370,89 @@ a, a:hover, a:focus, a:visited {
     top: 0;
     left: 0;
 }
-.main-page-banner .splide__pagination button.-full{
+
+.main-page-banner .splide__pagination button.-full {
     border-color: transparent;
     z-index: 2;
 }
-.slide-content{
+
+.slide-content {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(6,6,6,0.2);
+    background: rgba(6, 6, 6, 0.2);
     color: #fff;
     font-family: Gilroy, sans-serif;
     display: flex;
     align-items: center;
 }
-.slide-footer{
+
+.slide-footer {
     position: absolute;
     bottom: 0;
     left: 0;
     padding-left: 214px;
 }
-.slide-content-flex{
+
+.slide-content-flex {
     display: flex;
     padding-left: 204px;
     padding-right: 183px;
     width: 100%;
 }
-.slide-content-left{
+
+.slide-content-left {
     flex: auto;
     max-width: -webkit-min-content;
     max-width: -moz-min-content;
     max-width: min-content;
 }
-.slide-content-right{
+
+.slide-content-right {
     flex: 1 1 0;
     position: relative;
 }
-.slide-content-right-more{
+
+.slide-content-right-more {
     position: absolute;
     right: 0;
     bottom: 72px;
     left: 72px;
 }
-.line{
+
+.line {
     display: block;
     height: 1px;
     background-color: #fff;
     width: 100%;
     margin-bottom: 36px;
 }
-.slide-slogan{
+
+.slide-slogan {
     font-weight: 600;
     font-size: 18px;
     line-height: 21px;
     text-transform: uppercase;
     margin-bottom: 7.6px;
 }
-.slide-title{
+
+.slide-title {
     font-weight: bold;
     font-size: 144px;
     line-height: 126px;
     text-transform: uppercase;
     margin-bottom: 17.7px;
 }
-.slide-description{
+
+.slide-description {
     font-weight: 500;
     font-size: 28px;
     line-height: 43px;
 }
-.slide-footer .about{
+
+.slide-footer .about {
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
@@ -409,6 +461,7 @@ a, a:hover, a:focus, a:visited {
     background-size: 26px;
     background-position-y: 47px;
 }
+
 @media (max-width: 1500px) {
     .menu {
         padding-top: 30px;
