@@ -22,6 +22,7 @@ function initializeMainBanner(){
         cover: true,
         perPage: 1,
         heightRatio: 0.592,
+        pauseOnHover: false,
     });
     slider.on( 'moved', function (newIndex) {
         normalizePaginationButtons(sliderBox, newIndex);
@@ -47,7 +48,7 @@ function normalizePaginationButtons(sliderBox, index) {
         dots[i].classList.add('-full');
     }
     for (let i = index; i < dots.length; i++){
-        let width = dots[i].outerWidth;
+        let width = dots[i].offsetWidth;
         dots[i].parentElement.style.paddingRight = width + "px";
         dots[i].classList.remove('-full');
     }

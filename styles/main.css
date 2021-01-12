@@ -156,6 +156,11 @@ a, a:hover, a:focus, a:visited {
     height: auto;
 }
 
+.button.-big:after {
+    top: 3px;
+    right: 3px;
+}
+
 .main-page-banner {
     background-color: #060606;
 }
