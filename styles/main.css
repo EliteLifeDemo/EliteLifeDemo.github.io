@@ -20,6 +20,9 @@ a {
 a, a:hover, a:focus, a:visited {
     text-decoration: none;
 }
+img{
+    max-width: 100%;
+}
 
 .button {
     display: inline-block;
@@ -477,10 +480,18 @@ a, a:hover, a:focus, a:visited {
     flex: 1 1 0;
     padding-top: 112px;
 }
+.section{
+    position: relative;
+}
 .section.-full .section-header{
     width: 100%;
     text-align: center;
     color: #232323;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 .section.-full .section-catch{
     font-family: Room, sans-serif;
@@ -510,13 +521,13 @@ a, a:hover, a:focus, a:visited {
     left: 0;
     right: 0;
     top: 0;
-    margin: 0 auto 0;
+    margin: auto auto 0;
 }
 .section.-full .section-description{
-    font-family: Room, sans-serif;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 64px;
+    font-family: Gilroy, sans-serif;
+    font-size: 24px;
+    line-height: 37px;
+    font-weight: 300;
 }
 @media (max-width: 1500px) {
     .menu {
