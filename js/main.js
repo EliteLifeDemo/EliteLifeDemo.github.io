@@ -27,10 +27,10 @@ function initializeMainBanner(){
     slider.on( 'moved', function (newIndex) {
         let dots = sliderBox.querySelectorAll('.splide__pagination__page');
         for (let i = newIndex; i >= 0; i--){
-            dots[i].parent.parentElement.style.paddingRight = width + "px";
+            dots[i].parentElement.style.paddingRight = width + "px";
         }
         for (let i = 0; i < newIndex; i++){
-            dots[i].parent.parentElement.style.paddingRight = 0;
+            dots[i].parentElement.style.paddingRight = 0;
         }
     });
     slider.on( 'autoplay:playing', function (rate) {
@@ -40,10 +40,10 @@ function initializeMainBanner(){
         let index = slider.index;
         let dots = sliderBox.querySelectorAll('.splide__pagination__page');
         for (let i = index-1; i >= 0; i--){
-            dots[i].parent.parentElement.style.paddingRight = width + "px";
+            dots[i].parentElement.style.paddingRight = width + "px";
         }
         for (let i = 0; i < index; i++){
-            dots[i].parent.parentElement.style.paddingRight = 0;
+            dots[i].parentElement.style.paddingRight = 0;
         }
         activeDot && (parent.style.paddingRight = ((1 - rate) * width) + 'px');
     });
