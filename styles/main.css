@@ -359,8 +359,10 @@ a, a:hover, a:focus, a:visited {
     width: 100%;
 }
 .slide-content-left{
-    width: 680px;
-    flex: 0 0 680px;
+    flex: auto;
+    max-width: -webkit-min-content;
+    max-width: -moz-min-content;
+    max-width: min-content;
 }
 .slide-content-right{
     flex: 1 1 0;
@@ -368,7 +370,7 @@ a, a:hover, a:focus, a:visited {
 }
 .slide-content-right-more{
     position: absolute;
-    width: 100%;
+    right: 0;
     bottom: 72px;
     left: 72px;
 }
@@ -403,10 +405,9 @@ a, a:hover, a:focus, a:visited {
     font-size: 18px;
     line-height: 28px;
     padding-bottom: 59px;
-    background-image: url("/assets/icons/002-right-chevron.svg");
-    background-position: bottom left;
-    background-repeat: no-repeat;
+    background: url("/assets/icons/002-right-chevron.svg") no-repeat left bottom;
     background-size: 26px;
+    background-position-y: 47px;
 }
 @media (max-width: 1500px) {
     .menu {
