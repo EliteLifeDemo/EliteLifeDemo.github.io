@@ -294,6 +294,21 @@ a, a:hover, a:focus, a:visited {
 .main-page-banner .splide__pagination li{
     width: 86px;
     margin-right: 9px;
+    height: 3px;
+    position: relative;
+    overflow: hidden;
+    padding-right: 86px;
+}
+.main-page-banner .splide__pagination li:after{
+    content: '';
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 3px;
+    z-index: 1;
+    border: 1px solid #293F2C;
+    border-left-width: 0;
+    border-right: none;
 }
 .main-page-banner .splide__pagination li:last-child{
     margin-right: 0;
@@ -304,6 +319,11 @@ a, a:hover, a:focus, a:visited {
     border: 1px solid #fff;
     border-left-width: 0;
     border-right-width: 0;
+    background: transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 @media (max-width: 1500px) {
     .menu {
