@@ -32,15 +32,15 @@ function initializeMainBanner(){
         let index = slider.index;
         if(index === 0 && reset){
             reset = false;
-            let dots = sliderBox.querySelector('.splide__pagination__page');
-            dots.forEach(function (dot) {
+            let dots = sliderBox.querySelectorAll('.splide__pagination__page');
+            dots && dots.forEach(function (dot) {
                 dot.parentElement.style.paddingRight = width + "px";
             })
         }
         if(index !== 1){
             reset = true;
         }
-        parent.style.paddingRight = ((1 - rate) * width) + 'px';
+        activeDot && (parent.style.paddingRight = ((1 - rate) * width) + 'px');
     });
     slider.mount();
 }
