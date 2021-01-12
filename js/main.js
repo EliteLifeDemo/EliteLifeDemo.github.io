@@ -24,21 +24,26 @@ function initializeMainBanner(){
         heightRatio: 0.592,
         preloadPages: 0,
     });
-    let reset = true;
+    slider.on( 'moved', function (newIndex) {
+        let dots = sliderBox.querySelectorAll('.splide__pagination__page');
+        for (let i = newIndex; i >= 0; i--){
+            dots[i].parent.parentElement.style.paddingRight = width + "px";
+        }
+        for (let i = 0; i < newIndex; i++){
+            dots[i].parent.parentElement.style.paddingRight = 0;
+        }
+    });
     slider.on( 'autoplay:playing', function (rate) {
         let activeDot = sliderBox.querySelector('.splide__pagination__page.is-active');
         let width = activeDot.offsetWidth;
         let parent = activeDot.parentElement;
         let index = slider.index;
-        if(index === 0 && reset){
-            reset = false;
-            let dots = sliderBox.querySelectorAll('.splide__pagination__page');
-            dots && dots.forEach(function (dot) {
-                dot.parentElement.style.paddingRight = width + "px";
-            })
+        let dots = sliderBox.querySelectorAll('.splide__pagination__page');
+        for (let i = index-1; i >= 0; i--){
+            dots[i].parent.parentElement.style.paddingRight = width + "px";
         }
-        if(index !== 1){
-            reset = true;
+        for (let i = 0; i < index; i++){
+            dots[i].parent.parentElement.style.paddingRight = 0;
         }
         activeDot && (parent.style.paddingRight = ((1 - rate) * width) + 'px');
     });
