@@ -42,7 +42,7 @@ function initializeMainBanner(){
 
 function normalizePaginationButtons(sliderBox, index) {
     let dots = sliderBox.querySelectorAll('.splide__pagination__page');
-    for (let i = index - 1; i >= 0; i--){
+    for (let i = 0; i < index; i++){
         dots[i].parentElement.style.paddingRight = "0px";
         dots[i].classList.add('-full');
     }
