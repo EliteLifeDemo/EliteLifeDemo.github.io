@@ -27,10 +27,13 @@ function initializeMainBanner(){
     slider.on( 'moved', function (newIndex) {
         let dots = sliderBox.querySelectorAll('.splide__pagination__page');
         for (let i = newIndex; i >= 0; i--){
+            let width = dots[i].outerWidth;
             dots[i].parentElement.style.paddingRight = width + "px";
+            dots[i].classList.remove('-full');
         }
         for (let i = 0; i < newIndex; i++){
             dots[i].parentElement.style.paddingRight = 0;
+            dots[i].classList.add('-full');
         }
     });
     slider.on( 'autoplay:playing', function (rate) {

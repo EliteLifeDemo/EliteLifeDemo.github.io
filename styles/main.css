@@ -33,6 +33,7 @@ a, a:hover, a:focus, a:visited {
     color: #fff;
     text-transform: uppercase;
     position: relative;
+    cursor: pointer;
 }
 
 .button:hover {
@@ -329,6 +330,10 @@ a, a:hover, a:focus, a:visited {
     top: 0;
     left: 0;
 }
+.main-page-banner .splide__pagination button.-full{
+    border-color: transparent;
+    z-index: 2;
+}
 .slide-content{
     position: absolute;
     top: 0;
@@ -338,6 +343,8 @@ a, a:hover, a:focus, a:visited {
     background: rgba(6,6,6,0.2);
     color: #fff;
     font-family: Gilroy, sans-serif;
+    display: flex;
+    align-items: center;
 }
 .slide-footer{
     position: absolute;
@@ -349,6 +356,7 @@ a, a:hover, a:focus, a:visited {
     display: flex;
     padding-left: 204px;
     padding-right: 183px;
+    width: 100%;
 }
 .slide-content-left{
     width: 680px;
@@ -357,6 +365,12 @@ a, a:hover, a:focus, a:visited {
 .slide-content-right{
     flex: 1 1 0;
     padding-left: 73px;
+}
+.slide-content-right-more{
+    position: absolute;
+    width: 100%;
+    bottom: 72px;
+    left: 0;
 }
 .line{
     display: block;
