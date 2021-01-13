@@ -942,6 +942,82 @@ img {
 .structure-map .structure-icon{
     transform: translate(-50%,-50%);
 }
+.structure-map .-entry.-n1{
+    bottom: 17%;
+    right: 10%;
+}
+.structure-map .-entry.-n2{
+    bottom: 38%;
+    left: 17%;
+}
+.structure-map .-shop{
+    bottom: 13%;
+    right: 33%;
+}
+.structure-map .-nocar.-n1{
+    left: 46%;
+    top: 34%;
+}
+.structure-map .-nocar.-n2{
+    left: 55%;
+    top: 57%;
+}
+.structure-map .-nocar.-n3{
+    left: 32%;
+    bottom: 20%;
+}
+.structure-map .-parking.-n1{
+    left: 56%;
+    top: 23%;
+}
+.structure-map .-parking.-n2{
+    left: 19%;
+    top: 63%;
+}
+.structure-map .-bicycle.-n1{
+    left: 19%;
+    top: 63%;
+}
+.structure-map .-bicycle.-n2{
+    left: 25%;
+    top: 40%;
+}
+.structure-map .-bicycle.-n3{
+    right: 10%;
+    top: 34%;
+}
+.structure-map .-bicycle.-n4{
+    right: 19%;
+    bottom: 27%;
+}
+.structure-map .-private{
+    left: 50%;
+    top: 44%;
+}
+.structure-map .-guard.-n1{
+    left: 21%;
+    top: 59%;
+}
+.structure-map .-guard.-n2{
+    left: 54%;
+    top: 70%;
+}
+.structure-map .-lake{
+    left: 48%;
+    top: 51%;
+}
+.structure-map .-park.-n1{
+    left: 54%;
+    top: 46%;
+}
+.structure-map .-park.-n2{
+    left: 51%;
+    top: 66%;
+}
+.structure-map .-underEntry{
+    left: 20%;
+    top: 49%;
+}
 
 .structure-info {
     flex: 1;
@@ -1086,6 +1162,7 @@ img {
 
 .structure-icon.-entry:before {
     background-image: url("/assets/icons/022-enter.svg");
+    transform: rotate(90deg);
 }
 
 @media (max-width: 1500px) {
