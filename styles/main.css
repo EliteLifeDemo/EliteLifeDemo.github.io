@@ -1183,6 +1183,7 @@ img {
     line-height: 48px;
     padding-bottom: 29px;
     margin-bottom: 21px;
+    position: relative;
 }
 .happy-title:before{
     content: '';
