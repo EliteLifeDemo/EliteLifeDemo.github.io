@@ -740,8 +740,8 @@ img {
     font-size: 24px;
     line-height: 37px;
     color: #333;
+    text-align: center;
 }
-
 .distances-info {
     display: flex;
     margin-bottom: 64px;
@@ -750,8 +750,13 @@ img {
 }
 
 .distances-info-block {
-    flex: 1;
+    flex: none;
     margin-right: 50px;
+    min-width: 200px;
+}
+
+.distances-info-block:last-child {
+    margin-right: 0;
 }
 
 .distances-value {
@@ -763,6 +768,7 @@ img {
 
 .distances-number {
     font-size: 64px;
+    margin-right: 5px;
 }
 
 .distances-unit {
@@ -775,9 +781,20 @@ img {
 }
 .distances-visual-text{
     font-size: 18px;
+    display: inline-block;
 }
 .distances-visual-dots{
     font-size: 13px;
+    display: inline-block;
+}
+.distances-visual-icon{
+    display: inline-block;
+}
+.distances-visual-icon.-car{
+    height: 28px;
+}
+.distances-visual-icon.-walk{
+    height: 22px;
 }
 .distances-info-description {
     font-family: Gilroy, sans-serif;
