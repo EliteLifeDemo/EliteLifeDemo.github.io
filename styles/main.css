@@ -482,6 +482,40 @@ img {
     background-color: #293F2C;
     width: 65px;
     flex: 0 0 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo-mini img{
+    display: block;
+}
+.menu-opener-button{
+    color: #fff;
+    transition: color .4s ease;
+    padding-left: 22px;
+    background-image: url("/assets/icons/menu-opener.svg");
+    background-position-x: left;
+    background-position-y: center;
+    line-height: 33px;
+    font-family: Room, sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+}
+.menu-opener-button:hover{
+    color: #BDA269;
+}
+.scroll-hint{
+    color: #fff;
+    font-family: Gilroy, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    padding-left: 65px;
+    background-image: url("/assets/icons/001-right-arrow-of-straight-thin-line.svg");
+    background-position-x: left;
+    background-position-y: center;
+    transform: rotate(-90deg);
 }
 
 .site-content-wrapper {
