@@ -1204,13 +1204,14 @@ img {
     line-height: 37px;
     max-width: 605px;
 }
-.architecture-section .section-header{
+.section.architecture-section .section-header{
     padding-top: 180px;
 }
-.architecture-section .section-title{
+.section.architecture-section .section-title{
     margin-bottom: 0;
+    color: #fff;
 }
-.architecture-section .section-title:before{
+.section.architecture-section .section-title:before{
     display: none;
 }
 
