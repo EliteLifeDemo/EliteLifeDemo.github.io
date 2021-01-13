@@ -24,6 +24,9 @@ a, a:hover, a:focus, a:visited {
 img {
     max-width: 100%;
 }
+.f-tac{
+    text-align: center !important;
+}
 
 .button {
     display: inline-block;
@@ -40,7 +43,6 @@ img {
     position: relative;
     cursor: pointer;
 }
-
 .button:hover {
     background-color: #293F2C;
 }
@@ -124,6 +126,21 @@ img {
     border-bottom-width: 0;
 }
 
+.button.-green{
+    color: #293F2C;
+    font-family: Room, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 14px 65px;
+
+}
+.button.-green:hover {
+    background-color: rgba(255,255,255,0.3);
+}
+.button.-green *:before, .button.-green *:after{
+    border-color: #293F2C;
+}
 .button.-gradient {
     background: radial-gradient(100% 100% at 50% 0%, #427049 0%, #293F2C 100%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -492,6 +509,8 @@ img {
     height: 100vh;
     position: sticky;
     position: -webkit-sticky;
+    top: 0;
+    padding: 20px 0;
 }
 .logo-mini img{
     display: block;
@@ -603,7 +622,7 @@ img {
     color: #fff;
 }
 .detail-info{
-    margin-bottom: 10px;
+
 }
 .detail-number {
     font-family: Room, sans-serif;
@@ -627,8 +646,80 @@ img {
 }
 .switch-view-section{
     background: #FEF9EE;
+    padding: 15px 0;
 }
-
+.switcher{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.switcher-body{
+    width: 60px;
+    flex: 0 0 60px;
+    background: #293F2C;
+    border-radius: 26px;
+    position: relative;
+    cursor: pointer;
+}
+.switcher-body:before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: #BDA269;
+    border-radius: 50%;
+    left: 2px;
+    top: 3px;
+    transition: transform .4s ease;
+    width: 28px;
+    height: 28px;
+}
+.switcher.-left .switcher-body:before{
+    transform: translateX(0);
+}
+.switcher.-right .switcher-body:before{
+    transform: translateX(28px);
+}
+.switcher-label{
+    font-family: Room, sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #BDA269;
+    cursor: pointer;
+    transition: color .4s ease;
+}
+.label-left{
+    margin-right: 15px;
+}
+.label-right{
+    margin-left: 15px;
+}
+.switcher.-left .label-left{
+    color: #293F2C;
+}
+.switcher.-right .label-right{
+    color: #293F2C;
+}
+.distances-section{
+    padding-top: 97px;
+    padding-bottom: 36px;
+}
+.distances-description{
+    max-width: 880px;
+    margin: 0 auto 101px;
+    font-family: Gilroy, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 37px;
+    color: #333;
+}
+.distances-info{
+    display: flex;
+    margin-bottom: 64px;
+    width: 100%;
+    justify-content: center;
+}
 @media (max-width: 1500px) {
     .menu {
         padding-top: 30px;
