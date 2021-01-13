@@ -576,7 +576,7 @@ img {
     text-align: center;
     color: #232323;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     left: 0;
     right: 0;
     top: 0;
@@ -631,6 +631,7 @@ img {
     right: 0;
     text-align: center;
     color: #fff;
+    z-index: 2;
 }
 
 .detail-info {
@@ -770,7 +771,48 @@ img {
     font-size: 64px;
     margin-right: 5px;
 }
-
+.image-holder{
+    position: relative;
+}
+.city-view-points{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.city-view-point{
+    position: absolute;
+    padding-bottom: 70px;
+    transform: translate(-50%,-100%);
+    color: #fff;
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 31px;
+    display: inline-block;
+}
+.city-view-point.-eliteLife{
+    padding-top: 72px;
+    width: 72px;
+    background-image: url("/assets/EliteLifePoint.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.city-view-point:before{
+    content: '';
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    width: 4px;
+    height: 66px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: auto auto 0;
+}
 .distances-unit {
     font-size: 18px;
 }
@@ -792,6 +834,8 @@ img {
 }
 .distances-visual-icon.-car{
     height: 28px;
+    position: relative;
+    top:8px;
 }
 .distances-visual-icon.-walk{
     height: 22px;
