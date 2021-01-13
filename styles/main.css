@@ -458,6 +458,8 @@ img {
     line-height: 126px;
     text-transform: uppercase;
     margin-bottom: 17.7px;
+    position: relative;
+    left: -7.5px;
 }
 
 .slide-description {
@@ -565,6 +567,7 @@ img {
     font-family: Room, sans-serif;
     font-weight: bold;
     font-size: 24px;
+    margin-left: 8px;
 }
 
 .detail-description {
