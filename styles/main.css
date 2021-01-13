@@ -743,6 +743,7 @@ img {
     color: #333;
     text-align: center;
 }
+
 .distances-info {
     display: flex;
     margin-bottom: 64px;
@@ -771,20 +772,23 @@ img {
     font-size: 64px;
     margin-right: 5px;
 }
-.image-holder{
+
+.image-holder {
     position: relative;
 }
-.city-view-points{
+
+.city-view-points {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
 }
-.city-view-point{
+
+.city-view-point {
     position: absolute;
     padding-bottom: 70px;
-    transform: translate(-50%,-100%);
+    transform: translate(-50%, -100%);
     color: #fff;
     font-family: Gilroy, sans-serif;
     font-style: normal;
@@ -793,7 +797,8 @@ img {
     line-height: 31px;
     display: inline-block;
 }
-.city-view-point.-eliteLife{
+
+.city-view-point.-eliteLife {
     padding-top: 72px;
     width: 72px;
     background-image: url("/assets/EliteLifePoint.png");
@@ -803,26 +808,32 @@ img {
     right: 26%;
     top: 40%;
 }
-.city-view-point.-p1{
+
+.city-view-point.-p1 {
     top: 39%;
     left: 15.5%;
 }
-.city-view-point.-p2{
+
+.city-view-point.-p2 {
     top: 47%;
     left: 33%;
 }
-.city-view-point.-p3{
+
+.city-view-point.-p3 {
     top: 40%;
     left: 51%;
 }
-.city-view-point.-p3{
+
+.city-view-point.-p3 {
     top: 44%;
     right: 8%;
 }
-.city-view-point.-eliteLife:before{
+
+.city-view-point.-eliteLife:before {
     height: 40px;
 }
-.city-view-point:before{
+
+.city-view-point:before {
     content: '';
     display: block;
     background-color: #fff;
@@ -835,33 +846,41 @@ img {
     top: 0;
     margin: auto auto 0;
 }
+
 .distances-unit {
     font-size: 18px;
 }
-.distances-visual{
+
+.distances-visual {
     color: #293F2C;
     font-family: Gilroy, sans-serif;
     font-weight: 500;
 }
-.distances-visual-text{
+
+.distances-visual-text {
     font-size: 18px;
     display: inline-block;
 }
-.distances-visual-dots{
+
+.distances-visual-dots {
     font-size: 13px;
     display: inline-block;
 }
-.distances-visual-icon{
+
+.distances-visual-icon {
     display: inline-block;
 }
-.distances-visual-icon.-car{
+
+.distances-visual-icon.-car {
     height: 28px;
     position: relative;
-    top:8px;
+    top: 8px;
 }
-.distances-visual-icon.-walk{
+
+.distances-visual-icon.-walk {
     height: 22px;
 }
+
 .distances-info-description {
     font-family: Gilroy, sans-serif;
     font-style: normal;
@@ -887,6 +906,168 @@ img {
 
 .lake-section .section-footer {
     padding-bottom: 57px;
+}
+
+.structure-section {
+    padding-top: 70px;
+}
+
+.structure-block {
+    display: flex;
+    align-items: center;
+}
+
+.structure-title {
+    font-family: Room, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 62px;
+}
+
+.structure-map {
+    margin-left: 30px;
+    flex: 1;
+}
+
+.structure-info {
+    flex: 1;
+    margin-left: 50px;
+}
+
+.structure-info {
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000;
+    padding-left: 51px;
+    position: relative;
+    min-height: 34px;
+    line-height: 21px;
+    padding-top: 7px;
+}
+
+.structure-info .structure-icon {
+    top: 0;
+    left: 0;
+}
+
+.structure-icon {
+    display: block;
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.structure-icon:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.structure-icon.-gym {
+    background-color: #FEC36B;
+}
+
+.structure-icon.-gym:before {
+    background-image: url("/assets/icons/011-barbell.svg");
+}
+
+.structure-icon.-shop {
+    background-color: #FA8A8A;
+}
+
+.structure-icon.-shop:before {
+    background-image: url("/assets/icons/012-bag.svg");
+}
+
+.structure-icon.-park {
+    background-color: #B7DB9F;
+}
+
+.structure-icon.-park:before {
+    background-image: url("/assets/icons/013-park.svg");
+}
+.structure-icon.-lake {
+    background-color: #6AC9C8;
+}
+
+.structure-icon.-lake:before {
+    background-image: url("/assets/icons/014-water.svg");
+}
+.structure-icon.-private {
+    background-color: #A09FDB;
+}
+
+.structure-icon.-private:before {
+    background-image: url("/assets/icons/015-gate.svg");
+}
+.structure-icon.-nocar {
+    background-color: #BF564F;
+}
+
+.structure-icon.-nocar:before {
+    background-image: url("/assets/icons/016-no-car.svg");
+}
+.structure-icon.-bicycle {
+    background-color: #6AA1C9;
+}
+
+.structure-icon.-bicycle:before {
+    background-image: url("/assets/icons/017-bycicle.svg");
+}
+
+.structure-icon.-underground {
+    background-color: #AACBEB;
+}
+
+.structure-icon.-underground:before {
+    background-image: url("/assets/icons/018-parking-area.svg");
+}
+
+.structure-icon.-parking {
+    background-color: #886AC9;
+}
+
+.structure-icon.-parking:before {
+    background-image: url("/assets/icons/019-parking.svg");
+}
+
+.structure-icon.-guard {
+    background-color: #686868;
+}
+
+.structure-icon.-guard:before {
+    background-image: url("/assets/icons/020-medical-insurance.svg");
+}
+
+.structure-icon.-underEntry {
+    background-color: #B1B1B1;
+}
+
+.structure-icon.-underEntry:before {
+    background-image: url("/assets/icons/021-car-1.svg");
+}
+
+.structure-icon.-entry {
+    background-color: #EBAAAA;
+}
+
+.structure-icon.-entry:before {
+    background-image: url("/assets/icons/022-enter.svg");
 }
 
 @media (max-width: 1500px) {
