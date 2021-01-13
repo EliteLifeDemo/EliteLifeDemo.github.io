@@ -799,6 +799,28 @@ img {
     background-image: url("/assets/EliteLifePoint.png");
     background-position: center top;
     background-repeat: no-repeat;
+    padding-bottom: 44px;
+    right: 26%;
+    top: 40%;
+}
+.city-view-point.-p1{
+    top: 39%;
+    left: 15.5%;
+}
+.city-view-point.-p2{
+    top: 47%;
+    left: 33%;
+}
+.city-view-point.-p3{
+    top: 40%;
+    left: 51%;
+}
+.city-view-point.-p3{
+    top: 44%;
+    right: 8%;
+}
+.city-view-point.-eliteLife:before{
+    height: 40px;
 }
 .city-view-point:before{
     content: '';
