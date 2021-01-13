@@ -24,7 +24,8 @@ a, a:hover, a:focus, a:visited {
 img {
     max-width: 100%;
 }
-.f-tac{
+
+.f-tac {
     text-align: center !important;
 }
 
@@ -43,6 +44,7 @@ img {
     position: relative;
     cursor: pointer;
 }
+
 .button:hover {
     background-color: #293F2C;
 }
@@ -126,7 +128,7 @@ img {
     border-bottom-width: 0;
 }
 
-.button.-green{
+.button.-green {
     color: #293F2C;
     font-family: Room, sans-serif;
     font-weight: bold;
@@ -135,12 +137,15 @@ img {
     padding: 14px 65px;
 
 }
+
 .button.-green:hover {
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255, 255, 255, 0.3);
 }
-.button.-green *:before, .button.-green *:after{
+
+.button.-green *:before, .button.-green *:after {
     border-color: #293F2C;
 }
+
 .button.-gradient {
     background: radial-gradient(100% 100% at 50% 0%, #427049 0%, #293F2C 100%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -499,6 +504,7 @@ img {
     width: 65px;
     flex: 0 0 65px;
 }
+
 .menu-opener-sticky {
     background-color: #293F2C;
     display: flex;
@@ -512,10 +518,12 @@ img {
     top: 0;
     padding: 20px 0;
 }
-.logo-mini img{
+
+.logo-mini img {
     display: block;
 }
-.menu-opener-button{
+
+.menu-opener-button {
     color: #fff;
     transition: color .4s ease;
     padding-left: 22px;
@@ -532,10 +540,12 @@ img {
     cursor: pointer;
     transform-origin: center;
 }
-.menu-opener-button:hover{
+
+.menu-opener-button:hover {
     color: #BDA269;
 }
-.scroll-hint{
+
+.scroll-hint {
     color: #fff;
     font-family: Gilroy, sans-serif;
     font-weight: normal;
@@ -613,6 +623,7 @@ img {
     line-height: 37px;
     font-weight: 300;
 }
+
 .section.-full .section-footer {
     position: absolute;
     bottom: 33px;
@@ -621,16 +632,18 @@ img {
     text-align: center;
     color: #fff;
 }
-.detail-info{
+
+.detail-info {
 
 }
+
 .detail-number {
     font-family: Room, sans-serif;
     font-weight: bold;
     font-size: 72px;
 }
 
-.detail-unit{
+.detail-unit {
     font-family: Room, sans-serif;
     font-weight: bold;
     font-size: 24px;
@@ -644,25 +657,30 @@ img {
     line-height: 28px;
     text-transform: uppercase;
 }
-.switch-view-section{
+
+.switch-view-section {
     background: #FEF9EE;
     padding: 15px 0;
 }
-.switcher{
+
+.switcher {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
-.switcher-body{
+
+.switcher-body {
     width: 60px;
     flex: 0 0 60px;
     background: #293F2C;
     border-radius: 26px;
     position: relative;
     cursor: pointer;
+    height: 34px;
 }
-.switcher-body:before{
+
+.switcher-body:before {
     content: '';
     display: block;
     position: absolute;
@@ -674,13 +692,16 @@ img {
     width: 28px;
     height: 28px;
 }
-.switcher.-left .switcher-body:before{
+
+.switcher.-left .switcher-body:before {
     transform: translateX(0);
 }
-.switcher.-right .switcher-body:before{
+
+.switcher.-right .switcher-body:before {
     transform: translateX(28px);
 }
-.switcher-label{
+
+.switcher-label {
     font-family: Room, sans-serif;
     font-weight: 100;
     font-size: 24px;
@@ -689,23 +710,29 @@ img {
     cursor: pointer;
     transition: color .4s ease;
 }
-.label-left{
+
+.label-left {
     margin-right: 15px;
 }
-.label-right{
+
+.label-right {
     margin-left: 15px;
 }
-.switcher.-left .label-left{
+
+.switcher.-left .label-left {
     color: #293F2C;
 }
-.switcher.-right .label-right{
+
+.switcher.-right .label-right {
     color: #293F2C;
 }
-.distances-section{
+
+.distances-section {
     padding-top: 97px;
     padding-bottom: 36px;
 }
-.distances-description{
+
+.distances-description {
     max-width: 880px;
     margin: 0 auto 101px;
     font-family: Gilroy, sans-serif;
@@ -714,13 +741,54 @@ img {
     line-height: 37px;
     color: #333;
 }
-.distances-info{
+
+.distances-info {
     display: flex;
     margin-bottom: 64px;
     width: 100%;
     justify-content: center;
 }
-.lake-section-text{
+
+.distances-info-block {
+    flex: 1;
+    margin-right: 50px;
+}
+
+.distances-value {
+    color: #232323;
+    font-family: Room, sans-serif;
+    font-weight: 100;
+    margin-bottom: 24px;
+}
+
+.distances-number {
+    font-size: 64px;
+}
+
+.distances-unit {
+    font-size: 18px;
+}
+.distances-visual{
+    color: #293F2C;
+    font-family: Gilroy, sans-serif;
+    font-weight: 500;
+}
+.distances-visual-text{
+    font-size: 18px;
+}
+.distances-visual-dots{
+    font-size: 13px;
+}
+.distances-info-description {
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 17px;
+}
+
+.lake-section-text {
     font-family: Gilroy, sans-serif;
     font-weight: 300;
     font-size: 24px;
@@ -729,6 +797,15 @@ img {
     width: 100%;
     margin-bottom: 46px;
 }
+
+.lake-section .section-header {
+    padding-top: 57px;
+}
+
+.lake-section .section-footer {
+    padding-bottom: 57px;
+}
+
 @media (max-width: 1500px) {
     .menu {
         padding-top: 30px;
