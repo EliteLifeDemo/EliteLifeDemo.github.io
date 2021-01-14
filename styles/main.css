@@ -1578,9 +1578,15 @@ img {
     color: #686868;
     line-height: 23px;
     margin-bottom: 20px;
+    display: block;
 }
 .links-column{
     margin-right: 180px;
+    padding-top: 20px;
+    position: relative;
+}
+.footer-info{
+    padding-top: 20px;
 }
 .footer .social-buttons{
     justify-content: flex-start;
@@ -1613,8 +1619,23 @@ img {
     font-size: 14px;
     line-height: 20px;
     margin-top: 15px;
+    display: inline-block;
     text-transform: uppercase;
     text-decoration: underline !important;
+    color: #B1B1B1;
+}
+.footer-credits{
+    max-width: 400px;
+    position: absolute;
+    bottom: 0;
+    left: -25px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #959595;
 }
 @media (max-width: 1500px) {
     .menu {
