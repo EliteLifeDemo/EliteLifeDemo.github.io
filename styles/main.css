@@ -44,7 +44,9 @@ img {
     position: relative;
     cursor: pointer;
 }
-
+.button.-wide{
+    padding: 14px 65px;
+}
 .button:hover {
     background-color: #293F2C;
 }
@@ -1470,16 +1472,19 @@ img {
 .best-section .section-header{
     padding-top: 52px;
 }
+.best-section{
+    margin-top: 124px;
+}
 .next-section{
     display: flex;
     justify-content: flex-end;
     background-color: #153c25;
+    align-items: center;
 }
 .next-text{
     color: #fff;
     position: absolute;
-    top: 24.7%;
-    left: 8.8%;
+    left: 20%;
 }
 
 .next-title{
@@ -1514,7 +1519,6 @@ img {
 .next-button{
     position: absolute;
     display: inline-block;
-    top: 45%;
     right: 16%;
 }
 
