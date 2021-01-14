@@ -1430,7 +1430,7 @@ img {
     margin-bottom: 35px;
 }
 .preview-number{
-    font-family: sans-serif;
+    font-family: Playfair Display, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 55px;
@@ -1439,9 +1439,11 @@ img {
     font-style: normal;
     font-weight: 900;
     font-size: 18px;
+    font-family: sans-serif;
 }
 .preview-from{
     text-transform: uppercase;
+    margin-right: 20px;
 }
 .preview-icon{
     height: 53px;
