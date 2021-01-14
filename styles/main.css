@@ -1403,12 +1403,17 @@ img {
 }
 .flat-preview-big .image-wrapper{
     padding-right: 55px;
+    margin-top: 100px;
 }
 .flat-preview-big-text{
     display: flex;
+    text-align: left;
 }
 .flat-preview-big-text .column{
     display: inline-block;
+}
+.flat-preview-big-text .column:first-child{
+    margin-right: 63px;
 }
 .preview-property{
     font-family: Room, sans-serif;
@@ -1418,9 +1423,11 @@ img {
     line-height: 22px;
     margin-bottom: 5px;
     color: #BDBDBD;
+    text-transform: uppercase;
 }
 .preview-value{
     color: #232323;
+    margin-bottom: 35px;
 }
 .preview-number{
     font-family: sans-serif;
@@ -1432,6 +1439,9 @@ img {
     font-style: normal;
     font-weight: 900;
     font-size: 18px;
+}
+.preview-from{
+    text-transform: uppercase;
 }
 .preview-icon{
     height: 53px;
