@@ -1313,6 +1313,12 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #FEF9EE;
+    transition: background-color .4s ease;
+    margin-bottom: 85px;
+}
+.is-active .flat-preview-small-block{
+    background: #293F2C;
 }
 .flat-preview-small-text{
     display: inline-block;
@@ -1338,6 +1344,9 @@ img {
     font-weight: 100;
     font-size: 18px;
     vertical-align: top;
+}
+.flat-preview-big{
+    margin-bottom: 124px;
 }
 @media (max-width: 1500px) {
     .menu {
