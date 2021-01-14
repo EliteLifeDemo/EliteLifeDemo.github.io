@@ -1309,16 +1309,26 @@ img {
     background-color: #fff;
     bottom: 0;
 }
+.flat-preview-small{
+    margin-bottom: 85px;
+}
+.flat-preview-small .splide__track{
+    display: flex;
+    justify-content: center;
+}
 .flat-preview-small-block{
     display: flex;
     align-items: center;
     justify-content: center;
     background: #FEF9EE;
-    transition: background-color .4s ease;
-    margin-bottom: 85px;
+    transition: background-color .4s ease, color .4s ease;
+    color: #000;
+    padding-top: 12px;
+    padding-bottom: 16px;
 }
-.is-active .flat-preview-small-block{
+.splide__slide.is-active .flat-preview-small-block{
     background: #293F2C;
+    color: #fff;
 }
 .flat-preview-small-text{
     display: inline-block;
