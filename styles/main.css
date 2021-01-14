@@ -1411,7 +1411,7 @@ img {
     display: flex;
     text-align: left;
 }
-.flat-preview-big-text .column{
+.column{
     display: inline-block;
 }
 .flat-preview-big-text .column:first-child{
@@ -1521,7 +1521,58 @@ img {
     display: inline-block;
     right: 16%;
 }
-
+.footer{
+    max-width: 1225px;
+    margin: 0 auto;
+    padding: 70px 20px 87px;
+    background-image: url("/assets/footer-background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.footer-slogan{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #959595;
+}
+.footer .column:first-child{
+    margin-right: 74px;
+}
+.footer-icon{
+    height: 52px;
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.footer-icon.-degrees{
+    background-image: url("/assets/icons/003-360-degrees.svg");
+}
+.footer-links{
+    padding-bottom: 50px;
+}
+.footer-links-title{
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #B1B1B1;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.footer-link-main{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #686868;
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+.links-column{
+    margin-right: 180px;
+}
 @media (max-width: 1500px) {
     .menu {
         padding-top: 30px;
