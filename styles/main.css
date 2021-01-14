@@ -1361,7 +1361,7 @@ img {
     max-width: 1500px;
     padding: 0 20px;
 }
-.button.splide__arrow{
+.splide__arrow{
     position: absolute;
     z-index: 2;
     border: none;
