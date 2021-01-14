@@ -1434,6 +1434,7 @@ img {
     font-style: normal;
     font-weight: 900;
     font-size: 55px;
+    margin-right: 6px;
 }
 .preview-unit, .preview-from{
     font-style: normal;
@@ -1465,6 +1466,56 @@ img {
     font-size: 18px;
     line-height: 25px;
     color: #232323;
+}
+.best-section .section-header{
+    padding-top: 52px;
+}
+.next-section{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #153c25;
+}
+.next-text{
+    color: #fff;
+    position: absolute;
+    top: 24.7%;
+    left: 8.8%;
+}
+
+.next-title{
+    font-family: Room, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    padding-bottom: 19px;
+    margin-bottom: 20px;
+    position: relative;
+    text-transform: uppercase;
+}
+.next-title:before{
+    content: '';
+    display: block;
+    width: 109px;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #BDA269;
+}
+
+.next-description{
+    font-family: Room, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+}
+.next-button{
+    position: absolute;
+    display: inline-block;
+    top: 45%;
+    right: 16%;
 }
 
 @media (max-width: 1500px) {
