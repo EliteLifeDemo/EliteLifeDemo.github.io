@@ -66,6 +66,7 @@ function initializeFLatSlider() {
         gap: 3,
         arrows: false,
         pagination: false,
+        updateOnMove: true,
     }).mount();
 
 // Create the main slider.
@@ -73,6 +74,7 @@ function initializeFLatSlider() {
         type: 'fade',
         pagination: false,
         arrows: true,
+        updateOnMove: true,
     });
 
 // Set the thumbnails slider as a sync target and then call mount.

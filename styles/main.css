@@ -1325,6 +1325,7 @@ img {
     color: #000;
     padding-top: 12px;
     padding-bottom: 16px;
+    cursor: pointer;
 }
 .splide__slide.is-active .flat-preview-small-block{
     background: #293F2C;
@@ -1333,7 +1334,6 @@ img {
 .flat-preview-small-text{
     display: inline-block;
     text-align: center;
-    color: #fff;
 }
 .flat-preview-small-type{
     font-family: Room, sans-serif;
@@ -1357,9 +1357,53 @@ img {
 }
 .flat-preview-big-wrapper{
     position: relative;
-    margin-bottom: 124px;
+    margin: 0 auto 124px;
     max-width: 1500px;
     padding: 0 20px;
+}
+.button.splide__arrow{
+    position: absolute;
+    z-index: 2;
+    border: none;
+    background: transparent;
+    top: 50%;
+    margin-top: -8px;
+    cursor: pointer;
+    outline: none;
+}
+.splide__arrow--prev{
+    left: 20px;
+}
+.splide__arrow--next{
+    right: 20px;
+}
+.button.splide__arrow:before{
+    content: '';
+    width: 53px;
+    height: 17px;
+    display: block;
+    background-image: url("/assets/icons/gray-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.splide__arrow--prev:before{
+    transform: rotate(180deg);
+    background-position: left;
+}
+.splide__arrow--next:before{
+    background-position: right;
+}
+.button.splide__arrow:before{
+    content: '';
+    width: 53px;
+    height: 17px;
+    display: block;
+    background-image: url("/assets/icons/gray-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.button.splide__arrow svg{
+    display: none;
 }
 @media (max-width: 1500px) {
     .menu {
