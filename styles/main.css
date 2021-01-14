@@ -57,8 +57,8 @@ img {
     width: 18px;
     height: 15px;
     border: 1px solid #BDA269;
-    border-left-width: 0;
-    border-bottom-width: 0;
+    border-left-width: 0 !important;
+    border-bottom-width: 0 !important;
     z-index: 0;
     position: absolute;
 }
@@ -91,8 +91,8 @@ img {
     top: 0;
     left: 0;
     border: 1px solid #fff;
-    border-right-width: 0;
-    border-left-width: 0;
+    border-right-width: 0 !important;
+    border-left-width: 0 !important;
 }
 
 .button-borders.-horizontal:after {
@@ -102,8 +102,8 @@ img {
     top: 0;
     right: 0;
     border: 1px solid #fff;
-    border-right-width: 0;
-    border-left-width: 0;
+    border-right-width: 0 !important;
+    border-left-width: 0 !important;
 }
 
 .button-borders.-vertical:before {
@@ -113,8 +113,8 @@ img {
     top: 0;
     left: 0;
     border: 1px solid #fff;
-    border-top-width: 0;
-    border-bottom-width: 0;
+    border-top-width: 0 !important;
+    border-bottom-width: 0 !important;
 }
 
 .button-borders.-vertical:after {
@@ -124,8 +124,8 @@ img {
     bottom: 0;
     left: 0;
     border: 1px solid #fff;
-    border-top-width: 0;
-    border-bottom-width: 0;
+    border-top-width: 0 !important;
+    border-bottom-width: 0 !important;
 }
 
 .button.-green {
@@ -186,6 +186,22 @@ img {
 .button.-big:after {
     top: 3px;
     right: 3px;
+}
+.button.image-cell{
+    padding: 21px;
+}
+.button.image-cell .button-borders.-vertical:before,.button.image-cell .button-borders.-vertical:after {
+    height: 124px;
+    border-width: 3px;
+}
+.button.image-cell .button-borders.-horizontal:before,.button.image-cell .button-borders.-horizontal:after {
+    width: 124px;
+    border-width: 3px;
+}
+.button.image-cell:after {
+    width: 124px;
+    height: 124px;
+    border-width: 3px;
 }
 
 .main-page-banner {
@@ -804,7 +820,7 @@ img {
     background-image: url("/assets/EliteLifePoint.png");
     background-position: center top;
     background-repeat: no-repeat;
-    padding-bottom: 44px;
+    padding-bottom: 48px;
     right: 26%;
     top: 40%;
 }
@@ -824,7 +840,7 @@ img {
     left: 51%;
 }
 
-.city-view-point.-p3 {
+.city-view-point.-p4 {
     top: 44%;
     right: 8%;
 }
@@ -1214,7 +1230,47 @@ img {
 .section.architecture-section .section-title:before{
     display: none;
 }
-
+.section.-rows{
+    padding-top: 75px;
+    padding-bottom: 130px;
+}
+.section.-rows .section-catch{
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #BDA269;
+    margin-bottom: 4px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+.section.-rows .section-title{
+    font-family: Room, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 55px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #232323;
+    margin-bottom: 31px;
+}
+.section.-rows .section-description{
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 49px;
+}
+.image-cell{
+    display: flex;
+}
+.image-cell:first-child{
+    justify-content: flex-end;
+}
+.image-cell:last-child{
+    justify-content: flex-start;
+}
 @media (max-width: 1500px) {
     .menu {
         padding-top: 30px;
