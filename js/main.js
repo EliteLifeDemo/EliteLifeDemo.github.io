@@ -64,7 +64,6 @@ function initializeFLatSlider() {
         fixedWidth: 246,
         isNavigation: true,
         gap: 3,
-        focus: 'center',
         arrows: false,
         pagination: false,
     }).mount();
