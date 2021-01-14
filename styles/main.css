@@ -1299,11 +1299,45 @@ img {
 .kids-section{
     margin-top: 111px;
 }
+.section.flats-section{
+    padding-bottom: 390px;
+}
 .section.flats-section .section-header{
     padding-top: 120px;
 }
 .section.flats-section .section-footer{
     background-color: #fff;
+    bottom: 0;
+}
+.flat-preview-small-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flat-preview-small-text{
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+}
+.flat-preview-small-type{
+    font-family: Room, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+}
+.flat-preview-small-description{
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+.text-upper{
+    font-family: Room, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    vertical-align: top;
 }
 @media (max-width: 1500px) {
     .menu {
