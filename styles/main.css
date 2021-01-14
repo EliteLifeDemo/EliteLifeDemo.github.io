@@ -193,10 +193,12 @@ img {
 .button.image-cell .button-borders.-vertical:before,.button.image-cell .button-borders.-vertical:after {
     height: 124px;
     border-width: 3px;
+    border-color: #293F2C;
 }
 .button.image-cell .button-borders.-horizontal:before,.button.image-cell .button-borders.-horizontal:after {
     width: 124px;
     border-width: 3px;
+    border-color: #293F2C;
 }
 .button.image-cell:after {
     width: 124px;
