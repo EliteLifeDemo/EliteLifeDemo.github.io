@@ -1316,6 +1316,9 @@ img {
     display: flex;
     justify-content: center;
 }
+.flat-preview-small .splide__list{
+    transform: none !important;
+}
 .flat-preview-small-block{
     display: flex;
     align-items: center;
