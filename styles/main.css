@@ -1310,7 +1310,9 @@ img {
     bottom: 0;
 }
 .flat-preview-small{
-    margin-bottom: 85px;
+    margin-bottom: 40px;
+    position: relative;
+    top: -44px;
 }
 .flat-preview-small .splide__track{
     display: flex;
@@ -1399,6 +1401,60 @@ img {
 .splide__arrow--next:before{
     background-position: right;
 }
+.flat-preview-big .image-wrapper{
+    padding-right: 55px;
+}
+.flat-preview-big-text{
+    display: flex;
+}
+.flat-preview-big-text .column{
+    display: inline-block;
+}
+.preview-property{
+    font-family: Room, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 5px;
+    color: #BDBDBD;
+}
+.preview-value{
+    color: #232323;
+}
+.preview-number{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+}
+.preview-unit, .preview-from{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+}
+.preview-icon{
+    height: 53px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top;
+    margin-bottom: 24px;
+}
+.preview-icon.-kitchen{
+    background-image: url("/assets/icons/023-kitchen.svg");
+}
+.preview-icon.-chair{
+    background-image: url("/assets/icons/024-armchair.svg");
+}
+.preview-description{
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #232323;
+}
+
 @media (max-width: 1500px) {
     .menu {
         padding-top: 30px;
