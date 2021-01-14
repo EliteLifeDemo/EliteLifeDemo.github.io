@@ -323,6 +323,10 @@ img {
 .flex-block.-equal>* {
     flex: 1 1 0;
 }
+.flex-block.-half>* {
+    flex: 1 1 50%;
+    width: 50%;
+}
 
 .flex-block .menu {
     flex: 0 0 280px;
@@ -1236,6 +1240,9 @@ img {
     padding-top: 75px;
     padding-bottom: 130px;
 }
+.section.-rows .flex-block{
+    align-items: center;
+}
 .section.-rows .section-catch{
     font-family: Gilroy, sans-serif;
     font-style: normal;
@@ -1265,13 +1272,24 @@ img {
     margin-bottom: 49px;
 }
 .image-cell{
+    background: transparent !important;
+    cursor: default;
+}
+.image-wrapper{
     display: flex;
 }
-.image-cell:first-child{
+.image-wrapper:first-child{
     justify-content: flex-end;
 }
-.image-cell:last-child{
+.image-wrapper:last-child{
     justify-content: flex-start;
+}
+.text-row{
+    justify-content: center;
+}
+.text-wrapper{
+    display: inline-block;
+    max-width: 560px;
 }
 @media (max-width: 1500px) {
     .menu {
