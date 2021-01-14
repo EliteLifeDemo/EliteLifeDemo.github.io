@@ -1371,13 +1371,16 @@ img {
     cursor: pointer;
     outline: none;
 }
+.splide__arrow svg{
+    display: none;
+}
 .splide__arrow--prev{
     left: 20px;
 }
 .splide__arrow--next{
     right: 20px;
 }
-.button.splide__arrow:before{
+.splide__arrow:before{
     content: '';
     width: 53px;
     height: 17px;
@@ -1392,18 +1395,6 @@ img {
 }
 .splide__arrow--next:before{
     background-position: right;
-}
-.button.splide__arrow:before{
-    content: '';
-    width: 53px;
-    height: 17px;
-    display: block;
-    background-image: url("/assets/icons/gray-arrow.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.button.splide__arrow svg{
-    display: none;
 }
 @media (max-width: 1500px) {
     .menu {
