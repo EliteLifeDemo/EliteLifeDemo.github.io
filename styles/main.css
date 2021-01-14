@@ -589,6 +589,7 @@ img {
     width: calc(100% - 65px);
     flex: 1 1 0;
     padding-top: 112px;
+    overflow: hidden;
 }
 
 .section {
@@ -1584,6 +1585,9 @@ img {
     margin-right: 180px;
     padding-top: 20px;
     position: relative;
+    min-width: max-content;
+    min-width: -webkit-max-content;
+    min-width: -moz-max-content;
 }
 .footer-info{
     padding-top: 20px;
@@ -1625,10 +1629,10 @@ img {
     color: #B1B1B1;
 }
 .footer-credits{
-    max-width: 400px;
+    width: 400px;
     position: absolute;
     bottom: 0;
-    left: -25px;
+    left: -21px;
     font-family: Gilroy;
     font-style: normal;
     font-weight: normal;
