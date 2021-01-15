@@ -1247,7 +1247,7 @@ img {
     padding-top: 75px;
     padding-bottom: 130px;
 }
-.section.-rows .flex-block{
+.section.-rows > .flex-block{
     align-items: center;
     max-width: 1500px;
     margin: 0 auto;
@@ -1752,6 +1752,9 @@ img {
 }
 .lake-gallery-section .image-wrapper{
     padding-bottom: 60px;
+}
+.lake-gallery-section .column:first-child{
+    margin-right: 100px;
 }
 .lake-gallery-section .text-row{
     padding-left: 60px;
