@@ -96,7 +96,7 @@ function initializeLakeMiniSlider() {
         return
     }
     var splide = new Splide(slider, {
-        width: "715px",
+        fixedWidth: "715px",
         height: "746px",
         arrows: true,
         pagination: false,
