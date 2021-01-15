@@ -107,9 +107,9 @@ function initializeLakeMiniSlider() {
         lazyLoad: true,
         perPage: 1,
     });
-
+    let currentPageBlock = document.querySelector('.mini-gallery-current-page');
     function changeNumber(){
-        console.log(splide.index)
+        currentPageBlock.innerHTML = splide.index + 1;
     }
     splide.on('moved', function () {
         changeNumber();

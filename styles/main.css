@@ -1287,6 +1287,7 @@ img {
 }
 .image-wrapper{
     display: flex;
+    position: relative;
 }
 .image-wrapper:first-child{
     justify-content: flex-end;
@@ -1748,6 +1749,24 @@ img {
     background-repeat: no-repeat;
     padding-top: 81px;
     padding-bottom: 55px;
+}
+.mini-gallery-pages{
+
+}
+.mini-gallery-current-page{
+    font-family: Room;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    color: #293F2C;
+    margin-right: 9px;
+}
+.mini-gallery-pages-of{
+    font-family: Room;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: #AAA8AB;
 }
 @media (max-width: 1500px) {
     .menu {
