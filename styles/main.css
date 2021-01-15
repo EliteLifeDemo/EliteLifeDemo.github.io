@@ -772,13 +772,13 @@ img {
 
 .distances-info {
     display: flex;
-    margin-bottom: 64px;
     width: 100%;
     justify-content: center;
+    max-width: 1530px;
+    margin: 0 auto 64px;
 }
 
 .distances-info-block {
-    flex: none;
     margin-right: 50px;
     min-width: 200px;
 }
@@ -881,6 +881,7 @@ img {
     color: #293F2C;
     font-family: Gilroy, sans-serif;
     font-weight: 500;
+    white-space: nowrap;
 }
 
 .distances-visual-text {
@@ -1680,6 +1681,7 @@ img {
     left: 47px;
     top: -21px;
     bottom: 0;
+    z-index: 2;
 }
 .hints-body{
     width: 100%;
@@ -1694,6 +1696,7 @@ img {
     font-size: 18px;
     color: #232323;
     padding-bottom: 16px;
+    position: relative;
 }
 .hint .structure-icon{
     width: 37px;
@@ -1712,6 +1715,28 @@ img {
     line-height: 28px;
     padding: 21px 0;
     background-color: #293F2C;
+    text-transform: uppercase;
+}
+.map-section{
+    margin-bottom: 140px;
+}
+.lake-view-section{
+    background: #232323;
+}
+.lake-view-section .image-holder{
+    opacity: 0.9;
+}
+.lake-view-section .happy-text{
+    color: #fff;
+}
+.happy-catch{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #BDA269;
+    line-height: 19px;
+    text-transform: uppercase;
 }
 @media (max-width: 1500px) {
     .menu {

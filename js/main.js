@@ -16,6 +16,9 @@ function polyfills() {
 
 function initializeMainBanner() {
     let sliderBox = document.querySelector('.main-page-banner .splide');
+    if(!sliderBox){
+        return
+    }
     let slider = new Splide(sliderBox, {
         type: 'loop',
         autoplay: true,
@@ -59,7 +62,11 @@ function normalizePaginationButtons(sliderBox, index) {
 }
 
 function initializeFLatSlider() {
-    var secondarySlider = new Splide('.flat-preview-small', {
+    let previewSlider = document.querySelector('.flat-preview-small');
+    if(!previewSlider){
+        return
+    }
+    var secondarySlider = new Splide(previewSlider, {
         rewind: true,
         fixedWidth: 246,
         isNavigation: true,
