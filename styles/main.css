@@ -229,7 +229,7 @@ img {
     width: 100%;
     left: 0;
     text-align: center;
-    padding-bottom: 27px;
+    padding-bottom: 12px;
 }
 
 .menu-footer-info {
@@ -248,7 +248,7 @@ img {
 .social-buttons {
     display: flex;
     justify-content: center;
-    margin-bottom: 43px;
+    margin-bottom: 22px;
 }
 
 .social-button {
@@ -304,7 +304,7 @@ img {
 .menu-link {
     line-height: 21px;
     color: #BCB4A3;
-    padding: 12px 0;
+    padding: 10px 0;
     display: block;
 }
 
@@ -315,7 +315,7 @@ img {
 .menu-logo {
     max-width: 100%;
     display: block;
-    margin: 0 auto 58px;
+    margin: 0 auto 50px;
 }
 
 .flex-block {
@@ -901,6 +901,7 @@ img {
     height: 28px;
     position: relative;
     top: 8px;
+    margin-top: -4px;
 }
 
 .distances-visual-icon.-walk {
@@ -1649,7 +1650,68 @@ img {
     font-weight: bold;
     font-size: 96px;
     color: #FFFFFF;
+    text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.additional-page-headings{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.additional-page-content{
+    padding-top: 0 !important;
+}
+.additional-page-content .distances-info-block{
+    margin-right: 29px;
+}
+.additional-page-content .distances-info-description{
+    min-height: 56px;
+}
+.map-hints{
+    position: absolute;
+    width: 360px;
+    background-color: #F4F6F1;
+    left: 47px;
+    top: -21px;
+    bottom: 0;
+}
+.hints-body{
+    width: 100%;
+    padding: 23px;
+}
+.hint{
+    padding-left: 53px;
+    padding-top: 6.6px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #232323;
+    padding-bottom: 16px;
+}
+.hint .structure-icon{
+    width: 37px;
+    height: 37px;
+    top: 0;
+    left: 0;
+}
+.hints-header{
+    width: 100%;
+    text-align: center;
+    font-family: Room;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    line-height: 28px;
+    padding: 21px 0;
+    background-color: #293F2C;
 }
 @media (max-width: 1500px) {
     .menu {
