@@ -112,10 +112,10 @@ function initializeLakeMiniSlider() {
     function changeNumber(){
         console.log(splide.index)
     }
-    slider.on('moved', function () {
+    splide.on('moved', function () {
         changeNumber();
     });
-    slider.on('dragged', function () {
+    splide.on('dragged', function () {
         changeNumber();
     });
     splide.mount();
