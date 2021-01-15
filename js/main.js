@@ -104,6 +104,9 @@ function initializeLakeMiniSlider() {
         updateOnMove: true,
         waitForTransition: false,
         type: 'fade',
+        cover: true,
+        lazyLoad: true,
+        perPage: 1,
     });
 
     function changeNumber(){
