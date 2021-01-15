@@ -1828,6 +1828,50 @@ img {
 .beauty-container .section-title:before{
     display: none;
 }
+.prefooter-section{
+    padding-top: 74px;
+    background-image: url("/assets/icons/037-leaves.svg");
+    background-size: 54px;
+    background-position: top center;
+    margin-bottom: 43px;
+}
+.prefooter-text{
+    text-align: center;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #232323;
+    line-height: 37px;
+    padding-bottom: 28px;
+    margin-bottom: 52px;
+    position: relative;
+}
+.prefooter-text:before{
+    height: 1px;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto auto 0;
+    width: 576px;
+    background-color: #BDA269;
+}
+.up-link{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: underline !important;
+    display: inline-block;
+    padding-top: 13px;
+    background-image: url("/assets/icons/up-chevron.svg");
+    background-size: 8px;
+    background-position: top center;
+}
 @media (max-width: 1500px) {
     .menu {
         padding-top: 30px;
