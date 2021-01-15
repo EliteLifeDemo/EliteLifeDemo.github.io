@@ -1750,8 +1750,28 @@ img {
     padding-top: 81px;
     padding-bottom: 55px;
 }
+.lake-gallery-section .image-wrapper{
+    padding-bottom: 60px;
+}
+.lake-gallery-section .text-row{
+    padding-left: 60px;
+}
+.lake-gallery-section .splide__arrow{
+    top: auto;
+    bottom: -75px;
+}
+.lake-gallery-section .splide__arrow--prev{
+    left: 25%;
+}
+.lake-gallery-section .splide__arrow--next{
+    right: 25%;
+}
 .mini-gallery-pages{
-
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 .mini-gallery-current-page{
     font-family: Room;
@@ -1767,6 +1787,30 @@ img {
     font-weight: bold;
     font-size: 36px;
     color: #AAA8AB;
+}
+.lake-gallery-value{
+    color: #293F2C;
+}
+.lake-gallery-description{
+    color: #293F2C;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+.lake-gallery-number{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+}
+.lake-gallery-unit{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
 }
 @media (max-width: 1500px) {
     .menu {
