@@ -6,6 +6,7 @@ function pageReady() {
     polyfills();
     initializeMainBanner();
     initializeFLatSlider();
+    initializeLakeMiniSlider();
 }
 
 function polyfills() {
@@ -88,4 +89,31 @@ function initializeFLatSlider() {
 
 // Set the thumbnails slider as a sync target and then call mount.
     primarySlider.sync(secondarySlider).mount();
+}
+function initializeLakeMiniSlider() {
+    let slider = document.querySelector('.mini-gallery');
+    if(!slider){
+        return
+    }
+    var splide = new Splide(slider, {
+        fixedWidth: 246,
+        width: "715.64px",
+        height: "746.61px",
+        arrows: true,
+        pagination: false,
+        updateOnMove: true,
+        waitForTransition: false,
+        type: 'fade',
+    });
+
+    function changeNumber(){
+        console.log(splide.index)
+    }
+    slider.on('moved', function () {
+        changeNumber();
+    });
+    slider.on('dragged', function () {
+        changeNumber();
+    });
+    splide.mount();
 }

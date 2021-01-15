@@ -1738,6 +1738,17 @@ img {
     line-height: 19px;
     text-transform: uppercase;
 }
+.story-section .section-header{
+    padding-top: 99px;
+}
+.section.lake-gallery-section{
+    background-image: url("/assets/park-background.jpg");
+    background-size: contain;
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding-top: 81px;
+    padding-bottom: 55px;
+}
 @media (max-width: 1500px) {
     .menu {
         padding-top: 30px;
