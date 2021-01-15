@@ -1818,7 +1818,15 @@ img {
 .beauty-container{
     max-width: 1680px;
     padding: 204px 20px 0;
-    margin: 0 auto;
+    margin: 160px auto 0;
+    position: relative;
+}
+.beauty-container .section-header{
+    text-align: left;
+    padding-left: 130px;
+}
+.beauty-container .section-title:before{
+    display: none;
 }
 @media (max-width: 1500px) {
     .menu {
