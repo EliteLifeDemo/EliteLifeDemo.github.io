@@ -2130,7 +2130,42 @@ img {
 .structure-icon.-sport:before {
     background-image: url("/assets/icons/036-sport.svg");
 }
-
+.additional-page-banner .image-holder{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.additional-page-banner.-environment .image-holder{
+    padding-top: 47.58%;
+}
+.additional-page-banner.-space .image-holder{
+    padding-top: 41.94%;
+}
+.space-text-section{
+    padding-top: 82px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #232323;
+    line-height: 37px;
+    padding-bottom: 90px;
+}
+.space-beauty-section .section-header{
+    padding-top: 103px;
+}
+.space-beauty-section .section-header *{
+    color: #fff;
+}
+.tree-types-section{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("/assets/tree-type-background.jpg");
+}
+.fountain-section{
+    margin-top: 45px;
+}
 @media (max-width: 1500px) {
     .menu {
         padding-top: 30px;
