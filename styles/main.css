@@ -2139,7 +2139,7 @@ img {
     padding-top: 47.58%;
 }
 .additional-page-banner.-space .image-holder{
-    padding-top: 41.94%;
+    padding-top: 47.58%;
 }
 .space-text-section{
     padding-top: 82px;
@@ -2155,7 +2155,7 @@ img {
     padding-top: 103px;
 }
 .space-beauty-section .section-header *{
-    color: #fff;
+    color: #fff !important;
 }
 .tree-types-section{
     background-size: cover;
@@ -2170,10 +2170,10 @@ img {
     margin-top: 45px;
 }
 .fountain-section .section-footer{
-    bottom: 120px;
+    bottom: 120px !important;
 }
 .private-section{
-    padding-bottom: 140px;
+    padding-top: 100px !important;
 }
 @media (max-width: 1500px) {
     .menu {
