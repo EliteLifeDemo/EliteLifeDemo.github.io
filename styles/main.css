@@ -2163,8 +2163,17 @@ img {
     background-repeat: no-repeat;
     background-image: url("/assets/tree-type-background.jpg");
 }
+.tree-types-section .image-wrapper{
+    padding-right: 40px;
+}
 .fountain-section{
     margin-top: 45px;
+}
+.fountain-section .section-footer{
+    bottom: 120px;
+}
+.private-section{
+    padding-bottom: 140px;
 }
 @media (max-width: 1500px) {
     .menu {
