@@ -2285,6 +2285,7 @@ img {
 }
 .sport-types-section .section-header{
     position: relative !important;
+    margin-bottom: 105px;
 }
 .sport-types-title{
     font-family: Room;
@@ -2309,11 +2310,15 @@ img {
     justify-content: center;
     align-items: center;
     color: #828282;
-    display: none;
+    position: absolute;
+    bottom: -136px;
+    transition: bottom .4s ease;
 }
 .sport-types-section .column{
     flex: 1;
     margin-right: 15px;
+    overflow: hidden;
+    position: relative;
 }
 .sport-types-container{
     max-width: 1500px;
@@ -2324,10 +2329,27 @@ img {
     margin-right: 0;
 }
 .sport-types-section .image-holder{
-    padding-top: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    transition: bottom .4s ease;
+}
+.sport-types-section .flex-block{
+    margin-bottom: 15px;
+}
+.sport-types-section .column:hover .image-holder{
+    bottom: 136px;
+}
+.sport-types-section .column:hover .sport-types-description{
+    bottom: 0;
+}
+.column-placeholder{
+    padding-top: 100%;
 }
 @media (max-width: 1500px) {
     .menu {
