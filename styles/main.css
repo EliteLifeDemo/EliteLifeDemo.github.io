@@ -2280,8 +2280,54 @@ img {
 .sport-season-section .image-holder:last-child{
     text-align: right;
 }
+.sport-types-section{
+    margin-top: 111px;
+}
 .sport-types-section .section-header{
-    position: relative;
+    position: relative !important;
+}
+.sport-types-title{
+    font-family: Room;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+}
+.sport-types-description{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    height: 136px;
+    display: flex;
+    line-height: 22px;
+    justify-content: center;
+    align-items: center;
+    color: #828282;
+    display: none;
+}
+.sport-types-section .column{
+    flex: 1;
+    margin-right: 15px;
+}
+.sport-types-container{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.sport-types-section .column:last-child{
+    margin-right: 0;
+}
+.sport-types-section .image-holder{
+    padding-top: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 @media (max-width: 1500px) {
     .menu {
