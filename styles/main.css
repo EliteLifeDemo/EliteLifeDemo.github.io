@@ -2228,8 +2228,11 @@ img {
     bottom: 0;
     margin: auto;
     background: #BDA269;
+    margin-left: -32px;
 }
 .curtain-control:before, .curtain-control:after{
+    content: '';
+    display: block;
     position: absolute;
     height: 16px;
     width: 16px;
@@ -2245,17 +2248,17 @@ img {
 }
 .curtain-control:before{
     transform: rotate(90deg);
-    margin-left: 20px;
+    margin-left: 14px;
 }
 .curtain-control:after{
-    margin-right: 20px;
+    margin-right: 14px;
     transform: rotate(-90deg);
 }
 .sport-season-section .image-holder{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 100%;
+    padding-top: 50%;
 }
 .sport-season-section .image-holder-text{
     font-family: Gilroy;
@@ -2269,12 +2272,16 @@ img {
     left: 0;
     width: 100%;
     padding: 0 47px 49px;
+    text-transform: uppercase;
 }
 .sport-season-section .image-holder:first-child{
 
 }
 .sport-season-section .image-holder:last-child{
     text-align: right;
+}
+.sport-types-section .section-header{
+    position: relative;
 }
 @media (max-width: 1500px) {
     .menu {
