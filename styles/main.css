@@ -2134,11 +2134,6 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-.additional-page-banner.-environment .image-holder{
-    padding-top: 47.58%;
-}
-.additional-page-banner.-space .image-holder{
     padding-top: 47.58%;
 }
 .space-text-section{
@@ -2153,6 +2148,15 @@ img {
 }
 .space-beauty-section .section-header{
     padding-top: 103px;
+}
+.sport-walk-section .section-header{
+    padding-top: 84px;
+}
+.sport-walk-section .section-footer{
+    bottom: 168px;
+}
+.sport-walk-section .section-footer *{
+    color: #fff !important;
 }
 .space-beauty-section .section-header *{
     color: #fff !important;
@@ -2174,6 +2178,24 @@ img {
 }
 .private-section{
     padding-top: 100px !important;
+}
+.sport-distances .distances-value{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    color: #BDA269;
+}
+.sport-distances .distances-number{
+    font-size: 72px;
+}
+.sport-distances .distances-unit{
+    font-size: 24px;
+}
+.sport-distances .distances-info-description{
+    color: #293F2C;
+}
+.sport-distances .distances-info{
+    margin-bottom: 200px;
 }
 @media (max-width: 1500px) {
     .menu {
