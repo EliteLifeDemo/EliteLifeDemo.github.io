@@ -791,7 +791,7 @@ img {
 }
 
 .distances-info-block:last-child {
-    margin-right: 0;
+    margin-right: 0 !important;
 }
 
 .distances-value {
@@ -2196,6 +2196,85 @@ img {
 }
 .sport-distances .distances-info{
     margin-bottom: 200px;
+}
+.sport-distances.distances-section{
+    padding-bottom: 0;
+}
+.sport-distances .distances-info-block {
+    margin-right: 150px;
+}
+.sport-season-section{
+    position: relative;
+}
+.curtain{
+    position: absolute;
+    height: 100%;
+    width: 4px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: #BDA269;
+}
+.curtain-control{
+    position: absolute;
+    height: 67px;
+    width: 67px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: #BDA269;
+}
+.curtain-control:before, .curtain-control:after{
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-image: url("/assets/icons/002-right-chevron.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.curtain-control:before{
+    transform: rotate(90deg);
+    margin-left: 20px;
+}
+.curtain-control:after{
+    margin-right: 20px;
+    transform: rotate(-90deg);
+}
+.sport-season-section .image-holder{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100%;
+}
+.sport-season-section .image-holder-text{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+    line-height: 42px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 47px 49px;
+}
+.sport-season-section .image-holder:first-child{
+
+}
+.sport-season-section .image-holder:last-child{
+    text-align: right;
 }
 @media (max-width: 1500px) {
     .menu {
