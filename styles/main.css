@@ -1579,6 +1579,9 @@ img {
     background-color: #153c25;
     align-items: center;
 }
+.next-section .image-holder{
+    width: auto;
+}
 
 .next-text {
     color: #fff;
