@@ -11,6 +11,7 @@
 body {
     margin: 0;
     color: #232323;
+    background-color: #fff;
 }
 
 a {
@@ -23,8 +24,8 @@ a, a:hover, a:focus, a:visited {
 
 img {
     max-width: 100%;
-    width: 100%;
 }
+
 
 .f-tac {
     text-align: center !important;
@@ -810,6 +811,10 @@ img {
 
 .image-holder {
     position: relative;
+    width: 100%;
+}
+
+.image-holder img {
     width: 100%;
 }
 
