@@ -23,6 +23,7 @@ a, a:hover, a:focus, a:visited {
 
 img {
     max-width: 100%;
+    width: 100%;
 }
 
 .f-tac {
@@ -1783,6 +1784,7 @@ img {
 
 .additional-page-content {
     padding-top: 0 !important;
+    position: relative;
 }
 
 .additional-page-content .distances-info-block {
@@ -2153,7 +2155,7 @@ img {
     padding-top: 84px;
 }
 .sport-walk-section .section-footer{
-    bottom: 168px;
+    bottom: 168px !important;
 }
 .sport-walk-section .section-footer *{
     color: #fff !important;
@@ -2352,6 +2354,84 @@ img {
 .column-placeholder{
     padding-top: 100%;
 }
+.sidebar{
+    background-color: #EEEEEE;
+    padding: 80px 35px;
+    width: 35%;
+    flex: 0 0 35%;
+    color: #232323;
+}
+.main-content{
+    flex: 1 1 0;
+    padding: 104px 43px;
+    color: #232323;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+.sidebar-title{
+    font-family: Room;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 72px;
+    margin-bottom: 20px;
+}
+.additional-title{
+    font-family: Room;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 42px;
+    color: #000;
+    margin-bottom: 30px;
+}
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+.nav-button{
+    display: block;
+    background: #BDA269;
+    padding: 12px 22px;
+}
+.article-date{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #828282;
+    margin-bottom: 5px;
+}
+.article{
+    margin-bottom: 35px;
+}
+.article-title{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: block;
+}
+.article-line{
+    width: 115px;
+    margin: 40px 0;
+    height: 3px;
+    background-color: #BDA269;
+}
+.article-h2{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
 @media (max-width: 1500px) {
     .menu {
         padding-top: 30px;
