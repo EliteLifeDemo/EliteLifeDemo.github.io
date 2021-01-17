@@ -44,6 +44,7 @@ img {
     text-transform: uppercase;
     position: relative;
     cursor: pointer;
+    text-align: center;
 }
 
 .button.-wide {
@@ -2610,9 +2611,10 @@ th {
 }
 
 .building-nav {
-    align-items: center;
+    text-align: center;
     margin-top: 21px;
     width: 100%;
+    position: relative;
 }
 
 .building-nav a {
@@ -2637,11 +2639,11 @@ th {
 .building-background {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    left: 65px;
+    right: 0;
     height: 100vh;
     opacity: .3;
-    z-index: -1;
+    z-index: 0;
     background-image: url("/assets/building-background.jpg");
     background-position: center;
     background-size: cover;
@@ -2652,6 +2654,8 @@ th {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
+    position: relative;
 }
 
 .button-alternate {
@@ -2715,9 +2719,10 @@ th {
 }
 
 .building-list {
-    margin-top: 80px;
     max-width: 770px;
     padding: 0 20px;
+    margin: 80px auto 0;
+    position: relative;
 }
 
 .building-item {
@@ -2733,6 +2738,7 @@ th {
     justify-content: flex-start;
     padding-bottom: 29px;
     margin-bottom: 28px;
+    position: relative;
 }
 
 .building-item-period {
@@ -2771,6 +2777,7 @@ th {
     font-weight: bold;
     font-size: 48px;
     color: #BDA269;
+    margin-right: 10px;
 }
 
 .building-item-weeks-text {
@@ -2786,13 +2793,13 @@ th {
 }
 
 .building-item-image {
-    height: 100%;
     width: 320px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     flex: 0 0 320px;
     position: relative;
+    margin-left: auto;
 }
 .button.-transparent{
     background: rgba(41, 63, 44, 0.8);
@@ -2810,6 +2817,7 @@ th {
 }
 .button-holder .button{
     width: 70%;
+    padding: 14px;
 }
 
 @media (max-width: 1500px) {
