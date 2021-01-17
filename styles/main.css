@@ -2132,13 +2132,15 @@ img {
 .structure-icon.-sport:before {
     background-image: url("/assets/icons/036-sport.svg");
 }
-.additional-page-banner .image-holder{
+
+.additional-page-banner .image-holder {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 47.58%;
 }
-.space-text-section{
+
+.space-text-section {
     padding-top: 82px;
     font-family: Gilroy;
     font-style: normal;
@@ -2148,67 +2150,86 @@ img {
     line-height: 37px;
     padding-bottom: 90px;
 }
-.space-beauty-section .section-header{
+
+.space-beauty-section .section-header {
     padding-top: 103px;
 }
-.sport-walk-section .section-header{
+
+.sport-walk-section .section-header {
     padding-top: 84px;
 }
-.sport-walk-section .section-footer{
+
+.sport-walk-section .section-footer {
     bottom: 168px !important;
 }
-.sport-walk-section .section-footer *{
+
+.sport-walk-section .section-footer * {
     color: #fff !important;
 }
-.space-beauty-section .section-header *{
+
+.space-beauty-section .section-header * {
     color: #fff !important;
 }
-.tree-types-section{
+
+.tree-types-section {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url("/assets/tree-type-background.jpg");
 }
-.tree-types-section .image-wrapper{
+
+.tree-types-section .image-wrapper {
     padding-right: 40px;
 }
-.fountain-section{
+
+.fountain-section {
     margin-top: 45px;
 }
-.fountain-section .section-footer{
+
+.fountain-section .section-footer {
     bottom: 120px !important;
 }
-.private-section{
+
+.private-section {
     padding-top: 100px !important;
 }
-.sport-distances .distances-value{
+
+.sport-distances .distances-value {
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
     color: #BDA269;
 }
-.sport-distances .distances-number{
+
+.sport-distances .distances-number {
     font-size: 72px;
 }
-.sport-distances .distances-unit{
+
+.sport-distances .distances-unit {
     font-size: 24px;
 }
-.sport-distances .distances-info-description{
+
+.sport-distances .distances-info-description {
     color: #293F2C;
 }
-.sport-distances .distances-info{
+
+.sport-distances .distances-info {
     margin-bottom: 200px;
 }
-.sport-distances.distances-section{
+
+.sport-distances.distances-section {
     padding-bottom: 0;
 }
+
 .sport-distances .distances-info-block {
     margin-right: 150px;
 }
-.sport-season-section{
+
+.sport-season-section {
     position: relative;
 }
-.curtain{
+
+.curtain {
     position: absolute;
     height: 100%;
     width: 4px;
@@ -2219,7 +2240,8 @@ img {
     margin: auto;
     background: #BDA269;
 }
-.curtain-control{
+
+.curtain-control {
     position: absolute;
     height: 67px;
     width: 67px;
@@ -2232,7 +2254,8 @@ img {
     background: #BDA269;
     margin-left: -32px;
 }
-.curtain-control:before, .curtain-control:after{
+
+.curtain-control:before, .curtain-control:after {
     content: '';
     display: block;
     position: absolute;
@@ -2248,21 +2271,25 @@ img {
     background-size: contain;
     background-repeat: no-repeat;
 }
-.curtain-control:before{
+
+.curtain-control:before {
     transform: rotate(90deg);
     margin-left: 14px;
 }
-.curtain-control:after{
+
+.curtain-control:after {
     margin-right: 14px;
     transform: rotate(-90deg);
 }
-.sport-season-section .image-holder{
+
+.sport-season-section .image-holder {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 50%;
 }
-.sport-season-section .image-holder-text{
+
+.sport-season-section .image-holder-text {
     font-family: Gilroy;
     font-style: normal;
     font-weight: 500;
@@ -2276,20 +2303,25 @@ img {
     padding: 0 47px 49px;
     text-transform: uppercase;
 }
-.sport-season-section .image-holder:first-child{
+
+.sport-season-section .image-holder:first-child {
 
 }
-.sport-season-section .image-holder:last-child{
+
+.sport-season-section .image-holder:last-child {
     text-align: right;
 }
-.sport-types-section{
+
+.sport-types-section {
     margin-top: 111px;
 }
-.sport-types-section .section-header{
+
+.sport-types-section .section-header {
     position: relative !important;
     margin-bottom: 105px;
 }
-.sport-types-title{
+
+.sport-types-title {
     font-family: Room;
     font-style: normal;
     font-weight: bold;
@@ -2301,7 +2333,8 @@ img {
     text-align: center;
     color: #fff;
 }
-.sport-types-description{
+
+.sport-types-description {
     font-family: Gilroy;
     font-style: normal;
     font-weight: normal;
@@ -2317,21 +2350,25 @@ img {
     transition: bottom .4s ease;
     text-align: center;
 }
-.sport-types-section .column{
+
+.sport-types-section .column {
     flex: 1;
     margin-right: 15px;
     overflow: hidden;
     position: relative;
 }
-.sport-types-container{
+
+.sport-types-container {
     max-width: 1500px;
     margin: 0 auto;
     padding: 0 20px;
 }
-.sport-types-section .column:last-child{
+
+.sport-types-section .column:last-child {
     margin-right: 0;
 }
-.sport-types-section .image-holder{
+
+.sport-types-section .image-holder {
     position: absolute;
     top: 0;
     left: 0;
@@ -2342,19 +2379,24 @@ img {
     background-position: center;
     transition: bottom .4s ease;
 }
-.sport-types-section .flex-block{
+
+.sport-types-section .flex-block {
     margin-bottom: 15px;
 }
-.sport-types-section .column:hover .image-holder{
+
+.sport-types-section .column:hover .image-holder {
     bottom: 136px;
 }
-.sport-types-section .column:hover .sport-types-description{
+
+.sport-types-section .column:hover .sport-types-description {
     bottom: 0;
 }
-.column-placeholder{
+
+.column-placeholder {
     padding-top: 100%;
 }
-.sidebar{
+
+.sidebar {
     background-color: #EEEEEE;
     padding: 80px 35px;
     width: 35%;
@@ -2362,17 +2404,19 @@ img {
     color: #232323;
     min-height: 100vh;
 }
-.main-content{
+
+.main-content {
     flex: 1 1 0;
     padding: 104px 43px;
     color: #232323;
     font-family: Gilroy;
     font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
+    line-height: 21px;
+    font-weight: 300;
+    font-size: 18px;
 }
-.sidebar-title{
+
+.sidebar-title {
     font-family: Room;
     font-style: normal;
     font-weight: bold;
@@ -2381,7 +2425,8 @@ img {
     margin-bottom: 20px;
     text-transform: uppercase;
 }
-.additional-title{
+
+.additional-title {
     font-family: Room;
     font-style: normal;
     font-weight: 100;
@@ -2391,27 +2436,31 @@ img {
     margin-bottom: 30px;
     text-transform: uppercase;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 40px;
 }
-.nav-button{
+
+.nav-button {
     display: block;
-    background: #BDA269;
     padding: 12px 22px;
     font-family: Gilroy;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    color: #fff;
     text-transform: uppercase;
+    color: #232323;
 }
-.nav-button:active{
+
+.nav-button.active {
     background: #BDA269;
+    color: #fff;
 }
-.article-date{
+
+.article-date {
     font-family: Gilroy;
     font-style: normal;
     font-weight: normal;
@@ -2420,24 +2469,29 @@ img {
     color: #828282;
     margin-bottom: 5px;
 }
-.article{
+
+.article {
     margin-bottom: 35px;
 }
-.article-title{
+
+.article-title {
     font-family: Gilroy;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
     display: block;
+    color: #232323;
 }
-.article-line{
+
+.article-line {
     width: 115px;
     margin: 40px 0;
     height: 3px;
     background-color: #BDA269;
 }
-.article-h2{
+
+.article-h2 {
     font-family: Gilroy;
     font-style: normal;
     font-weight: normal;
@@ -2445,10 +2499,12 @@ img {
     line-height: 28px;
     margin-bottom: 42px;
 }
+
 .main-content ul {
     list-style: none; /* Remove default bullets */
     margin: 20px 0;
 }
+
 .main-content ul li::before {
     content: "\2022";
     color: #BDA269;
@@ -2457,37 +2513,48 @@ img {
     width: 1em;
     margin-left: -1em;
 }
-.table-wrapper{
+
+.table-wrapper {
     width: 100%;
     max-width: 100%;
     overflow-x: auto;
 }
-table,th, td{
+
+table, th, td {
     border: 1px solid #C7BFC3;
     border-collapse: collapse;
+    vertical-align: middle;
 }
-td{
+
+td {
     font-family: Gilroy;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
     line-height: 18px;
     padding: 17px 14px;
-    vertical-align: center;
 }
-th{
+
+th {
     background: #C7BFC3;
     font-family: Gilroy;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 14px;
-    vertical-align: center;
     text-align: center;
     padding: 21px 14px 16px;
-
+    text-transform: uppercase;
+    border: 1px solid #D9CFD4;
 }
-
+.fw-500{
+    font-weight: 500 !important;
+}
+.main-content img{
+    width: auto;
+    display: inline-block;
+    margin-bottom: 8px;
+}
 @media (max-width: 1500px) {
     .menu {
         padding-top: 30px;
