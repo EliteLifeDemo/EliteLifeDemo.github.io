@@ -2360,6 +2360,7 @@ img {
     width: 35%;
     flex: 0 0 35%;
     color: #232323;
+    min-height: 100vh;
 }
 .main-content{
     flex: 1 1 0;
@@ -2378,6 +2379,7 @@ img {
     font-size: 64px;
     line-height: 72px;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 .additional-title{
     font-family: Room;
@@ -2387,6 +2389,7 @@ img {
     line-height: 42px;
     color: #000;
     margin-bottom: 30px;
+    text-transform: uppercase;
 }
 .nav{
     display: flex;
@@ -2397,6 +2400,16 @@ img {
     display: block;
     background: #BDA269;
     padding: 12px 22px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.nav-button:active{
+    background: #BDA269;
 }
 .article-date{
     font-family: Gilroy;
@@ -2430,6 +2443,49 @@ img {
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
+    margin-bottom: 42px;
+}
+.main-content ul {
+    list-style: none; /* Remove default bullets */
+    margin: 20px 0;
+}
+.main-content ul li::before {
+    content: "\2022";
+    color: #BDA269;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+.table-wrapper{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+}
+table,th, td{
+    border: 1px solid #C7BFC3;
+    border-collapse: collapse;
+}
+td{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 17px 14px;
+    vertical-align: center;
+}
+th{
+    background: #C7BFC3;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    vertical-align: center;
+    text-align: center;
+    padding: 21px 14px 16px;
+
 }
 
 @media (max-width: 1500px) {
