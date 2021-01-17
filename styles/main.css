@@ -2468,6 +2468,7 @@ img {
     line-height: 15px;
     color: #828282;
     margin-bottom: 5px;
+    text-transform: uppercase;
 }
 
 .article {
@@ -2483,18 +2484,22 @@ img {
     display: block;
     color: #232323;
 }
+
 .article-title.active {
     color: #BDA269;
 }
-.article-info{
+
+.article-info {
     display: flex;
     margin-bottom: 38px;
 }
-.article-info .article-date{
+
+.article-info .article-date {
     margin-bottom: 0;
     margin-right: 31px;
 }
-.article-info .article-type{
+
+.article-info .article-type {
     text-transform: uppercase;
     font-family: Gilroy;
     font-style: normal;
@@ -2503,14 +2508,16 @@ img {
     line-height: 15px;
     color: #BDA269;
 }
-.article-image{
+
+.article-image {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 400px;
-    margin-bottom: 16px;
+    margin: -104px -43px 16px;
 }
+
 .article-line {
     width: 115px;
     margin: 40px 0;
@@ -2588,13 +2595,221 @@ th {
     display: inline-block;
     margin-bottom: 8px;
 }
-.article-h1{
+
+.article-h1 {
     font-family: Gilroy;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 37px;
+}
+
+.building-content-wrapper {
+    background: #414141;
+}
+
+.building-nav {
+    align-items: center;
+    margin-top: 21px;
+    width: 100%;
+}
+
+.building-nav a {
+    display: inline-block;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    margin-right: 30px;
+}
+
+.building-nav a:last-child {
+    margin-right: 0;
+}
+
+.building-nav a.active {
+    text-decoration: underline;
+}
+
+.building-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: .3;
+    z-index: -1;
+    background-image: url("/assets/building-background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.building-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-alternate {
+    padding: 19px 21px 21px;
+    text-align: center;
+    display: inline-block;
+    background-color: transparent;
+    transition: background-color .4s ease;
+    line-height: 21px;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid #BDA269;
+    background-position-x: 11px;
+    background-position-y: center;
+    background-size: 24px;
+    background-repeat: no-repeat;
+}
+
+.button-alternate.-camera {
+    background-image: url("/assets/icons/048-webcam.svg");
+}
+
+.button-alternate.-calendar {
+    background-image: url("/assets/icons/049-calendar.svg");
+}
+
+.building-info .button-alternate {
+    width: 290px;
+}
+
+.building-info .-camera {
+    margin-right: 30px;
+}
+
+.building-info .-calendar {
+    margin-left: 30px;
+}
+
+.building-text {
+    color: #fff;
+    font-family: Room;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.building-year {
+    font-family: Room;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    margin-top: 5px;
+}
+
+.building-list {
+    margin-top: 80px;
+    max-width: 770px;
+    padding: 0 20px;
+}
+
+.building-item {
+    background: #fff;
+    margin-bottom: 30px;
+    padding: 20px;
+    display: flex;
+}
+
+.building-item-weeks {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 29px;
+    margin-bottom: 28px;
+}
+
+.building-item-period {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #232323;
+    line-height: 16px;
+    margin-bottom: 56px;
+}
+
+.building-item-photos {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #AAA8AB;
+    margin-bottom: 2px;
+}
+
+.building-item-weeks:before {
+    content: '';
+    background-color: #BDA269;
+    width: 38px;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.building-item-weeks-number {
+    font-family: Room;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color: #BDA269;
+}
+
+.building-item-weeks-text {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #232323;
+}
+
+.building-item-text {
+    padding: 10px;
+}
+
+.building-item-image {
+    height: 100%;
+    width: 320px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    flex: 0 0 320px;
+    position: relative;
+}
+.button.-transparent{
+    background: rgba(41, 63, 44, 0.8);
+}
+.button-holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(41, 63, 44, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-holder .button{
+    width: 70%;
 }
 
 @media (max-width: 1500px) {
