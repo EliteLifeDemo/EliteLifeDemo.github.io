@@ -13,6 +13,10 @@ function polyfills() {
     if (window.NodeList && !NodeList.prototype.forEach) {
         NodeList.prototype.forEach = Array.prototype.forEach;
     }
+    let menuOpener = document.querySelector('.menu-opener-button');
+    menuOpener.addEventListener('click',function () {
+        location = "/";
+    });
 }
 
 function initializeMainBanner() {
