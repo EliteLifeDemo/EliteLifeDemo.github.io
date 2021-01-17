@@ -2483,7 +2483,34 @@ img {
     display: block;
     color: #232323;
 }
-
+.article-title.active {
+    color: #BDA269;
+}
+.article-info{
+    display: flex;
+    margin-bottom: 38px;
+}
+.article-info .article-date{
+    margin-bottom: 0;
+    margin-right: 31px;
+}
+.article-info .article-type{
+    text-transform: uppercase;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #BDA269;
+}
+.article-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 16px;
+}
 .article-line {
     width: 115px;
     margin: 40px 0;
@@ -2526,6 +2553,10 @@ table, th, td {
     vertical-align: middle;
 }
 
+table {
+    width: 100%;
+}
+
 td {
     font-family: Gilroy;
     font-style: normal;
@@ -2547,14 +2578,25 @@ th {
     text-transform: uppercase;
     border: 1px solid #D9CFD4;
 }
-.fw-500{
+
+.fw-500 {
     font-weight: 500 !important;
 }
-.main-content img{
+
+.main-content img {
     width: auto;
     display: inline-block;
     margin-bottom: 8px;
 }
+.article-h1{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 37px;
+}
+
 @media (max-width: 1500px) {
     .menu {
         padding-top: 30px;
