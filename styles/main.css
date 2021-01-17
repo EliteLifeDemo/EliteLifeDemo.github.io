@@ -1237,6 +1237,9 @@ img {
     display: flex;
     justify-content: flex-end;
 }
+.happy-section .image-holder{
+    width: auto;
+}
 
 .happy-text {
     color: #232323;
@@ -1858,6 +1861,7 @@ img {
 
 .lake-view-section .image-holder {
     opacity: 0.9;
+    width: 100%;
 }
 
 .lake-view-section .happy-text {
