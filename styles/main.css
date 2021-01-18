@@ -2919,6 +2919,19 @@ th {
 }
 .gallery-small-image{
     padding: 10px;
+    height: 16%;
+}
+.gallery-small-image .splide__track{
+    padding: 0 10px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.gallery-small-image .splide__list, .gallery-small-image .splide__slide, .gallery-big-image .splide__list, .gallery-big-image .splide__slide{
+    height: 100%
+}
+.gallery-big-image{
+    padding: 10px;
+    height: 84%;
 }
 .gallery-small-image .splide__slide{
     cursor: pointer;
