@@ -108,7 +108,8 @@ function initializeBigGallerySlider() {
         pagination: false,
         updateOnMove: true,
         waitForTransition: false,
-        cover: true
+        cover: true,
+        width: '100%'
     }).mount();
 
 // Create the main slider.
