@@ -119,7 +119,8 @@ function initializeBigGallerySlider() {
         arrows: false,
         updateOnMove: true,
         waitForTransition: false,
-        cover:true
+        cover:true,
+        width: '100%'
     });
 
 // Set the thumbnails slider as a sync target and then call mount.
