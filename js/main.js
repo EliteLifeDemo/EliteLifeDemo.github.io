@@ -7,6 +7,7 @@ function pageReady() {
     initializeMainBanner();
     initializeFLatSlider();
     initializeLakeMiniSlider();
+    initializeBigGallerySlider();
 }
 
 function polyfills() {
@@ -89,6 +90,35 @@ function initializeFLatSlider() {
         arrows: true,
         updateOnMove: true,
         waitForTransition: false,
+    });
+
+// Set the thumbnails slider as a sync target and then call mount.
+    primarySlider.sync(secondarySlider).mount();
+}
+function initializeBigGallerySlider() {
+    let previewSlider = document.querySelector('.gallery-small-image');
+    if(!previewSlider){
+        return
+    }
+    var secondarySlider = new Splide(previewSlider, {
+        rewind: true,
+        fixedWidth: 256,
+        isNavigation: true,
+        gap: 9,
+        arrows: false,
+        pagination: false,
+        updateOnMove: true,
+        waitForTransition: false,
+    }).mount();
+
+// Create the main slider.
+    var primarySlider = new Splide('.gallery-big-image', {
+        type: 'fade',
+        pagination: false,
+        arrows: false,
+        updateOnMove: true,
+        waitForTransition: false,
+        heightRatio: 0.44,
     });
 
 // Set the thumbnails slider as a sync target and then call mount.

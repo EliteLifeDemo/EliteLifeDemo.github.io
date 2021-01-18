@@ -2854,10 +2854,12 @@ th {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     background: #293F2C;
     cursor: pointer;
     width: 100%;
+    position: relative;
+    height: 33.333%;
+    padding-left: 130px;
 }
 
 .gallery-link-image {
@@ -2887,6 +2889,7 @@ th {
     color: #BDA269;
     line-height: 21px;
     position: relative;
+    text-transform: uppercase;
 }
 
 .gallery-title {
@@ -2898,8 +2901,25 @@ th {
     margin-top: 2px;
     position: relative;
     color: #fff;
+    text-transform: uppercase;
 }
-
+.big-image-title{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    color: #fff;
+    line-height: 38px;
+    padding-bottom: 17px;
+}
+.gallery-small-image{
+    padding: 10px;
+}
 @media (max-width: 1500px) {
     .menu {
         padding-top: 30px;
