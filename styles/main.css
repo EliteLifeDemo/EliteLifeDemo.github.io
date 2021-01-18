@@ -2930,7 +2930,6 @@ th {
     height: 100%
 }
 .gallery-big-image{
-    padding: 10px;
     height: 84%;
 }
 .gallery-small-image .splide__slide{
@@ -2938,6 +2937,7 @@ th {
 }
 .big-gallery-page-content{
     height: 100vh;
+    padding-top: 0;
 }
 @media (max-width: 1500px) {
     .menu {
