@@ -102,7 +102,6 @@ function initializeBigGallerySlider() {
     }
     var secondarySlider = new Splide(previewSlider, {
         rewind: true,
-        fixedWidth: 256,
         isNavigation: true,
         gap: 9,
         arrows: false,
@@ -119,6 +118,7 @@ function initializeBigGallerySlider() {
         updateOnMove: true,
         waitForTransition: false,
         heightRatio: 0.44,
+        cover:true
     });
 
 // Set the thumbnails slider as a sync target and then call mount.

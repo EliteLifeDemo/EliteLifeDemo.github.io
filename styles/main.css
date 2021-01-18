@@ -2920,6 +2920,9 @@ th {
 .gallery-small-image{
     padding: 10px;
 }
+.gallery-small-image .splide__slide{
+    cursor: pointer;
+}
 @media (max-width: 1500px) {
     .menu {
         padding-top: 30px;
