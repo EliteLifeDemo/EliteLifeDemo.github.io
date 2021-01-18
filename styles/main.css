@@ -26,7 +26,6 @@ img {
     max-width: 100%;
 }
 
-
 .f-tac {
     text-align: center !important;
 }
@@ -1242,7 +1241,8 @@ img {
     display: flex;
     justify-content: flex-end;
 }
-.happy-section .image-holder{
+
+.happy-section .image-holder {
     width: auto;
 }
 
@@ -1587,7 +1587,8 @@ img {
     background-color: #153c25;
     align-items: center;
 }
-.next-section .image-holder{
+
+.next-section .image-holder {
     width: auto;
 }
 
@@ -2812,9 +2813,11 @@ th {
     position: relative;
     margin-left: auto;
 }
-.button.-transparent{
+
+.button.-transparent {
     background: rgba(41, 63, 44, 0.8);
 }
+
 .button-holder {
     position: absolute;
     top: 0;
@@ -2826,9 +2829,75 @@ th {
     justify-content: center;
     align-items: center;
 }
-.button-holder .button{
+
+.button-holder .button {
     width: 70%;
     padding: 14px;
+}
+
+.gallery-page .sidebar {
+    width: 45%;
+    flex: 0 0 45%;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/assets/gallery-background.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 100vh;
+}
+
+.gallery-page .main-content {
+    padding: 0;
+}
+
+.gallery-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #293F2C;
+    cursor: pointer;
+    width: 100%;
+}
+
+.gallery-link-image {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    right: 0;
+    bottom: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    transition: opacity .4s ease;
+}
+
+.gallery-link:hover .gallery-link-image {
+    opacity: 0.8;
+}
+
+.gallery-catch {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #BDA269;
+    line-height: 21px;
+    position: relative;
+}
+
+.gallery-title {
+    font-family: Room;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    margin-top: 2px;
+    position: relative;
+    color: #fff;
 }
 
 @media (max-width: 1500px) {
