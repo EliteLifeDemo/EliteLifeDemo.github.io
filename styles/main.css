@@ -2229,7 +2229,7 @@ img {
 }
 
 .sport-distances .distances-info {
-    margin-bottom: 200px;
+    margin-bottom: 170px;
 }
 
 .sport-distances.distances-section {
@@ -3061,6 +3061,18 @@ th {
     }
     .prefooter-section{
         margin-top: 75px;
+    }
+    .sport-distances .distances-info-block{
+        margin-right: 80px;
+    }
+    .sport-distances .distances-info{
+        margin-bottom: 100px;
+    }
+    .sport-types-section{
+        margin-top: 75px;
+    }
+    .sport-types-section .section-header{
+        margin-bottom: 60px;
     }
 }
 
