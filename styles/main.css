@@ -510,7 +510,7 @@ img {
 .slide-title {
     font-weight: bold;
     font-size: 144px;
-    line-height: 126px;
+    line-height: 0.88;
     text-transform: uppercase;
     margin-bottom: 17.7px;
     position: relative;
@@ -1973,6 +1973,7 @@ img {
     font-style: normal;
     font-weight: 900;
     font-size: 18px;
+    line-height: 1 !important;
 }
 
 .beauty-container {
@@ -2903,7 +2904,8 @@ th {
     color: #fff;
     text-transform: uppercase;
 }
-.big-image-title{
+
+.big-image-title {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -2917,28 +2919,35 @@ th {
     line-height: 38px;
     padding-bottom: 17px;
 }
-.gallery-small-image{
+
+.gallery-small-image {
     padding: 10px;
     height: 16%;
 }
-.gallery-small-image .splide__track{
+
+.gallery-small-image .splide__track {
     padding: 0 10px;
     max-width: 1400px;
     margin: 0 auto;
 }
-.gallery-small-image .splide__list, .gallery-small-image .splide__slide, .gallery-big-image .splide__list, .gallery-big-image .splide__slide{
+
+.gallery-small-image .splide__list, .gallery-small-image .splide__slide, .gallery-big-image .splide__list, .gallery-big-image .splide__slide {
     height: 100%
 }
-.gallery-big-image{
+
+.gallery-big-image {
     height: 84%;
 }
-.gallery-small-image .splide__slide{
+
+.gallery-small-image .splide__slide {
     cursor: pointer;
 }
-.big-gallery-page-content{
+
+.big-gallery-page-content {
     height: 100vh;
     padding-top: 0;
 }
+
 @media (max-width: 1500px) {
     .menu {
         padding-top: 30px;
@@ -2954,6 +2963,141 @@ th {
 
     .social-buttons {
         margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1450px) {
+    .slide-title {
+        font-size: 100px;
+    }
+
+    .section.-full .section-title,
+    .distances-number,
+    .structure-title,
+    .next-title,
+    .mini-gallery-current-page,
+    .sidebar-title,
+    .gallery-title {
+        font-size: 48px;
+        line-height: 1;
+    }
+
+    .section.-rows .section-title,
+    .preview-number {
+        font-size: 40px;
+        line-height: 1;
+    }
+
+    .happy-title,
+    .sport-types-title,
+    .building-item-weeks-number {
+        font-size: 36px;
+        line-height: 1;
+    }
+
+    .additional-title {
+        font-size: 30px;
+        line-height: 1;
+    }
+
+    .mini-gallery-pages-of,
+    .building-text {
+        font-size: 27px;
+        line-height: 1;
+    }
+
+    .sport-season-section .image-holder-text {
+        font-size: 23px;
+        line-height: 1.4;
+    }
+
+    .slide-description,
+    .flat-preview-small-type,
+    .big-image-title {
+        line-height: 1.4;
+        font-size: 21px;
+    }
+
+    .menu-opener-button,
+    .section.-full .section-description,
+    .detail-unit,
+    .switcher-label,
+    .distances-description,
+    .lake-section-text,
+    .happy-description,
+    .section.-rows .section-description,
+    .next-description,
+    .footer-phone,
+    .prefooter-text,
+    .space-text-section,
+    .sport-distances .distances-unit,
+    .article-h2,
+    .article-h1 {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .contacts-block-phone,
+    .city-view-point,
+    .footer-info {
+        line-height: 1.4;
+        font-size: 15px;
+    }
+
+    .button.-green,
+    .slide-slogan,
+    .slide-footer .about,
+    .section.-full .section-catch,
+    .detail-description,
+    .distances-unit,
+    .distances-visual-text,
+    .distances-info-description,
+    .structure-info-text,
+    .flat-preview-small-description,
+    .text-upper,
+    .preview-unit, .preview-from,
+    .preview-description,
+    .hint,
+    .hints-header,
+    .happy-catch,
+    .lake-gallery-description,
+    .lake-gallery-unit,
+    .sport-types-description,
+    .main-content,
+    .article-title,
+    .building-nav a,
+    .building-item-photos {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .section.-rows .section-catch,
+    .preview-property,
+    .footer-link-main,
+    .up-link,
+    td,
+    .button-alternate,
+    .gallery-catch,
+    .footer-slogan {
+        font-size: 13px;
+        line-height: 1.3;
+    }
+
+    .button,
+    .menu-links,
+    .scroll-hint,
+    .footer-links-title,
+    .footer-special-link,
+    .nav-button,
+    .building-item-period,
+    .building-item-weeks-text {
+        font-size: 12px;
+        line-height: 1.1;
+    }
+
+    .menu-footer-info,
+    th {
+        font-size: 11px;
     }
 }
 
