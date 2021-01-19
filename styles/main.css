@@ -783,8 +783,8 @@ img {
     display: flex;
     width: 100%;
     justify-content: center;
-    max-width: 1530px;
     margin: 0 auto 64px;
+    flex-wrap: wrap;
 }
 
 .distances-info-block {
@@ -1803,10 +1803,12 @@ img {
 
 .additional-page-content .distances-info-block {
     margin-right: 29px;
+    margin-bottom: 29px;
 }
 
-.additional-page-content .distances-info-description {
-    min-height: 56px;
+.additional-page-content .distances-info {
+    margin-bottom: 40px;
+    padding: 0 40px;
 }
 
 .map-hints {
@@ -1815,8 +1817,8 @@ img {
     background-color: #F4F6F1;
     left: 47px;
     top: -21px;
-    bottom: 0;
     z-index: 2;
+    min-height: 103%;
 }
 
 .hints-body {
@@ -1989,7 +1991,7 @@ img {
 }
 
 .beauty-container .section-title:before {
-    display: none;
+    display: none !important;
 }
 
 .prefooter-section {
@@ -2154,6 +2156,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 47.58%;
+    min-height: 100%;
 }
 
 .space-text-section {
@@ -2950,7 +2953,10 @@ th {
 .footer-info-column{
     padding-top: 20px;
 }
-
+.additional-page-menu .menu-footer{
+    position: relative;
+    padding-top: 10px;
+}
 @media (max-width: 1500px) {
     .menu {
         padding-top: 20px;
@@ -3031,6 +3037,13 @@ th {
     }
     .links-column{
         margin-right: 200px;
+    }
+    .story-section .section-header{
+        padding-top: 70px;
+    }
+    .beauty-container{
+        padding-top: 164px;
+        margin-top: 100px;
     }
 }
 
