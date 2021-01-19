@@ -1396,10 +1396,6 @@ img {
     justify-content: center;
 }
 
-.flat-preview-small .splide__list {
-    transform: none !important;
-}
-
 .flat-preview-small-block {
     display: flex;
     align-items: center;
@@ -2957,6 +2953,11 @@ th {
     position: relative;
     padding-top: 10px;
 }
+@media (min-width: 1501px) {
+    .flat-preview-small .splide__list {
+        transform: none !important;
+    }
+}
 @media (max-width: 1500px) {
     .menu {
         padding-top: 20px;
@@ -3044,6 +3045,22 @@ th {
     .beauty-container{
         padding-top: 164px;
         margin-top: 100px;
+    }
+    .space-text-section {
+        padding-top: 60px;
+        padding-bottom: 65px;
+    }
+    .space-beauty-section .section-header{
+        padding-top: 70px;
+    }
+    .fountain-section{
+        margin-top: 25px;
+    }
+    .private-section{
+        padding-top: 75px !important;
+    }
+    .prefooter-section{
+        margin-top: 75px;
     }
 }
 
