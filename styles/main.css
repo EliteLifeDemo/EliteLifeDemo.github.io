@@ -2566,6 +2566,7 @@ img {
     width: 100%;
     max-width: 100%;
     overflow-x: auto;
+    margin-bottom: 39px;
 }
 
 table, th, td {
@@ -2944,7 +2945,7 @@ th {
 
 .big-gallery-page-content {
     height: 100vh;
-    padding-top: 0;
+    padding-top: 0 !important;
 }
 .footer-info-column{
     padding-top: 20px;
@@ -3073,6 +3074,9 @@ th {
     }
     .sport-types-section .section-header{
         margin-bottom: 60px;
+    }
+    .gallery-link{
+        padding-left: 80px;
     }
 }
 
