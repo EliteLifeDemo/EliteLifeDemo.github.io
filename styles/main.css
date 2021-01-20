@@ -2991,13 +2991,18 @@ th {
     min-height: 100vh;
     color: #232323;
     background-color: #fff;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
 }
 .flat-choice .gallery-link-image{
     opacity: .25;
 }
 .flat-choice.-right{
-    color: #293F2C;
+    background-color: #293F2C;
     text-align: right;
+    color: #fff;
 }
 .flat-choice-title{
     font-family: Gilroy;
@@ -3021,6 +3026,8 @@ th {
     background-image: url("/assets/icons/046-settings.svg");
 }
 .flat-choice-title:before{
+    content: '';
+    display: block;
     position: absolute;
     width: 106px;
     background: #BDA269;
