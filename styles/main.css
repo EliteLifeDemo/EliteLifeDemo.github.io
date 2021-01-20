@@ -353,6 +353,7 @@ img {
     display: flex;
     top: 0;
     right: 0;
+    z-index: 5;
 }
 
 .contacts-block-phone {
@@ -3712,6 +3713,100 @@ section.range-slider input[type=range]::-moz-focus-outer {
     text-transform: uppercase;
 }
 
+.floor-picker {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 552px;
+}
+
+.picked-section {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #293F2C;
+    width: 270px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.house-flats {
+    font-family: Room;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color: #BDA269;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.house-flats-text {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #BDA269;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.floor-picker-content {
+    padding: 0 20px;
+}
+
+.floor-picker-content-title {
+    font-family: Room;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 48px;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.house-scheme {
+    background-image: url("/assets/house-scheme.jpg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    padding-left: 64px;
+    padding-top: 32px;
+}
+.floor-number{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #232323;
+    margin-bottom: 11px;
+}
+.flat-square{
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+    margin-right: 1px;
+    text-align: center;
+}
+.flat-square span{
+    font-family: Room;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+.floor{
+    margin-bottom: 24px;
+}
 @media (min-width: 1501px) {
     .flat-preview-small .splide__list {
         transform: none !important;
@@ -3900,8 +3995,9 @@ section.range-slider input[type=range]::-moz-focus-outer {
         line-height: 1;
     }
 
-    .happy-title,
+    .happy-title, /* 48 */
     .sport-types-title,
+    .house-flats,
     .building-item-weeks-number {
         font-size: 36px;
         line-height: 1;
@@ -3987,7 +4083,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
         line-height: 1.5;
     }
 
-    .section.-rows .section-catch,
+    .section.-rows .section-catch, /* 16px */
     .preview-property,
     .footer-link-main,
     .up-link,
@@ -3996,6 +4092,11 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .gallery-catch,
     .flat-choice-description,
     .feature-title,
+    .house-flats-text,
+    .picked-section,
+    .old-price,
+    .filter-section.-switcher .switcher-label,
+    .range-title,
     .footer-slogan {
         font-size: 14px;
         line-height: 1.3;
