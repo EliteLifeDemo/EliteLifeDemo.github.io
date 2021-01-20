@@ -3467,6 +3467,19 @@ section.range-slider input[type=range]::-moz-focus-outer {
     left: 0;
     right: 0;
 }
+.contacts-block-phone.-icon{
+    padding-left: 57px;
+    background-size: 32px;
+    background-position-x: 25px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+.contacts-block-phone.-visual{
+    background-image: url("/assets/icons/Compass.svg");
+}
+.contacts-block-phone.-filter{
+    background-image: url("/assets/icons/046-settings-white.svg");
+}
 @media (min-width: 1501px) {
     .flat-preview-small .splide__list {
         transform: none !important;
