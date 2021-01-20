@@ -3524,15 +3524,11 @@ section.range-slider input[type=range]::-moz-focus-outer {
     background-image: url("/assets/zone-picker.jpg");
     background-repeat: no-repeat;
     background-position: top left;
+    position: relative;
 }
 
-.flats-visual-content {
-    height: 100vh;
-    background-size: cover;
-    background-image: url("/assets/zone-picker.jpg");
-    background-repeat: no-repeat;
-    background-position: top left;
-    position: relative;
+.flats-visual-content.-zone-1{
+    background-image: url("/assets/flat-zone-1.jpg");
 }
 
 .flat-visual-zone {
@@ -3594,7 +3590,67 @@ section.range-slider input[type=range]::-moz-focus-outer {
 .flat-visual-zone.-z3:hover + .zone-background {
     background-image: url("/assets/zone-3-hover.png");
 }
-
+.back-button{
+    position: absolute;
+    left: 22px;
+    top: 30px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 68px;
+    background-image: url("/assets/icons/white-arrow.svg");
+    background-position: left center;
+    background-size: 57px;
+    background-repeat: no-repeat;
+    z-index: 2;
+    display: inline-block;
+}
+.flat-zones-nav{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 530px;
+}
+.flat-zones-nav-link{
+    color: #fff;
+    padding-left: 18px;
+    display: inline-block;
+    background-image: url("/assets/icons/right-chevron.svg");
+    background-position: left center;
+    background-size: 12px;
+    background-repeat: no-repeat;
+}
+.flat-zones-nav-link.active{
+    color: #BDA269;
+}
+.flat-zones-nav-link span{
+    display: block;
+}
+.zone-type{
+    font-family: Room;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+}
+.zone-title{
+    font-family: Room;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+}
+.flat-zones-title{
+    font-family: Room;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    position: absolute;
+    top: 113px;
+    left: 25px;
+}
 @media (min-width: 1501px) {
     .flat-preview-small .splide__list {
         transform: none !important;
