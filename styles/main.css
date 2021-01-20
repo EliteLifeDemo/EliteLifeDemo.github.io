@@ -2992,6 +2992,7 @@ th {
     color: #232323;
     background-color: #fff;
     position: relative;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 50px;
