@@ -2954,6 +2954,33 @@ th {
     position: relative;
     padding-top: 10px;
 }
+
+.contacts-page .sidebar-title {
+    color: #fff;
+    position: relative;
+    padding-bottom: 33px;
+    margin-bottom: 33px;
+}
+.contacts-page .sidebar-title:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 118px;
+    height: 3px;
+    background-color: #BDA269;
+}
+
+.contacts-page .article-image {
+    height: 480px;
+}
+.contacts-page .sidebar {
+    background: #293F2C;
+}
+.contacts-page .main-content {
+    background: #293F2C;
+}
 @media (min-width: 1501px) {
     .flat-preview-small .splide__list {
         transform: none !important;
