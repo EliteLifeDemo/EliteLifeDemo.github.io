@@ -3092,6 +3092,8 @@ th {
     height: 100vh;
     background: #EDEDED;
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .filter-section {
@@ -3215,6 +3217,7 @@ section.range-slider input[type=range]::-webkit-slider-thumb {
     background: #BDA269;
     border: 7px solid #fff;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 
 section.range-slider input[type=range]::-moz-range-thumb {
@@ -3230,6 +3233,7 @@ section.range-slider input[type=range]::-moz-range-thumb {
     background: #BDA269;
     border: 7px solid #fff;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
     /* W3C */
 }
 
@@ -3246,6 +3250,7 @@ section.range-slider input[type=range]::-ms-thumb {
     background: #BDA269;
     border: 7px solid #fff;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
     /* W3C */
 }
 
@@ -3329,9 +3334,54 @@ section.range-slider input[type=range]::-moz-focus-outer {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    cursor: #232323;
+    color: #232323;
 }
-
+.field--option-title{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+.flats-block{
+    flex: 1;
+    padding: 16px 25px 0;
+}
+.flats-found{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #232323;
+}
+.flats-table{
+    width: 100%;
+}
+.flats-table th{
+    text-align: center;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #AAA8AB;
+}
+.flats-table tr{
+    background-color: #fff;
+    border-bottom: 10px solid #EDEDED;
+}
+.flats-table td{
+    border-color: transparent;
+    text-align: center;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #232323;
+    padding: 15px 5px 10px;
+}
+.flats-table .hit{
+    outline: 2px solid #BDA269;
+}
 @media (min-width: 1501px) {
     .flat-preview-small .splide__list {
         transform: none !important;
@@ -3570,7 +3620,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
         font-size: 16px;
     }
 
-    .button.-green,
+    .button.-green, /* 18px */
     .slide-slogan,
     .slide-footer .about,
     .section.-full .section-catch,
@@ -3592,6 +3642,9 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .main-content,
     .article-title,
     .building-nav a,
+    .rangeValues,
+    .field--option-title,
+    .flats-found,
     .building-item-photos {
         font-size: 15px;
         line-height: 1.5;
