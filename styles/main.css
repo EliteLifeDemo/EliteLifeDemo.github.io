@@ -3523,7 +3523,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     background-size: cover;
     background-image: url("/assets/zone-picker.jpg");
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: center;
     position: relative;
 }
 
@@ -3551,7 +3551,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     bottom: 0;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top left;
+    background-position: center;
     opacity: 0.5;
     z-index: 0;
 }
@@ -3656,6 +3656,44 @@ section.range-slider input[type=range]::-moz-focus-outer {
     top: 113px;
     left: 25px;
     text-transform: uppercase;
+    color: #fff;
+}
+.section-link{
+    display: inline-block;
+    position: absolute;
+    background: #BDA269;
+    padding: 10px;
+}
+.section-flats {
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-family: Room;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #232323;
+    background-color: #fff;
+    padding: 4px;
+}
+.section-number{
+    color: #fff;
+    font-family: Room;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    display: block;
+    text-align: center;
+}
+.section-text{
+    color: #fff;
+    font-family: Room;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 0 3px;
 }
 @media (min-width: 1501px) {
     .flat-preview-small .splide__list {
