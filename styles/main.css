@@ -3371,6 +3371,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
 .flats-table tr{
     background-color: #fff;
     border-bottom: 10px solid #EDEDED;
+    position: relative;
 }
 .flats-table thead tr{
     background-color: transparent;
@@ -3430,6 +3431,8 @@ section.range-slider input[type=range]::-moz-focus-outer {
     text-decoration: line-through;
     position: absolute;
     bottom: 0;
+    left: 0;
+    right: 0;
 }
 @media (min-width: 1501px) {
     .flat-preview-small .splide__list {
