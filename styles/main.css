@@ -3345,6 +3345,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
 .flats-block{
     flex: 1;
     padding: 16px 25px 0;
+    overflow: auto;
 }
 .flats-found{
     font-family: Gilroy;
@@ -3368,10 +3369,11 @@ section.range-slider input[type=range]::-moz-focus-outer {
     border: none;
     background: transparent;
 }
-.flats-table tr{
+.flats-table tr, .flats-table a{
     background-color: #fff;
     border-bottom: 10px solid #EDEDED;
     position: relative;
+    display: table-row;
 }
 .flats-table thead tr{
     background-color: transparent;
@@ -3420,6 +3422,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     font-size: 12px;
     padding: 3px;
     background: #BDA269;
+    color: #FFFFFF;
 }
 .rooms-block{
     display: inline-block;
