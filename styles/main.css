@@ -3388,7 +3388,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     padding: 15px 5px 10px;
     position: relative;
 }
-.hit:before{
+.hit td:before{
     content: '';
     display: block;
     position: absolute;
@@ -3399,6 +3399,14 @@ section.range-slider input[type=range]::-moz-focus-outer {
     border: 2px solid #BDA269;
     z-index: 0;
     background: transparent;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+.hit td:first-child:before{
+    border-left-width: 2px;
+}
+.hit td:last-child:before{
+    border-right-width: 2px;
 }
 .rooms-block{
     display: inline-block;
