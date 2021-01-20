@@ -3378,9 +3378,51 @@ section.range-slider input[type=range]::-moz-focus-outer {
     font-size: 24px;
     color: #232323;
     padding: 15px 5px 10px;
+    position: relative;
 }
 .flats-table .hit{
     outline: 2px solid #BDA269;
+}
+.rooms-block{
+    display: inline-block;
+    border: 2px solid #293F2C;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    width: 43px;
+    text-align: center;
+}
+.flat-icon{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-size: 35px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    margin-right: 13px;
+}
+.flat-icon:last-child{
+    margin-right: 0;
+}
+.flat-icon.-chair{
+    background-image: url("/assets/icons/024-armchair.svg");
+}
+.flat-icon.-terrace{
+    background-image: url("/assets/icons/terrace-green.svg");
+}
+.flat-icon.-kitchen{
+    background-image: url("/assets/icons/023-kitchen.svg");
+}
+.hit .price{
+    color: #BDA269;
+}
+.old-price{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: line-through;
+    position: absolute;
+    bottom: 0;
 }
 @media (min-width: 1501px) {
     .flat-preview-small .splide__list {
