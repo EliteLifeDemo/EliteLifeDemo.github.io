@@ -3805,6 +3805,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     font-weight: bold;
     font-size: 24px;
     color: #fff;
+    padding-top: 6px;
 }
 
 .flat-square.-ts {
