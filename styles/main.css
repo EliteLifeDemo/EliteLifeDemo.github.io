@@ -3544,6 +3544,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     font-size: 64px;
     line-height: 1.5;
     color: #fff;
+    z-index: 1;
 }
 
 .flat-visual-zone + .zone-background {
