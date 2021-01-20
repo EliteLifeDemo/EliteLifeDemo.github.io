@@ -3559,7 +3559,16 @@ section.range-slider input[type=range]::-moz-focus-outer {
     z-index: 0;
 }
 .flat-visual-zone.-z1{
-
+    top: 20%;
+    left: 22%;
+}
+.flat-visual-zone.-z2{
+    top: 40%;
+    left: 60%;
+}
+.flat-visual-zone.-z3{
+    top: 68%;
+    left: 30%;
 }
 .flat-visual-zone.-z1 + .zone-background {
     background-image: url("/assets/zone-1.png");
