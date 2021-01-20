@@ -2473,6 +2473,7 @@ img {
 .nav-button.active {
     background: #BDA269;
     color: #fff;
+    text-align: center;
 }
 
 .article-date {
@@ -2981,6 +2982,68 @@ th {
 .contacts-page .main-content {
     background: #293F2C;
 }
+.contacts-page .nav-button {
+    padding: 12px 60px;
+    border: 1px solid #BDA269;
+    color: #fff;
+}
+.flat-choice{
+    min-height: 100vh;
+    color: #232323;
+    background-color: #fff;
+}
+.flat-choice .gallery-link-image{
+    opacity: .25;
+}
+.flat-choice.-right{
+    color: #293F2C;
+    text-align: right;
+}
+.flat-choice-title{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.5;
+    padding-top: 95px;
+    padding-bottom: 58px;
+    margin-bottom: 33px;
+    position: relative;
+    background-size: 55px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: 100%;
+}
+.flat-choice-title.-visual{
+    background-image: url("/assets/icons/Compass.svg");
+}
+.flat-choice-title.-filter{
+    background-image: url("/assets/icons/046-settings.svg");
+}
+.flat-choice-title:before{
+    position: absolute;
+    width: 106px;
+    background: #BDA269;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+}
+.-right .flat-choice-title{
+    background-position: top right;
+}
+.-right .flat-choice-title:before{
+    left: auto;
+    right: 0;
+}
+.flat-choice-description{
+    position: relative;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 100%;
+}
 @media (min-width: 1501px) {
     .flat-preview-small .splide__list {
         transform: none !important;
@@ -3142,6 +3205,7 @@ th {
     }
 
     .mini-gallery-pages-of,
+    .flat-choice-title,
     .building-text {
         font-size: 27px;
         line-height: 1;
@@ -3219,6 +3283,7 @@ th {
     td,
     .button-alternate,
     .gallery-catch,
+    .flat-choice-description,
     .footer-slogan {
         font-size: 14px;
         line-height: 1.3;
