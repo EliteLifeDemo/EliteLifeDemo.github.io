@@ -3782,8 +3782,10 @@ section.range-slider input[type=range]::-moz-focus-outer {
     background-size: contain;
     padding-left: 64px;
     padding-top: 32px;
+    padding-bottom: 1px;
 }
-.floor-number{
+
+.floor-number {
     font-family: Gilroy;
     font-style: normal;
     font-weight: 300;
@@ -3791,7 +3793,8 @@ section.range-slider input[type=range]::-moz-focus-outer {
     color: #232323;
     margin-bottom: 11px;
 }
-.flat-square{
+
+.flat-square {
     width: 42px;
     height: 42px;
     display: inline-block;
@@ -3803,19 +3806,24 @@ section.range-slider input[type=range]::-moz-focus-outer {
     font-size: 24px;
     color: #fff;
 }
-.flat-square.-ts{
+
+.flat-square.-ts {
     background: #AAA8AB;
 }
-.flat-square.-t2{
+
+.flat-square.-t2 {
     background: #5A402E;
 }
-.flat-square.-t3{
+
+.flat-square.-t3 {
     background: #293F2C;
 }
-.flat-square.-t4{
+
+.flat-square.-t4 {
     background: #BDA269;
 }
-.flat-square span{
+
+.flat-square span {
     font-family: Room;
     font-style: normal;
     font-weight: bold;
@@ -3823,10 +3831,17 @@ section.range-slider input[type=range]::-moz-focus-outer {
     text-transform: uppercase;
     vertical-align: top;
 }
-.floor{
+
+.floor {
     margin-bottom: 24px;
+    display: block;
 }
-.floor-picker-description{
+
+.floor:last-child {
+    margin-bottom: 10px;
+}
+
+.floor-picker-description {
     color: #232323;
     font-family: Gilroy;
     font-style: normal;
@@ -3837,6 +3852,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     max-width: 455px;
     margin: 39px auto 0;
 }
+
 @media (min-width: 1501px) {
     .flat-preview-small .splide__list {
         transform: none !important;
@@ -3844,12 +3860,18 @@ section.range-slider input[type=range]::-moz-focus-outer {
 }
 
 @media (max-width: 1500px) {
+    .floor-picker-content-title {
+        margin-bottom: 25px;
+    }
+
     .menu {
         padding-top: 20px;
     }
+
     .house-flats {
         margin-top: 20px;
     }
+
     .menu-logo {
         margin-bottom: 30px;
     }
