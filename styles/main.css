@@ -3859,6 +3859,12 @@ section.range-slider input[type=range]::-moz-focus-outer {
         font-size: 100px;
     }
 
+    .additional-page-title,
+    .building-year,
+    .flat-zones-title {
+        font-size: 72px;
+    }
+
     .section.-full .section-title,
     .distances-number,
     .structure-title,
