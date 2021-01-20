@@ -3388,8 +3388,17 @@ section.range-slider input[type=range]::-moz-focus-outer {
     padding: 15px 5px 10px;
     position: relative;
 }
-.flats-table .hit{
-    outline: 2px solid #BDA269;
+.hit:before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    border: 2px solid #BDA269;
+    z-index: 0;
+    background: transparent;
 }
 .rooms-block{
     display: inline-block;
