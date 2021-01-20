@@ -3553,7 +3553,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     right: 0;
     bottom: 0;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: top left;
     opacity: 0.5;
     z-index: 0;
