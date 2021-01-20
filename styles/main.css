@@ -3718,6 +3718,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     right: 0;
     top: 0;
     bottom: 0;
+    background: #fff;
     width: 552px;
 }
 
@@ -3744,6 +3745,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     text-align: center;
     width: 100%;
     margin-bottom: 5px;
+    margin-top: 100px;
 }
 
 .house-flats-text {
@@ -3795,6 +3797,23 @@ section.range-slider input[type=range]::-moz-focus-outer {
     display: inline-block;
     margin-right: 1px;
     text-align: center;
+    font-family: Room;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+}
+.flat-square.-ts{
+    background: #AAA8AB;
+}
+.flat-square.-t2{
+    background: #5A402E;
+}
+.flat-square.-t3{
+    background: #293F2C;
+}
+.flat-square.-t4{
+    background: #BDA269;
 }
 .flat-square span{
     font-family: Room;
@@ -3807,6 +3826,17 @@ section.range-slider input[type=range]::-moz-focus-outer {
 .floor{
     margin-bottom: 24px;
 }
+.floor-picker-description{
+    color: #232323;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.7;
+    max-width: 455px;
+    margin: 39px auto 0;
+}
 @media (min-width: 1501px) {
     .flat-preview-small .splide__list {
         transform: none !important;
@@ -3817,7 +3847,9 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .menu {
         padding-top: 20px;
     }
-
+    .house-flats {
+        margin-top: 20px;
+    }
     .menu-logo {
         margin-bottom: 30px;
     }
@@ -3983,7 +4015,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .next-title,
     .mini-gallery-current-page,
     .sidebar-title,
-    .flat-visual-zone
+    .flat-visual-zone,
     .gallery-title {
         font-size: 48px;
         line-height: 1;
@@ -3998,6 +4030,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .happy-title, /* 48 */
     .sport-types-title,
     .house-flats,
+    .floor-picker-content-title,
     .building-item-weeks-number {
         font-size: 36px;
         line-height: 1;
