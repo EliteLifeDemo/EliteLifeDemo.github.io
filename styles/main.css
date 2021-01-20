@@ -3182,7 +3182,7 @@ th {
 section.range-slider {
     position: relative;
     text-align: center;
-    height: 25px;
+    padding-top: 25px;
 }
 
 section.range-slider input[type=range] {
@@ -3194,7 +3194,7 @@ section.range-slider input[type=range] {
     background: #f1efef;
     overflow: visible;
     left: 0;
-    top: 2px;
+    top: 7px;
     width: 100%;
     outline: none;
     height: 10px;
@@ -3213,33 +3213,39 @@ section.range-slider input[type=range]::-webkit-slider-thumb {
     height: 25px;
     border-radius: 50%;
     background: #BDA269;
-    border: 5px solid #fff;
+    border: 7px solid #fff;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
 }
 
 section.range-slider input[type=range]::-moz-range-thumb {
+    -moz-appearance: none;
     pointer-events: all;
     position: relative;
-    z-index: 10;
-    -moz-appearance: none;
-    width: 20px;
-    height: 20px;
-    border: none;
-    border-radius: 14px;
-    background-image: linear-gradient(to bottom, #dad8da 0, #413f41 100%);
+    z-index: 1;
+    outline: 0;
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #BDA269;
+    border: 7px solid #fff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
     /* W3C */
 }
 
 section.range-slider input[type=range]::-ms-thumb {
+    -ms-appearance: none;
     pointer-events: all;
     position: relative;
-    z-index: 10;
-    -ms-appearance: none;
-    width: 20px;
-    height: 20px;
-    border-radius: 14px;
-    border: 0;
-    background-image: linear-gradient(to bottom, #dad8da 0, #413f41 100%);
+    z-index: 1;
+    outline: 0;
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #BDA269;
+    border: 7px solid #fff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
     /* W3C */
 }
 
@@ -3283,6 +3289,12 @@ section.range-slider input[type=range]::-moz-focus-outer {
     width: 100%;
 }
 
+.filter-sidebar .contacts-block-phone {
+    flex: 1;
+    padding: 0;
+    justify-content: center;
+}
+
 .features {
     padding: 0 30px;
     margin-top: 5px;
@@ -3311,6 +3323,13 @@ section.range-slider input[type=range]::-moz-focus-outer {
 }
 .filter-section.-params .column:last-child{
     min-width: 35%;
+}
+.rangeValues{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    cursor: #232323;
 }
 
 @media (min-width: 1501px) {
