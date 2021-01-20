@@ -3453,6 +3453,12 @@ section.range-slider input[type=range]::-moz-focus-outer {
 .flat-icon.-kitchen{
     background-image: url("/assets/icons/023-kitchen.svg");
 }
+.price{
+    white-space: nowrap;
+}
+.nowrap{
+    white-space: nowrap;
+}
 .hit .price{
     color: #BDA269;
 }
@@ -3468,17 +3474,66 @@ section.range-slider input[type=range]::-moz-focus-outer {
     right: 0;
 }
 .contacts-block-phone.-icon{
-    padding-left: 57px;
+    padding-left: 70px;
     background-size: 32px;
-    background-position-x: 25px;
+    background-position-x: 20px;
     background-position-y: center;
     background-repeat: no-repeat;
+    justify-content: flex-start;
+    line-height: 1.1;
 }
 .contacts-block-phone.-visual{
     background-image: url("/assets/icons/Compass.svg");
 }
 .contacts-block-phone.-filter{
     background-image: url("/assets/icons/046-settings-white.svg");
+}
+.flats-visual-content{
+    height: 100vh;
+    background-size: cover;
+    background-image: url("/assets/zone-picker.jpg");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.flats-visual-content{
+    height: 100vh;
+    background-size: cover;
+    background-image: url("/assets/zone-picker.jpg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    position: relative;
+}
+.flat-visual-zone{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top left;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+}
+.flat-visual-zone.-z1{
+    background-image: url("/assets/zone-1.png");
+    width: 870px;
+    height: 500px;
+}
+.flat-visual-zone.-z2{
+    background-image: url("/assets/zone-2.png");
+    width: 548px;
+    height: 681px;
+}
+.flat-visual-zone.-z3{
+    background-image: url("/assets/zone-3.png");
+    width: 626px;
+    height: 547px;
+}
+.flat-visual-zone.-z1:hover{
+    background-image: url("/assets/zone-1-hover.png");
+}
+.flat-visual-zone.-z2:hover{
+    background-image: url("/assets/zone-2-hover.png");
+}
+.flat-visual-zone.-z3:hover{
+    background-image: url("/assets/zone-3-hover.png");
 }
 @media (min-width: 1501px) {
     .flat-preview-small .splide__list {
