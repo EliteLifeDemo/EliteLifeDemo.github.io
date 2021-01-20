@@ -3364,10 +3364,16 @@ section.range-slider input[type=range]::-moz-focus-outer {
     font-weight: 500;
     font-size: 14px;
     color: #AAA8AB;
+    border: none;
+    background: transparent;
 }
 .flats-table tr{
     background-color: #fff;
     border-bottom: 10px solid #EDEDED;
+}
+.flats-table thead tr{
+    background-color: transparent;
+    border-bottom: none;
 }
 .flats-table td{
     border-color: transparent;
