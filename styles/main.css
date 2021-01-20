@@ -3356,6 +3356,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
 }
 .flats-table{
     width: 100%;
+    border: none;
 }
 .flats-table th{
     text-align: center;
