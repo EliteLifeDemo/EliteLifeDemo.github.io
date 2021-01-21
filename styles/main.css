@@ -3636,7 +3636,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
 }
 
 .flat-zones-nav-link.active {
-    color: #BDA269;
+    color: #BDA269 !important;
 }
 
 .flat-zones-nav-link span {
@@ -3853,7 +3853,41 @@ section.range-slider input[type=range]::-moz-focus-outer {
     max-width: 455px;
     margin: 39px auto 0;
 }
-
+.nav-section-floor{
+    font-family: Room;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 48px;
+}
+.nav-section-text{
+    font-family: Room;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+}
+.-floor-stage .flat-zones-nav-link{
+    color: #293F2C;
+}
+.-floor-stage .back-button{
+    color: #232323;
+    background-image: url("/assets/icons/black-arrow.svg");
+}
+.-floor-stage .flats-visual-content{
+    background: #F9F7F3;
+}
+.-floor-stage .floor-picker{
+    padding: 30px;
+}
+.-floor-stage .flats-visual-content > .image-holder{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @media (min-width: 1501px) {
     .flat-preview-small .splide__list {
         transform: none !important;
@@ -4053,6 +4087,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .happy-title, /* 48 */
     .sport-types-title,
     .house-flats,
+    .nav-section-floor,
     .floor-picker-content-title,
     .building-item-weeks-number {
         font-size: 36px;
