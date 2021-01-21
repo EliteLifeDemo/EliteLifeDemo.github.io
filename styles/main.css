@@ -3870,9 +3870,10 @@ section.range-slider input[type=range]::-moz-focus-outer {
 }
 .-floor-stage .flat-zones-nav-link{
     color: #293F2C;
+    background-image: url("/assets/icons/right-chevron-green.svg");
 }
 .-floor-stage .flat-zones-nav-link span{
-
+    display: inline-block;
 }
 .-floor-stage .back-button{
     color: #232323;
@@ -3882,7 +3883,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     background: #F9F7F3;
 }
 .-floor-stage .floor-picker{
-    padding: 100px 30px 30px;
+
 }
 .-floor-stage .flats-visual-content > .image-holder{
     position: absolute;
@@ -3899,6 +3900,36 @@ section.range-slider input[type=range]::-moz-focus-outer {
     width: auto;
     max-width: 90%;
     max-height: 90%;
+}
+.flats-row{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E0E0E0;
+    color: #232323;
+    font-family: Room;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+}
+.flats-row.-thead{
+    color: #AAA8AB;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px !important;
+}
+.flats-row >*:first-child{
+    width: 95px;
+    flex: 0 0 95px;
+}
+.flats-row >*:nth-child(3){
+    font-size: 28px;
+}
+.flats-row >*:last-child{
+    width: 200px;
+    flex: 0 0 200px;
+    text-align: center;
+    font-size: 28px;
 }
 @media (min-width: 1501px) {
     .flat-preview-small .splide__list {
