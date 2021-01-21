@@ -3918,13 +3918,14 @@ section.range-slider input[type=range]::-moz-focus-outer {
     border: none;
 }
 .flats-row >*:first-child{
-    width: 95px;
-    flex: 0 0 95px;
+    width: 65px;
+    flex: 0 0 65px;
 }
 .flats-row >*:nth-child(3){
     width: 100px;
     flex: 0 0 100px;
     font-size: 28px;
+    text-align: center;
 }
 .flats-row >*:last-child{
     width: 200px;
@@ -3938,6 +3939,21 @@ section.range-slider input[type=range]::-moz-focus-outer {
     font-style: normal;
     font-weight: 500;
     font-size: 11px !important;
+}
+.-flat-stage .flat-zones-nav-link{
+    background: #fff;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #232323;
+}
+.-flat-stage .flat-zones-nav-link.active{
+    background: #BDA269;
+    color: #fff;
+}
+.-flat-stage .flat-zones-nav{
+    justify-content: stretch;
 }
 @media (min-width: 1501px) {
     .flat-preview-small .splide__list {
