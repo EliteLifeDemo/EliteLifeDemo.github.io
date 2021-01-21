@@ -3623,6 +3623,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     justify-content: space-between;
     max-width: 530px;
     margin: auto;
+    z-index: 1;
 }
 
 .flat-zones-nav-link {
@@ -3720,6 +3721,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     bottom: 0;
     background: #fff;
     width: 552px;
+    z-index: 5;
 }
 
 .picked-section {
@@ -3858,6 +3860,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     font-style: normal;
     font-weight: 100;
     font-size: 48px;
+    margin-right: 5px;
 }
 .nav-section-text{
     font-family: Room;
@@ -3868,6 +3871,9 @@ section.range-slider input[type=range]::-moz-focus-outer {
 .-floor-stage .flat-zones-nav-link{
     color: #293F2C;
 }
+.-floor-stage .flat-zones-nav-link span{
+
+}
 .-floor-stage .back-button{
     color: #232323;
     background-image: url("/assets/icons/black-arrow.svg");
@@ -3876,17 +3882,23 @@ section.range-slider input[type=range]::-moz-focus-outer {
     background: #F9F7F3;
 }
 .-floor-stage .floor-picker{
-    padding: 30px;
+    padding: 100px 30px 30px;
 }
 .-floor-stage .flats-visual-content > .image-holder{
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
+    right: 300px;
     bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: auto;
+}
+.-floor-stage .flats-visual-content > .image-holder img{
+    width: auto;
+    max-width: 90%;
+    max-height: 90%;
 }
 @media (min-width: 1501px) {
     .flat-preview-small .splide__list {
