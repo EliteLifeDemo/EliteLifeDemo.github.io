@@ -3953,7 +3953,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
 }
 .-flat-stage .flat-zones-nav-link.active{
     background: #BDA269;
-    color: #fff;
+    color: #fff !important;
 }
 .-flat-stage .flat-zones-nav{
     justify-content: stretch;
