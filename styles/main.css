@@ -3961,6 +3961,17 @@ section.range-slider input[type=range]::-moz-focus-outer {
 .-flat-stage .flats-visual-content > .image-holder{
     right: 450px;
 }
+.download-link{
+    font-family: Room;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #BDA269;
+    text-decoration: underline;
+}
+.-flat-stage .button{
+    margin-bottom: 30px;
+}
 @media (min-width: 1501px) {
     .flat-preview-small .splide__list {
         transform: none !important;
