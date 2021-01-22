@@ -4991,5 +4991,20 @@ section.range-slider input[type=range]::-moz-focus-outer {
         display: block;
         margin-top: 20px;
         margin-bottom: 20px;
+        padding: 0 15px;
     }
+    .-flat-stage .house-flats-text{
+        margin-top: 15px;
+    }
+    .flat-type{
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    .flat-area{
+        margin-bottom: 12px;
+    }
+    .flat-features{
+        padding: 0 15px;
+    }
+
 }
