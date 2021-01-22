@@ -4715,6 +4715,9 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .footer {
         padding-top: 32px;
     }
+    .lake-view-section{
+        margin-top: 25px;
+    }
     .footer .column{
         margin-right: 0 !important;
         width: 100%;
