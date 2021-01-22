@@ -4367,14 +4367,45 @@ section.range-slider input[type=range]::-moz-focus-outer {
 }
 
 @media (max-width: 1000px) {
-    .flats-section .section-footer{
+    .slide-content-flex{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .slide-footer{
+        padding: 0;
+        right: 0;
+        text-align: center;
+    }
+    .slide-footer .about{
+        background: transparent;
+        padding-bottom: 30px;
+        text-transform: uppercase;
+    }
+    .slide-content{
+        display: flex;
+        align-items: flex-end;
+        padding-bottom: 100px;
+    }
+    .slide-slogan,
+    .menu,
+    .contacts-block,
+    .menu-opener,
+    .flats-section .section-footer,
+    .slide-description,
+    .slide-content-right{
         display: none;
     }
-    .menu-opener{
-        display: none;
+    .main-page-banner .splide__pagination{
+        top: auto;
+        bottom: 300px;
     }
-    .menu{
-        display: none;
+    .main-page-banner .splide__pagination li:after{
+        height: 2px;
+        border-color: #BDA269;
+    }
+    .main-page-banner .splide__pagination li{
+        height: 2px;
+        width: 30px;
     }
 }
 @media (max-width: 1000px) {
