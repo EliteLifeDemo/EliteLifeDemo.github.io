@@ -8,6 +8,9 @@
     font-style: normal;
 }
 
+.mobile-image{
+    display: none;
+}
 body {
     margin: 0;
     color: #232323;
@@ -4985,6 +4988,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
         width: 100%;
     }
     .mobile-image{
+        display: block;
         margin-top: 20px;
         margin-bottom: 20px;
     }
