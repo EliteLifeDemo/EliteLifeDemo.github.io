@@ -2921,6 +2921,8 @@ th {
     color: #fff;
     line-height: 38px;
     padding-bottom: 17px;
+    adding-left: 15px;
+    padding-right: 15px;
 }
 
 .gallery-small-image {
@@ -4398,6 +4400,8 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .menu-opener,
     .flats-section .section-footer,
     .slide-description,
+    .gallery-page .sidebar,
+    .map-hints,
     .slide-content-right{
         display: none;
     }
@@ -4485,6 +4489,24 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
     .choose-flat-button{
         font-size: 14px;
+    }
+    .gallery-page .main-content{
+        height: 100vh;
+    }
+    .gallery-link:hover .gallery-link-image{
+        opacity: 0.8;
+    }
+    .gallery-link{
+        padding-left: 15px;
+    }
+    .additional-page-banner .image-holder{
+        padding-top: 600px;
+    }
+    .map-section{
+        overflow-x: auto;
+    }
+    .map-section .image-holder{
+        width: 1224.58px;
     }
 }
 @media (max-width: 1000px) {

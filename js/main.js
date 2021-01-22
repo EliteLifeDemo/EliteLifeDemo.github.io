@@ -9,32 +9,42 @@ function pageReady() {
     initializeLakeMiniSlider();
     initializeBigGallerySlider();
     menuOpener();
+    scrollConfig();
 }
+
+function scrollConfig() {
+    let map = document.querySelector('.map-section');
+    if(map){
+        map.scrollLeft = 767
+    }
+}
+
 function menuOpener() {
     let menuOpener = document.querySelector('.mobile-menu-link.-menu');
     let menu = document.querySelector('.menu');
-    menuOpener.addEventListener('click',function (e) {
+    menuOpener.addEventListener('click', function (e) {
         e.preventDefault();
-        if(menu){
+        if (menu) {
             menu.style.display = "block"
-        }else{
+        } else {
             location = '/'
         }
     })
 }
+
 function polyfills() {
     if (window.NodeList && !NodeList.prototype.forEach) {
         NodeList.prototype.forEach = Array.prototype.forEach;
     }
     let menuOpener = document.querySelector('.menu-opener-button');
-    menuOpener.addEventListener('click',function () {
+    menuOpener.addEventListener('click', function () {
         location = "/";
     });
 }
 
 function initializeMainBanner() {
     let sliderBox = document.querySelector('.main-page-banner .splide');
-    if(!sliderBox){
+    if (!sliderBox) {
         return
     }
     let slider = new Splide(sliderBox, {
@@ -48,8 +58,8 @@ function initializeMainBanner() {
         heightRatio: 0.5987654321,
         pauseOnHover: false,
         pauseOnFocus: false,
-        breakpoints:{
-            1000:{
+        breakpoints: {
+            1000: {
                 fixedHeight: "600px"
             }
         }
@@ -86,7 +96,7 @@ function normalizePaginationButtons(sliderBox, index) {
 
 function initializeFLatSlider() {
     let previewSlider = document.querySelector('.flat-preview-small');
-    if(!previewSlider || window.outerWidth <= 1000){
+    if (!previewSlider || window.outerWidth <= 1000) {
         return
     }
     var secondarySlider = new Splide(previewSlider, {
@@ -112,9 +122,10 @@ function initializeFLatSlider() {
 // Set the thumbnails slider as a sync target and then call mount.
     primarySlider.sync(secondarySlider).mount();
 }
+
 function initializeBigGallerySlider() {
     let previewSlider = document.querySelector('.gallery-small-image');
-    if(!previewSlider){
+    if (!previewSlider) {
         return
     }
     var secondarySlider = new Splide(previewSlider, {
@@ -126,7 +137,12 @@ function initializeBigGallerySlider() {
         updateOnMove: true,
         waitForTransition: false,
         cover: true,
-        perPage: 5
+        perPage: 5,
+        breakpoints: {
+            1000: {
+                perPage: 2,
+            }
+        }
     }).mount();
 
 // Create the main slider.
@@ -136,16 +152,17 @@ function initializeBigGallerySlider() {
         arrows: false,
         updateOnMove: true,
         waitForTransition: false,
-        cover:true,
+        cover: true,
         width: '100%'
     });
 
 // Set the thumbnails slider as a sync target and then call mount.
     primarySlider.sync(secondarySlider).mount();
 }
+
 function initializeLakeMiniSlider() {
     let slider = document.querySelector('.mini-gallery');
-    if(!slider){
+    if (!slider) {
         return
     }
     var splide = new Splide(slider, {
@@ -161,9 +178,11 @@ function initializeLakeMiniSlider() {
         perPage: 1,
     });
     let currentPageBlock = document.querySelector('.mini-gallery-current-page');
-    function changeNumber(){
+
+    function changeNumber() {
         currentPageBlock.innerHTML = splide.index + 1;
     }
+
     splide.on('moved', function () {
         changeNumber();
     });
@@ -173,26 +192,30 @@ function initializeLakeMiniSlider() {
     splide.mount();
 }
 
-function getVals(){
+function getVals() {
     // Get slider values
     var parent = this.parentNode;
     var slides = parent.getElementsByTagName("input");
-    var slide1 = parseFloat( slides[0].value );
-    var slide2 = parseFloat( slides[1].value );
+    var slide1 = parseFloat(slides[0].value);
+    var slide2 = parseFloat(slides[1].value);
     // Neither slider will clip the other, so make sure we determine which is larger
-    if( slide1 > slide2 ){ var tmp = slide2; slide2 = slide1; slide1 = tmp; }
+    if (slide1 > slide2) {
+        var tmp = slide2;
+        slide2 = slide1;
+        slide1 = tmp;
+    }
 
     var displayElement = parent.getElementsByClassName("rangeValues")[0];
     displayElement.innerHTML = slide1 + " - " + slide2;
 }
 
-window.onload = function(){
+window.onload = function () {
     // Initialize Sliders
     var sliderSections = document.getElementsByClassName("range-slider");
-    for( var x = 0; x < sliderSections.length; x++ ){
+    for (var x = 0; x < sliderSections.length; x++) {
         var sliders = sliderSections[x].getElementsByTagName("input");
-        for( var y = 0; y < sliders.length; y++ ){
-            if( sliders[y].type ==="range" ){
+        for (var y = 0; y < sliders.length; y++) {
+            if (sliders[y].type === "range") {
                 sliders[y].oninput = getVals;
                 // Manually trigger event first time to display values
                 sliders[y].oninput();
