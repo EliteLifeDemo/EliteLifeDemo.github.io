@@ -4482,9 +4482,12 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .slide-description,
     .gallery-page .sidebar,
     .lake-section,
+    .footer-icon.-degrees,
+    .footer-slogan,
     .map-hints,
     .structure-info,
     .happy-description,
+    .footer-links-title,
     .slide-content-right {
         display: none;
     }
@@ -4694,10 +4697,51 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .next-description{
         font-size: 14px;
     }
-    .footer .column:first-child{
-        margin-right: 0;
+    .footer {
+        padding-top: 32px;
+    }
+    .footer .column{
+        margin-right: 0 !important;
         width: 100%;
         display: block;
         flex: 0 0 100%;
+        min-width: 1px;
+        text-align: center;
+    }
+    .footer .column:first-child{
+        order: 3;
+    }
+    .footer-container .flex-block{
+        flex-wrap: wrap;
+    }
+    .best-section .image-holder{
+        width: 1400px;
+    }
+    .next-section .image-holder{
+        max-width: 50%;
+    }
+    .footer .menu-logo{
+        margin: 0 auto 30px;
+    }
+    .footer .social-buttons{
+        justify-content: center;
+    }
+    .footer-links{
+        padding-bottom: 0;
+    }
+    .links-column{
+        order: 2;
+    }
+    .footer-link-main{
+        color: #AAA8AB;
+        font-weight: normal;
+        font-size: 16px;
+    }
+    .footer-credits{
+        position: relative;
+        left: 0;
+        width: auto;
+        margin-bottom: 40px;
+        color: #5B5B5B;
     }
 }
