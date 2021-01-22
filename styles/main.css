@@ -616,6 +616,8 @@ img {
     left: 0;
     right: 0;
     top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .section.-full .section-catch {
@@ -1307,7 +1309,7 @@ img {
     align-items: center;
     max-width: 1500px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
 .section.-rows .section-catch {
@@ -1977,7 +1979,7 @@ img {
 
 .beauty-container {
     max-width: 1680px;
-    padding: 204px 20px 0;
+    padding: 204px 15px 0;
     margin: 160px auto 0;
     position: relative;
 }
@@ -4717,8 +4719,9 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .best-section .image-holder{
         width: 1400px;
     }
-    .next-section .image-holder{
-        max-width: 50%;
+    .next-section .image-holder img{
+        max-height: 110px;
+        width: auto;
     }
     .footer .menu-logo{
         margin: 0 auto 30px;
@@ -4743,5 +4746,30 @@ section.range-slider input[type=range]::-moz-focus-outer {
         width: auto;
         margin-bottom: 40px;
         color: #5B5B5B;
+    }
+    .lake-gallery-section .text-row{
+        padding-left: 0;
+    }
+    .beauty-container .section-header{
+        padding-left: 0;
+        text-align: center !important;
+    }
+    .beauty-container {
+        padding-top: 125px;
+    }
+    .story-section .image-holder{
+        width: 1300px;
+        left: -351px;
+    }
+    .story-section .section-header{
+        padding-top: 40px;
+    }
+    .story-section {
+        padding-top: 120px;
+    }
+    .lake-view-section .happy-text{
+        color: #232323;
+        bottom: 100%;
+        margin-bottom: 10px;
     }
 }

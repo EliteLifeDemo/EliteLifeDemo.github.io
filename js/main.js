@@ -9,14 +9,6 @@ function pageReady() {
     initializeLakeMiniSlider();
     initializeBigGallerySlider();
     menuOpener();
-    scrollConfig();
-}
-
-function scrollConfig() {
-    let map = document.querySelector('.map-section');
-    if(map){
-        map.scrollLeft = 767
-    }
 }
 
 function menuOpener() {
@@ -176,6 +168,13 @@ function initializeLakeMiniSlider() {
         cover: true,
         lazyLoad: true,
         perPage: 1,
+        breakpoints: {
+            1000: {
+                heightRatio: 1,
+                height: 0,
+                fixedWidth: 0
+            }
+        }
     });
     let currentPageBlock = document.querySelector('.mini-gallery-current-page');
 
@@ -209,6 +208,12 @@ function getVals() {
     displayElement.innerHTML = slide1 + " - " + slide2;
 }
 
+function scrollConfig() {
+    let map = document.querySelector('.map-section');
+    if (map) {
+        map.scrollLeft = 767
+    }
+}
 window.onload = function () {
     // Initialize Sliders
     var sliderSections = document.getElementsByClassName("range-slider");
@@ -222,4 +227,5 @@ window.onload = function () {
             }
         }
     }
+    scrollConfig();
 }
