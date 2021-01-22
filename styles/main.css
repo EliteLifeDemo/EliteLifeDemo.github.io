@@ -4901,4 +4901,16 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .sport-types-section .flex-block{
         flex-wrap: wrap;
     }
+    .contacts-page .article-image{
+        margin: 0 -20px 0;
+        height: 200px;
+    }
+    .contacts-page .main-content{
+        padding-bottom: 0;
+        order: -1;
+        padding-top: 0;
+    }
+    .contacts-page .site-content-wrapper .flex-block{
+        height: 100vh;
+    }
 }
