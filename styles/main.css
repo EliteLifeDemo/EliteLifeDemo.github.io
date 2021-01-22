@@ -4390,6 +4390,8 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .slide-slogan,
     .menu,
     .contacts-block,
+    .city-view-section .section-footer,
+    .city-view-section .section-header,
     .menu-opener,
     .flats-section .section-footer,
     .slide-description,
@@ -4406,6 +4408,9 @@ section.range-slider input[type=range]::-moz-focus-outer {
         height: 2px;
         border-color: #BDA269;
     }
+    .main-page-banner .splide__pagination button{
+        height: 2px;
+    }
     .main-page-banner .splide__pagination li{
         height: 2px;
         width: 30px;
@@ -4414,6 +4419,21 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
     .slide-content-left{
         max-width: 100%;
+    }
+    .city-view-section{
+        overflow-x: auto;
+    }
+    .city-view-section .image-holder{
+        width: 900px;
+    }
+    .distances-info{
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow-x: auto;
+        padding: 0 15px;
+    }
+    .distances-description{
+        padding: 0 15px;
     }
 }
 @media (max-width: 1000px) {
