@@ -1,4 +1,4 @@
-if(location.pathname === '/flats.html'){
+if(location.pathname === '/flats.html' &&  window.outerWidth <= 1000){
     location = '/flats-filter.html'
 }
 document.addEventListener('DOMContentLoaded', function () {
