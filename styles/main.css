@@ -4960,21 +4960,18 @@ section.range-slider input[type=range]::-moz-focus-outer {
     section.range-slider input[type=range]::-webkit-slider-thumb {
         width: 10px;
         height: 10px;
-        border-radius: 0;
         border: none;
     }
 
     section.range-slider input[type=range]::-moz-range-thumb {
         width: 10px;
         height: 10px;
-        border-radius: 0;
         border: none;
     }
 
     section.range-slider input[type=range]::-ms-thumb {
         width: 10px;
         height: 10px;
-        border-radius: 0;
         border: none;
     }
 }

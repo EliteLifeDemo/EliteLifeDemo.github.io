@@ -38,10 +38,11 @@ function polyfills() {
 function flatLinks() {
     let flatLinks = document.querySelectorAll('[data-flat-link]');
     flatLinks.forEach(function (link) {
+        let href = link.getAttribute('data-flat-link');
         link.addEventListener('click', function (e) {
-            location = e.target.getAttribute('data-flat-link')
-        })
-    })
+            location = href
+        });
+    });
 }
 
 function initializeMainBanner() {
