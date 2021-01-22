@@ -4405,6 +4405,48 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
 }
 
+
+@media (max-width: 1000px) {
+    .slide-title {
+        font-size: 64px;
+    }
+
+    .additional-page-title,
+    .building-year,
+    .flat-zones-title {
+        font-size: 64px;
+    }
+
+    .section.-full .section-title, /*64*/
+    .distances-number,
+    .structure-title,
+    .next-title,
+    .mini-gallery-current-page,
+    .sidebar-title,
+    .flat-visual-zone,
+    .flat-area-number,
+    .gallery-title {
+        font-size: 36px;
+    }
+
+    .section.-rows .section-title,
+    .preview-number {
+        font-size: 36px;
+        line-height: 1;
+    }
+
+    .happy-title, /* 48 */
+    .sport-types-title,
+    .house-flats,
+    .nav-section-floor,
+    .floor-picker-content-title,
+    .building-item-weeks-number {
+        font-size: 36px;
+        line-height: 1;
+    }
+
+}
+
 @media (max-width: 1000px) {
     .slide-content-flex {
         padding-left: 15px;
@@ -4658,45 +4700,4 @@ section.range-slider input[type=range]::-moz-focus-outer {
         display: block;
         flex: 0 0 100%;
     }
-}
-
-@media (max-width: 1000px) {
-    .slide-title {
-        font-size: 64px;
-    }
-
-    .additional-page-title,
-    .building-year,
-    .flat-zones-title {
-        font-size: 64px;
-    }
-
-    .section.-full .section-title, /*64*/
-    .distances-number,
-    .structure-title,
-    .next-title,
-    .mini-gallery-current-page,
-    .sidebar-title,
-    .flat-visual-zone,
-    .flat-area-number,
-    .gallery-title {
-        font-size: 36px;
-    }
-
-    .section.-rows .section-title,
-    .preview-number {
-        font-size: 36px;
-        line-height: 1;
-    }
-
-    .happy-title, /* 48 */
-    .sport-types-title,
-    .house-flats,
-    .nav-section-floor,
-    .floor-picker-content-title,
-    .building-item-weeks-number {
-        font-size: 36px;
-        line-height: 1;
-    }
-
 }
