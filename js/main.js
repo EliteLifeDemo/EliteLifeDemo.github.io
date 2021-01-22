@@ -8,6 +8,12 @@ function pageReady() {
     initializeFLatSlider();
     initializeLakeMiniSlider();
     initializeBigGallerySlider();
+    let menuOpener = document.querySelector('.mobile-menu-link.-menu');
+    let menu = document.querySelector('.menu');
+    menuOpener.addEventListener('click',function (e) {
+        e.preventDefault();
+        menu.style.display = "block"
+    })
 }
 
 function polyfills() {

@@ -4036,6 +4036,9 @@ section.range-slider input[type=range]::-moz-focus-outer {
     text-transform: uppercase;
     text-align: center;
 }
+.mobile-menu{
+    display: none;
+}
 @media (min-width: 1501px) {
     .flat-preview-small .splide__list {
         transform: none !important;
@@ -4434,6 +4437,35 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
     .distances-description{
         padding: 0 15px;
+    }
+    .mobile-menu{
+        display: flex;
+        background: #293F2C;
+        padding: 13px 26px;
+        justify-content: space-between;
+    }
+    .mobile-menu-link{
+        width: 32px;
+        height: 32px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: block;
+    }
+    .mobile-menu-link.-place{
+        background-image: url("/assets/icons/Mob/placeholder.svg");
+    }
+    .mobile-menu-link.-contacts{
+        background-image: url("/assets/icons/Mob/phone-call.svg");
+    }
+    .mobile-menu-link.-gallery{
+        background-image: url("/assets/icons/Mob/panorama.svg");
+    }
+    .mobile-menu-link.-main{
+        background-image: url("/assets/menu-logo-mini.png");
+    }
+    .mobile-menu-link.-menu{
+        background-image: url("/assets/icons/Mob/Menu.svg");
     }
 }
 @media (max-width: 1000px) {
