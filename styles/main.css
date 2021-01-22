@@ -4489,6 +4489,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .footer-icon.-degrees,
     .footer-slogan,
     .map-hints,
+    .sport-season-section .image-holder-text,
     .structure-info,
     .happy-description,
     .footer-links-title,
@@ -4833,6 +4834,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
         padding: 0;
         background: transparent;
         margin-bottom: 60px;
+        flex-wrap: wrap;
     }
     .building-item-text{
         width: 100%;
@@ -4865,6 +4867,38 @@ section.range-slider input[type=range]::-moz-focus-outer {
         padding: 0;
         margin: 0;
     }
-
-
+    .article-title{
+        color: #fff;
+    }
+    .additional-page-title{
+        padding: 0 5px;
+        word-break: break-word;
+    }
+    .additional-page-content .distances-info{
+        padding: 0 20px;
+    }
+    .sport-distances .distances-info-block{
+        margin-right: 20px;
+    }
+    .sport-walk-section .section-header{
+        color: #fff !important;
+        padding-top: 100px;
+    }
+    .sport-walk-section .image-holder{
+        width: 1000px;
+        left: -200px;
+    }
+    .sport-season-section .flex-block.-half{
+        flex-wrap: nowrap;
+    }
+    .sport-season-section .flex-block.-half > *{
+        margin-top: 0;
+    }
+    .sport-types-section .column{
+        min-width: 100%;
+        margin: 0 0 15px;
+    }
+    .sport-types-section .flex-block{
+        flex-wrap: wrap;
+    }
 }
