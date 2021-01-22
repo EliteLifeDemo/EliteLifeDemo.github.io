@@ -8,14 +8,20 @@ function pageReady() {
     initializeFLatSlider();
     initializeLakeMiniSlider();
     initializeBigGallerySlider();
+    menuOpener();
+}
+function menuOpener() {
     let menuOpener = document.querySelector('.mobile-menu-link.-menu');
     let menu = document.querySelector('.menu');
     menuOpener.addEventListener('click',function (e) {
         e.preventDefault();
-        menu.style.display = "block"
+        if(menu){
+            menu.style.display = "block"
+        }else{
+            location = '/'
+        }
     })
 }
-
 function polyfills() {
     if (window.NodeList && !NodeList.prototype.forEach) {
         NodeList.prototype.forEach = Array.prototype.forEach;
