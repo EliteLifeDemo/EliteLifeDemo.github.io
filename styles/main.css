@@ -4819,13 +4819,13 @@ section.range-slider input[type=range]::-moz-focus-outer {
         flex-wrap: wrap;
     }
     .-m-hidden{
-        display: none;
+        display: none !important;
     }
     .main-content{
         padding: 30px 20px;
     }
     .building-background{
-        display: none;
+        display: none !important;
     }
     .building-content-wrapper{
         background-color: #293F2C;
@@ -4914,17 +4914,40 @@ section.range-slider input[type=range]::-moz-focus-outer {
         height: 100vh;
     }
     .filter-sidebar{
-        display: none;
+        display: none !important;
     }
     .flats-table td:first-child,
     .flats-table td:nth-child(2),
     .flats-table th:nth-child(2),
-    .flats-table td:nth-child(4),
-    .flats-table th:nth-child(4),
+    .flats-table td:nth-child(5),
+    .flats-table th:nth-child(5),
     .flats-table th:first-child{
         display: none;
     }
     .hit td:nth-child(3):before{
         border-left-width: 2px;
+    }
+    .flats-found{
+        padding-left: 15px;
+    }
+    .flats-block{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .filter-section.-params .column:first-child{
+        display: none !important;
+    }
+    .filter-section.-params .column:nth-child(2){
+        display: none !important;
+    }
+    .filter-section.-params .column:last-child{
+        width: 100%;
+        flex: 0 0 100%;
+    }
+    .filter-section.-params{
+        background: #293F2C;
+        border-color: #45694A;
+        padding-right: 15px;
+        padding-left: 15px;
     }
 }
