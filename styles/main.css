@@ -4034,6 +4034,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     color: #AAA8AB;
     text-transform: uppercase;
     margin-bottom: 10px;
+    text-align: center;
 }
 @media (min-width: 1501px) {
     .flat-preview-small .splide__list {
