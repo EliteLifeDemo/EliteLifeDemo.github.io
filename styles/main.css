@@ -4978,4 +4978,14 @@ section.range-slider input[type=range]::-moz-focus-outer {
         padding-right: 4px;
         padding-left: 4px;
     }
+    .-floor-stage .floor-picker{
+        width: 100%;
+    }
+    .picked-section{
+        width: 100%;
+    }
+    .mobile-image{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
