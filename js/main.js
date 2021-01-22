@@ -1,3 +1,6 @@
+if(location.pathname === '/flats.html'){
+    location = '/flats-filter.html'
+}
 document.addEventListener('DOMContentLoaded', function () {
     pageReady();
 });
