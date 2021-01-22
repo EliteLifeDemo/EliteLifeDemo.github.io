@@ -4698,6 +4698,9 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .next-title:before{
         display: none;
     }
+    .distances-info-description{
+        min-height: 44px;
+    }
     .next-text{
         left: 0;
         right: 0;
