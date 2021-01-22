@@ -3975,6 +3975,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
 }
 .-flat-stage .house-flats-text{
     margin-top: 50px;
+    margin-bottom: 0;
 }
 .flat-area{
     text-align: center;
