@@ -4848,6 +4848,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
         height: 200px;
         margin-left: 0;
         margin-bottom: 12px;
+        background-size: cover;
     }
     .building-item-weeks-text{
         color: #fff;
