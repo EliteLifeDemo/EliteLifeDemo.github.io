@@ -170,6 +170,7 @@ function initializeLakeMiniSlider() {
         perPage: 1,
         breakpoints: {
             1000: {
+                height: 0,
                 heightRatio: 1,
                 width:"100%",
                 fixedWidth: "100%"

@@ -4772,4 +4772,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
         bottom: 100%;
         margin-bottom: 10px;
     }
+    .lake-gallery-section .button.image-cell{
+        width: 100%;
+    }
 }
