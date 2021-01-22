@@ -3959,7 +3959,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     justify-content: stretch;
 }
 .-flat-stage .flats-visual-content > .image-holder{
-    right: 450px;
+    right: 530px;
 }
 .download-link{
     font-family: Room;
@@ -4034,7 +4034,6 @@ section.range-slider input[type=range]::-moz-focus-outer {
     font-size: 9px;
     color: #AAA8AB;
     text-transform: uppercase;
-    margin-bottom: 10px;
     text-align: center;
 }
 @media (min-width: 1501px) {
@@ -4202,6 +4201,10 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .gallery-link {
         padding-left: 80px;
     }
+    .-flat-stage .flat-zones-nav{
+        right: 320px;
+        max-width: 425px;
+    }
 }
 
 @media (max-width: 1450px) {
@@ -4335,6 +4338,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .flat-choice-description,
     .feature-title,
     .house-flats-text,
+    .-flat-stage .flat-zones-nav-link,
     .picked-section,
     .old-price,
     .filter-section.-switcher .switcher-label,
