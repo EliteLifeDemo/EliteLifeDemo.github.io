@@ -36,6 +36,11 @@ function initializeMainBanner() {
         heightRatio: 0.5987654321,
         pauseOnHover: false,
         pauseOnFocus: false,
+        breakpoints:{
+            1000:{
+                fixedHeight: "600px"
+            }
+        }
     });
     slider.on('moved', function (newIndex) {
         normalizePaginationButtons(sliderBox, newIndex);
@@ -69,7 +74,7 @@ function normalizePaginationButtons(sliderBox, index) {
 
 function initializeFLatSlider() {
     let previewSlider = document.querySelector('.flat-preview-small');
-    if(!previewSlider){
+    if(!previewSlider || window.outerWidth <= 1000){
         return
     }
     var secondarySlider = new Splide(previewSlider, {

@@ -4366,8 +4366,165 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
 }
 
-@media (max-width: 767px) {
-    .menu {
-        width: 100%
+@media (max-width: 1000px) {
+    .flats-section .section-footer{
+        display: none;
+    }
+}
+@media (max-width: 1000px) {
+    .slide-title {
+        font-size: 64px;
+    }
+
+    .additional-page-title,
+    .building-year,
+    .flat-zones-title {
+        font-size: 64px;
+    }
+
+    .section.-full .section-title, /*64*/
+    .distances-number,
+    .structure-title,
+    .next-title,
+    .mini-gallery-current-page,
+    .sidebar-title,
+    .flat-visual-zone,
+    .flat-area-number,
+    .gallery-title {
+        font-size: 48px;
+    }
+
+    .section.-rows .section-title,
+    .preview-number {
+        font-size: 40px;
+        line-height: 1;
+    }
+
+    .happy-title, /* 48 */
+    .sport-types-title,
+    .house-flats,
+    .nav-section-floor,
+    .floor-picker-content-title,
+    .building-item-weeks-number {
+        font-size: 36px;
+        line-height: 1;
+    }
+
+    .additional-title {
+        font-size: 30px;
+        line-height: 1;
+    }
+
+    .mini-gallery-pages-of,
+    .flat-choice-title,
+    .building-text {
+        font-size: 27px;
+        line-height: 1;
+    }
+
+    .sport-season-section .image-holder-text {
+        font-size: 23px;
+        line-height: 1.4;
+    }
+
+    .slide-description,
+    .flat-preview-small-type,
+    .big-image-title {
+        line-height: 1.4;
+        font-size: 21px;
+    }
+
+    .menu-opener-button, /*24*/
+    .section.-full .section-description,
+    .detail-unit,
+    .switcher-label,
+    .distances-description,
+    .lake-section-text,
+    .happy-description,
+    .section.-rows .section-description,
+    .next-description,
+    .footer-phone,
+    .prefooter-text,
+    .space-text-section,
+    .sport-distances .distances-unit,
+    .article-h2,
+    .flat-area-unit,
+    .article-h1 {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .contacts-block-phone,
+    .city-view-point,
+    .footer-info {
+        line-height: 1.4;
+        font-size: 16px;
+    }
+
+    .button.-green, /* 18px */
+    .slide-slogan,
+    .slide-footer .about,
+    .section.-full .section-catch,
+    .detail-description,
+    .distances-unit,
+    .distances-visual-text,
+    .distances-info-description,
+    .structure-info-text,
+    .flat-preview-small-description,
+    .text-upper,
+    .preview-unit, .preview-from,
+    .preview-description,
+    .hint,
+    .hints-header,
+    .happy-catch,
+    .lake-gallery-description,
+    .lake-gallery-unit,
+    .sport-types-description,
+    .main-content,
+    .article-title,
+    .building-nav a,
+    .rangeValues,
+    .field--option-title,
+    .flats-found,
+    .building-item-photos {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .section.-rows .section-catch, /* 16px */
+    .preview-property,
+    .footer-link-main,
+    .up-link,
+    td,
+    .button-alternate,
+    .gallery-catch,
+    .flat-choice-description,
+    .feature-title,
+    .house-flats-text,
+    .-flat-stage .flat-zones-nav-link,
+    .picked-section,
+    .old-price,
+    .filter-section.-switcher .switcher-label,
+    .range-title,
+    .footer-slogan {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+    .button,
+    .menu-links,
+    .scroll-hint,
+    .footer-links-title,
+    .footer-special-link,
+    .nav-button,
+    .building-item-period,
+    .building-item-weeks-text {
+        font-size: 13px;
+        line-height: 1.1;
+    }
+
+    .menu-footer-info,
+    th {
+        font-size: 12px;
     }
 }
