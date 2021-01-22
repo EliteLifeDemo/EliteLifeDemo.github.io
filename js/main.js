@@ -214,6 +214,10 @@ function scrollConfig() {
     if (map) {
         map.scrollLeft = 767
     }
+    let spaceLine = document.querySelector('.space-line-section');
+    if (spaceLine) {
+        spaceLine.scrollLeft = 272
+    }
 }
 window.onload = function () {
     // Initialize Sliders

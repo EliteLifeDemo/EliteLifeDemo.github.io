@@ -670,6 +670,8 @@ img {
     text-align: center;
     color: #fff;
     z-index: 2;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .detail-info {
@@ -2011,9 +2013,9 @@ img {
     font-size: 24px;
     color: #232323;
     line-height: 37px;
-    padding-bottom: 28px;
     margin-bottom: 52px;
     position: relative;
+    padding: 0 15px 28px;
 }
 
 .prefooter-text:before {
@@ -4668,9 +4670,6 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .flex-block.-half {
         flex-wrap: wrap;
     }
-    .architecture-section .image-holder{
-        width: 1000px;
-    }
     .section.flats-section{
         padding-bottom: 0;
     }
@@ -4774,5 +4773,17 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
     .lake-gallery-section .button.image-cell{
         width: 100%;
+    }
+    .architecture-section .image-holder,
+    .space-line-section .image-holder,
+    .space-beauty-section .image-holder,
+    .fountain-section .image-holder {
+        width: 1000px;
+    }
+    .space-line-section{
+        overflow-x: auto;
+    }
+    .tree-types-section .image-wrapper{
+        padding: 0;
     }
 }
