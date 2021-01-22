@@ -4797,8 +4797,18 @@ section.range-slider input[type=range]::-moz-focus-outer {
         color: #fff;
         padding-bottom: 0;
     }
+    .sidebar-title{
+        margin-bottom: 60px;
+    }
+    .nav{
+        overflow-x: auto;
+        display: block;
+        white-space: nowrap;
+    }
     .nav-button{
         color: #BDA269;
+        white-space: nowrap;
+        display: inline-block;
     }
     .flex-block.-mobile-wrap{
         flex-wrap: wrap;
