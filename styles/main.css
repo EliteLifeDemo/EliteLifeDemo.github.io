@@ -4913,4 +4913,18 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .contacts-page .site-content-wrapper .flex-block{
         height: 100vh;
     }
+    .filter-sidebar{
+        display: none;
+    }
+    .flats-table td:first-child,
+    .flats-table td:nth-child(2),
+    .flats-table th:nth-child(2),
+    .flats-table td:nth-child(4),
+    .flats-table th:nth-child(4),
+    .flats-table th:first-child{
+        display: none;
+    }
+    .hit td:nth-child(3):before{
+        border-left-width: 2px;
+    }
 }
