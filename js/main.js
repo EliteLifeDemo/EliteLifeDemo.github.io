@@ -9,6 +9,7 @@ function pageReady() {
     initializeLakeMiniSlider();
     initializeBigGallerySlider();
     menuOpener();
+    flatLinks();
 }
 
 function menuOpener() {
@@ -32,6 +33,15 @@ function polyfills() {
     menuOpener.addEventListener('click', function () {
         location = "/";
     });
+}
+
+function flatLinks() {
+    let flatLinks = document.querySelectorAll('[data-flat-link]');
+    flatLinks.forEach(function (link) {
+        link.addEventListener('click', function (e) {
+            location = e.target.getAttribute('data-flat-link')
+        })
+    })
 }
 
 function initializeMainBanner() {

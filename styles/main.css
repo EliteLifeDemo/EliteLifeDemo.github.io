@@ -3386,11 +3386,12 @@ section.range-slider input[type=range]::-moz-focus-outer {
     background: transparent;
 }
 
-.flats-table tr, .flats-table a {
+.flats-table tr {
     background-color: #fff;
     border-bottom: 10px solid #EDEDED;
     position: relative;
     display: table-row;
+    cursor: pointer;
 }
 
 .flats-table thead tr {
