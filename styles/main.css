@@ -4484,7 +4484,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
         padding: 10px 0;
     }
     .choose-flat-button{
-        font-size: 18px;
+        font-size: 14px;
     }
 }
 @media (max-width: 1000px) {
