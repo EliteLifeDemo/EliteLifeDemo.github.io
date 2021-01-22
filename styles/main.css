@@ -3968,9 +3968,72 @@ section.range-slider input[type=range]::-moz-focus-outer {
     font-size: 18px;
     color: #BDA269;
     text-decoration: underline;
+    text-transform: uppercase;
 }
 .-flat-stage .button{
     margin-bottom: 30px;
+}
+.-flat-stage .house-flats-text{
+    margin-top: 50px;
+}
+.flat-area{
+    text-align: center;
+    margin-bottom: 24px;
+    color: #293F2C;
+}
+.flat-area-number{
+    font-family: Room;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 64px;
+}
+.flat-area-unit{
+    font-family: Room;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+.flat-type{
+    font-family: Room;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #232323;
+    text-align: center;
+    margin-bottom: 36px;
+}
+.flat-features{
+    display: flex;
+    justify-content: stretch;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 33px;
+}
+.flat-feature{
+    width: 33.333%;
+    flex: 0 0 33.333%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.flat-feature .flat-icon{
+    margin-right: 0;
+    margin-bottom: 18px;
+}
+.flat-feature-text{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #232323;
+}
+.flat-price-text{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    color: #AAA8AB;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 @media (min-width: 1501px) {
     .flat-preview-small .splide__list {
@@ -4150,13 +4213,14 @@ section.range-slider input[type=range]::-moz-focus-outer {
         font-size: 72px;
     }
 
-    .section.-full .section-title,
+    .section.-full .section-title, /*64*/
     .distances-number,
     .structure-title,
     .next-title,
     .mini-gallery-current-page,
     .sidebar-title,
     .flat-visual-zone,
+    .flat-area-number,
     .gallery-title {
         font-size: 48px;
         line-height: 1;
@@ -4202,7 +4266,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
         font-size: 21px;
     }
 
-    .menu-opener-button,
+    .menu-opener-button, /*24*/
     .section.-full .section-description,
     .detail-unit,
     .switcher-label,
@@ -4216,6 +4280,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .space-text-section,
     .sport-distances .distances-unit,
     .article-h2,
+    .flat-area-unit,
     .article-h1 {
         font-size: 18px;
         line-height: 1.5;
