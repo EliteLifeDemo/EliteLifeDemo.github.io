@@ -4675,6 +4675,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
 
     .image-wrapper:last-child {
         order: -1;
+        margin-top: 50px;
     }
 
     .flex-block.-half {
