@@ -4370,6 +4370,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .slide-content-flex{
         padding-left: 15px;
         padding-right: 15px;
+        word-break: break-word;
     }
     .slide-footer{
         padding: 0;
@@ -4398,6 +4399,8 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .main-page-banner .splide__pagination{
         top: auto;
         bottom: 300px;
+        justify-content: flex-start;
+        padding-left: 15px;
     }
     .main-page-banner .splide__pagination li:after{
         height: 2px;
@@ -4406,6 +4409,11 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .main-page-banner .splide__pagination li{
         height: 2px;
         width: 30px;
+        margin-right: 2px;
+        padding-right: 30px;
+    }
+    .slide-content-left{
+        max-width: 100%;
     }
 }
 @media (max-width: 1000px) {
