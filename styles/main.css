@@ -4741,6 +4741,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
     .footer {
         padding: 32px 15px 0;
+        position: relative;
     }
     .lake-view-section{
         margin-top: 25px;
@@ -4774,7 +4775,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
         flex-direction: column;
         align-items: center;
         margin-bottom: 0;
-        height: 100%;
+
     }
     .footer .social-button{
         margin: 0;
@@ -4797,11 +4798,15 @@ section.range-slider input[type=range]::-moz-focus-outer {
         width: 50%;
         flex: 0 0 50%;
         border-left: 1px solid #AAA8AB;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .footer-link-main{
         color: #AAA8AB;
         font-weight: normal;
         font-size: 16px;
+        padding-right: 10px;
     }
     .footer-credits{
         position: absolute;
@@ -5234,6 +5239,10 @@ section.range-slider input[type=range]::-moz-focus-outer {
         padding: 0;
         position: absolute;
         width: 1px;
+        display: block;
+    }
+    .mobile-table th {
+        display: block;
     }
 
     .mobile-table tr {
@@ -5380,5 +5389,9 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
     .collapser.-private:before{
         background-image: url("/assets/icons/Mob/002-bench.svg");
+    }
+    .menu-footer{
+        position: relative;
+        padding-top: 10px;
     }
 }
