@@ -4612,7 +4612,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
         background-image: url("/assets/icons/Mob/Menu.svg");
     }
     .first-rows{
-        padding-top: 0;
+        padding-top: 0 !important;
     }
     .menu {
         position: fixed;
