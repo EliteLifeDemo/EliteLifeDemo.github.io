@@ -4722,6 +4722,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
     .distances-info-description{
         min-height: 44px;
+        margin-bottom: 37px;
     }
     .next-text{
         left: 0;
@@ -4996,6 +4997,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
         min-height: 100vh;
     }
     .filter-sidebar,
+    .distances-visual,
     .flats-table td:first-child,
     .flats-table td:nth-child(2),
     .flats-table th:nth-child(2),
@@ -5176,7 +5178,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
     .mobile-scroller.-special-1{
         background-image: url("/assets/scroller-special-1.png");
-        padding-top: 1px;
+        padding-top: 2px;
         padding-bottom: 0;
         background-size: auto;
     }
