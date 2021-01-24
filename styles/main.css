@@ -5228,30 +5228,37 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
 
     .mobile-table tr {
-        border-bottom: 3px solid #ddd;
         display: block;
-        margin-bottom: .625em;
     }
 
     .mobile-table td {
-        border-bottom: 1px solid #ddd;
         display: block;
-        font-size: .8em;
-        text-align: right;
+        text-align: center;
+        padding-bottom: 11px;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        color: #232323;
+        border-top-width: 0;
+    }
+
+    .mobile-table td:first-child {
+        border-top-width: 1px;
     }
 
     .mobile-table td::before {
-        /*
-        * aria-label has no advantage, it won't be read inside a table
-        content: attr(aria-label);
-        */
         content: attr(data-label);
-        float: left;
-        font-weight: bold;
-        text-transform: uppercase;
-    }
-
-    .mobile-table td:last-child {
-        border-bottom: 0;
+        display: block;
+        width: 100%;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        margin-bottom: 11px;
+        border-bottom: 1px solid #AAA8AB;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: #828282;
     }
 }
