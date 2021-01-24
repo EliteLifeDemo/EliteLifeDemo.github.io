@@ -5261,6 +5261,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .mobile-tables-wrapper{
         display: flex;
         overflow-x: auto;
+        position: relative;
     }
     .mobile-table-wrapper{
         min-width: 100%;
