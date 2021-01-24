@@ -5241,6 +5241,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
         font-size: 18px;
         color: #232323;
         border-top-width: 0;
+        padding: 0 0 11px;
     }
 
     .mobile-table td:first-child {
