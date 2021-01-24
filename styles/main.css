@@ -5173,11 +5173,21 @@ section.range-slider input[type=range]::-moz-focus-outer {
         visibility: visible;
         transition: opacity .4s ease, visibility .4s ease;
     }
+    .mobile-scroller.-special-1{
+        background-image: url("/assets/scroller-special-1.png");
+        padding-top: 1px;
+        padding-bottom: 0;
+        background-size: auto;
+    }
     .mobile-scroller.gold{
         color: #BDA269;
     }
     .mobile-scroller.scrolled{
         opacity: 0;
         visibility: hidden;
+    }
+    .site-content-wrapper{
+        flex: 0 0 100%;
+        width: 100%;
     }
 }
