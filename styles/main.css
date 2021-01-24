@@ -5317,6 +5317,9 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .sport-walk-section .section-header .section-catch{
         color: #fff;
     }
+    .sport-walk-section .section-header .section-description{
+        display: none;
+    }
     .mobile-scroller.gold{
         color: #BDA269;
     }
@@ -5612,13 +5615,16 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .old-price{
         display: none;
     }
-    .section.sport-types-section .section-header{
+    .section.-mobile-left .section-header{
         text-align: left;
     }
-    .section.sport-types-section .section-title{
+    .section.-mobile-left .section-title{
         padding: 0;
     }
-    .section.sport-types-section .section-title:before{
+    .section.-mobile-left .section-title:before{
         display: none;
+    }
+    .mobile-relative{
+        position: relative !important;
     }
 }
