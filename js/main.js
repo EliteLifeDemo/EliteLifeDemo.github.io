@@ -21,7 +21,7 @@ function menuOpener() {
     menuOpener.addEventListener('click', function (e) {
         e.preventDefault();
         if (menu) {
-            menu.style.display = "block !important";
+            menu.style.cssText = "display:block !important";
             document.body.style.overflow = "hidden";
         } else {
             location = '/'
