@@ -13,6 +13,7 @@ function pageReady() {
     initializeBigGallerySlider();
     menuOpener();
     flatLinks();
+    togglers();
 }
 
 function menuOpener() {
@@ -36,6 +37,21 @@ function polyfills() {
     let menuOpener = document.querySelector('.menu-opener-button');
     menuOpener.addEventListener('click', function () {
         location = "/";
+    });
+}
+
+function togglers() {
+    let toggleButtons = document.querySelectorAll('[data-toggle-target]');
+    toggleButtons.forEach(function (button) {
+        let selector = button.getAttribute('data-toggle-target');
+        let element = document.querySelector(selector);
+        let siblings = element.parentElement.querySelectorAll('.toggled');
+        button.addEventListener('click', function (e) {
+            siblings.forEach(function (el) {
+                el.classList.remove('active')
+            });
+            element.classList.add('active')
+        });
     });
 }
 
