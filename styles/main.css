@@ -5239,7 +5239,8 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
 
     .mobile-table tr {
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .mobile-table tbody {
@@ -5256,6 +5257,8 @@ section.range-slider input[type=range]::-moz-focus-outer {
         color: #232323;
         border-top-width: 0;
         padding: 0 0 11px;
+        flex: 0 0 100%;
+        width: 100%;
     }
 
     .mobile-table td:first-child {
