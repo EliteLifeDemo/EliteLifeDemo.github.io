@@ -7,7 +7,9 @@
     outline: none;
     font-style: normal;
 }
-
+.mobile-only{
+    display: none;
+}
 .mobile-image{
     display: none;
 }
@@ -4456,6 +4458,9 @@ section.range-slider input[type=range]::-moz-focus-outer {
 }
 
 @media (max-width: 1000px) {
+    .mobile-only{
+        display: block;
+    }
     .slide-content-flex {
         padding-left: 15px;
         padding-right: 15px;
@@ -4503,7 +4508,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .building-item-weeks:before,
     .building-nav,
     .slide-content-right {
-        display: none;
+        display: none !important;
     }
 
     .main-page-banner .splide__pagination {
