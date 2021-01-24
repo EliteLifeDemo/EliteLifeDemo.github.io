@@ -2960,6 +2960,7 @@ th {
 .big-gallery-page-content {
     height: 100vh;
     padding-top: 0 !important;
+    position: relative;
 }
 
 .footer-info-column {
@@ -4562,6 +4563,11 @@ section.range-slider input[type=range]::-moz-focus-outer {
         background: #293F2C;
         padding: 13px 26px;
         justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 13413;
     }
 
     .mobile-menu-link {
@@ -5018,5 +5024,19 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .flat-features{
         padding: 0 15px;
     }
-
+    body{
+        padding-top: 58px;
+    }
+    .close-gallery{
+        width: 33px;
+        height: 33px;
+        color: #BDA269;
+        background-color: #293F2C;
+        font-size: 20px;
+        line-height: 33px;
+        position: absolute;
+        top: 8px;
+        right: 15px;
+        z-index: 3333;
+    }
 }
