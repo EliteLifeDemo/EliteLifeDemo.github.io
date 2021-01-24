@@ -5261,4 +5261,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
         font-size: 18px;
         color: #828282;
     }
+    .mobile-tables-wrapper{
+        display: flex;
+    }
 }
