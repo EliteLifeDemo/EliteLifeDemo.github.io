@@ -14,6 +14,7 @@ function pageReady() {
     menuOpener();
     flatLinks();
     togglers();
+    collapsers();
 }
 
 function menuOpener() {
@@ -56,6 +57,15 @@ function togglers() {
             });
             button.classList.add('active');
             element.classList.add('active')
+        });
+    });
+}
+
+function collapsers() {
+    let collapseButtons = document.querySelectorAll('.collapser');
+    collapseButtons.forEach(function (button) {
+        button.addEventListener('click', function (e) {
+            button.classList.add('active');
         });
     });
 }

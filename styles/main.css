@@ -5310,4 +5310,45 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .mobile-tables-wrapper{
         position: relative;
     }
+    .collapser{
+        padding-top: 80px;
+        position: relative;
+        max-height: 80px;
+        transition: max-height .4s linear;
+        overflow: hidden;
+    }
+    .collapser.active{
+        max-height: 1500px;
+    }
+    .collapser:before{
+        content: attr(data-label);
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        border-top: 1px solid #AAA8AB;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 37px;
+        background-position-x: 24px;
+        background-position-y: center;
+        padding-left: 88px;
+        line-height: 80px;
+        text-transform: uppercase;
+    }
+    .collapser.-kids:before{
+        background-image: url("/assets/icons/Mob/slider.svg");
+    }
+    .collapser.-shops:before{
+        background-image: url("/assets/icons/Mob/shoe-shop.svg");
+    }
+    .collapser.-park:before{
+        background-image: url("/assets/icons/Mob/bench.svg");
+    }
+    .collapser.-sport:before{
+        background-image: url("/assets/icons/Mob/running.svg");
+    }
 }
