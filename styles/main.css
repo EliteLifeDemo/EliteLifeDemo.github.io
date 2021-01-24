@@ -4703,6 +4703,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
     .section.flats-section{
         padding-bottom: 0;
+        overflow-x: auto;
     }
     .section.flats-section .section-header{
         padding-top: 0;
@@ -4834,8 +4835,30 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .lake-gallery-section .button.image-cell{
         width: 100%;
     }
-    architecture-section{
+    .architecture-section{
         overflow-x: auto;
+    }
+    .space-beauty-section{
+        overflow-x: auto;
+    }
+    .fountain-section{
+        overflow-x: auto;
+    }
+    .tree-types-section{
+        padding-bottom: 0 !important;
+    }
+    .fountain-section .section-footer{
+        bottom: auto !important;
+        top: 80px !important;
+    }
+    .sport-walk-section .section-footer{
+        display: none;
+    }
+    .sport-walk-section{
+        overflow-x: auto;
+    }
+    .fountain-section .section-description{
+        display: none;
     }
     .architecture-section .image-holder,
     .space-line-section .image-holder,
