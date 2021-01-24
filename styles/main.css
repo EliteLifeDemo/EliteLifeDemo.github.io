@@ -5450,7 +5450,6 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
     .collapser.active{
         max-height: 1500px;
-        padding-top: 0 !important;
     }
     .collapser:before{
         content: attr(data-label);
@@ -5474,9 +5473,6 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
     .text-wrapper{
         margin-bottom: 40px;
-    }
-    .collapser.active:before{
-        opacity: 0;
     }
     .collapser.-kids:before{
         background-image: url("/assets/icons/Mob/slider.svg");
@@ -5657,6 +5653,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
         color: #828282;
         margin-top: 39px;
         margin-bottom: 51px;
+        padding: 0 15px;
     }
     .mobile-prefooter{
         font-family: Gilroy;
@@ -5665,8 +5662,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
         font-size: 18px;
         line-height: 1.4;
         color: #828282;
-        padding-bottom: 38px;
-        padding-top: 21px;
         border-top: 1px solid #AAA8AB;
+        padding: 21px 15px 38px;
     }
 }
