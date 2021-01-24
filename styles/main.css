@@ -5311,7 +5311,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
         position: relative;
     }
     .collapser{
-        padding-top: 80px;
+        padding-top: 80px !important;
         position: relative;
         max-height: 80px;
         transition: max-height .4s linear;
@@ -5338,6 +5338,11 @@ section.range-slider input[type=range]::-moz-focus-outer {
         padding-left: 88px;
         line-height: 80px;
         text-transform: uppercase;
+        opacity: 1;
+        transition: opacity .4s ease;
+    }
+    .collapser.active:before{
+        opacity: 0;
     }
     .collapser.-kids:before{
         background-image: url("/assets/icons/Mob/slider.svg");
