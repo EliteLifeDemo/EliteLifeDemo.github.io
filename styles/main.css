@@ -5026,7 +5026,6 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .contacts-page .site-content-wrapper .flex-block{
         min-height: 100vh;
     }
-    .filter-sidebar,
     .distances-visual,
     .flats-table td:first-child,
     .flats-table td:nth-child(2),
@@ -5037,6 +5036,50 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .filter-section.-params .column:nth-child(2),
     .flats-table th:first-child{
         display: none !important;
+    }
+    .filter-sidebar{
+        display: none;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1234134134134;
+        background: #293F2C;
+    }
+    .filter-sidebar .filter-sidebar-footer{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    .filter-sidebar-header{
+        background: #BDA269;
+        padding: 10px 15px;
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .filter-sidebar-header .close-button{
+        position: absolute;
+        width: 33px;
+        height: 33px;
+        font-size: 25px;
+        line-height: 33px;
+        top: 8px;
+        right: 15px;
+        z-index: 3333;
+        text-align: center;
+        color: #fff;
+    }
+
+    .feature-checkbox:checked + .feature-title{
+        color: #BDA269;
+    }
+    .article-title{
+        display: none;
+    }
+    .feature-title{
+        color: #fff;
     }
     .flats-found{
         padding-left: 15px;
