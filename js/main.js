@@ -252,8 +252,8 @@ function getVals() {
     }
 
     var displayElement = parent.getElementsByClassName("rangeValues")[0];
-    var displayElementFrom = parent.getElementsByClassName(".range-value.-from")[0];
-    var displayElementTo = parent.getElementsByClassName(".range-value.-to")[0];
+    var displayElementFrom = parent.querySelector(".range-value.-from");
+    var displayElementTo = parent.querySelector(".range-value.-to");
     displayElement.innerHTML = slide1 + " - " + slide2;
     displayElementTo.innerHTML = slide2;
     displayElementFrom.innerHTML = slide1;

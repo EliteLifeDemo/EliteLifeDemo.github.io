@@ -3352,7 +3352,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     min-width: 35%;
 }
 
-.filter-section.-params .column:last-child {
+.filter-section.-params .range-picker {
     min-width: 35%;
 }
 
@@ -5047,21 +5047,21 @@ section.range-slider input[type=range]::-moz-focus-outer {
         padding-left: 0;
         padding-right: 0;
     }
-    .filter-section.-params .column:last-child{
+    .filter-section.-params .range-picker{
         width: 100%;
         flex: 0 0 100%;
         display: flex;
         flex-wrap: wrap;
     }
-    .filter-section.-params .column.mobile-only{
+    .filter-section.-params .room-picker{
         width: 100%;
         flex: 0 0 100%;
     }
-    .filter-section.-params .column:last-child .range{
+    .filter-section.-params .range-picker .range{
         width: 100%;
         flex: 0 0 100%;
     }
-    .filter-section.-params .column:last-child .range:first-child{
+    .filter-section.-params .range-picker .range:first-child{
         order: 2;
     }
     .range-title{
@@ -5420,6 +5420,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .ranges{
         display: flex !important;
         justify-content: space-between;
+        margin-bottom: 27px;
     }
     .range-text{
         font-family: Room;
@@ -5474,6 +5475,34 @@ section.range-slider input[type=range]::-moz-focus-outer {
         display: block;
         width: 100%;
         text-align: center;
+        text-transform: uppercase;
+    }
+    .filter-footer{
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .additional-filter-button{
+        padding-top: 14px;
+        padding-bottom: 23px;
+        padding-left: 15px;
+        border-bottom: 1px solid #45694A;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: #fff;
+    }
+    .-nopaddings{
+        padding: 0 !important;
+    }
+    .filter-footer .founded{
+        padding: 9px 15px 15px;
+        font-family: Room;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 14px;
+        color: #fff;
+        line-height: 1.4;
         text-transform: uppercase;
     }
 }
