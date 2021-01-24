@@ -5047,6 +5047,9 @@ section.range-slider input[type=range]::-moz-focus-outer {
         z-index: 1234134134134;
         background: #293F2C;
     }
+    .filter-sidebar.active{
+        display: block;
+    }
     .filter-sidebar .filter-sidebar-footer{
         position: absolute;
         bottom: 0;
