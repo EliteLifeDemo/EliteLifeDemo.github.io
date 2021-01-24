@@ -5631,4 +5631,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
         margin-bottom: 75px;
         margin-top: 35px;
     }
+    .sport-walk-section .section-header .section-title:before{
+        display: none;
+    }
 }
