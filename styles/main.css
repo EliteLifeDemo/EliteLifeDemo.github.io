@@ -13,6 +13,9 @@
 .mobile-image{
     display: none;
 }
+.mobile-scroller{
+    display: none;
+}
 .toggled{
     display: none !important;
 }
@@ -5113,6 +5116,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
         color: #AAA8AB;
         padding-bottom: 8px;
         text-align: center;
+        text-transform: uppercase;
     }
     .footer-nav-item.active{
         border-color: #BDA269;
@@ -5120,5 +5124,20 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
     .private-section{
         padding-bottom: 0;
+    }
+    .mobile-scroller{
+        display: block;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        background-size: contain;
+        background-position: center top;
+        background-repeat: no-repeat;
+        padding-top: 52px;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 13px;
     }
 }
