@@ -5260,6 +5260,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
     .mobile-tables-wrapper{
         display: flex;
+        overflow-x: auto;
     }
     .mobile-table-wrapper{
         min-width: 100%;
@@ -5272,6 +5273,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
         top: 0;
         left: 0;
         right: 0;
+        position: absolute;
     }
     .mobile-table-wrapper .mobile-table{
         padding: 0 50px;
@@ -5296,5 +5298,15 @@ section.range-slider input[type=range]::-moz-focus-outer {
         color: #4F4F4F;
         padding-bottom: 5px;
         padding-top: 0;
+    }
+    .mobile-table-wrapper .mobile-table tbody {
+        display: flex;
+        overflow: auto;
+    }
+    .mobile-table-wrapper .mobile-table tr {
+        min-width: 100%;
+    }
+    .mobile-tables-wrapper{
+        position: relative;
     }
 }
