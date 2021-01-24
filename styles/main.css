@@ -5075,15 +5075,29 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
     .filter-section.-params{
         background: #293F2C;
-        border-color: #45694A;
         padding-right: 15px;
         padding-left: 15px;
         flex-wrap: wrap;
+        border: none;
+        padding-bottom: 0;
     }
     .rangeValues{
         color: #fff;
     }
-
+    .flats-filter-content{
+        height: auto;
+    }
+    .flats-table td{
+        border-bottom: 1px solid #AAA8AB;
+        font-family: Room;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 24px;
+        color: #232323;
+    }
+    .flats-table tr{
+        border: none;
+    }
     section.range-slider input[type=range] {
         height: 4px;
         border: none;
@@ -5491,6 +5505,22 @@ section.range-slider input[type=range]::-moz-focus-outer {
         font-weight: normal;
         font-size: 18px;
         color: #fff;
+        position: relative;
+    }
+    .additional-filter-button:before{
+        position: absolute;
+        right: 0;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 17px;
+        height: 17px;
+        margin: auto;
+        margin-right: 10px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("/assets/icons/right-chevron.svg");
     }
     .-nopaddings{
         padding: 0 !important;
@@ -5504,5 +5534,9 @@ section.range-slider input[type=range]::-moz-focus-outer {
         color: #fff;
         line-height: 1.4;
         text-transform: uppercase;
+    }
+    .filter-section.-additional{
+        background: #293F2C;
+        border-bottom: 1px solid #45694A;
     }
 }
