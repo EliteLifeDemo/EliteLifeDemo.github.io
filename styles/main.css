@@ -5055,24 +5055,32 @@ section.range-slider input[type=range]::-moz-focus-outer {
         bottom: 0;
         left: 0;
         width: 100%;
+        padding: 30px 15px;
     }
     .filter-sidebar-header{
         background: #BDA269;
         padding: 10px 15px;
         position: relative;
         margin-bottom: 30px;
+        font-family: Room;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 14px;
+        line-height: 1.4;
+        color: #fff;
     }
     .filter-sidebar-header .close-button{
         position: absolute;
-        width: 33px;
-        height: 33px;
-        font-size: 25px;
-        line-height: 33px;
-        top: 8px;
+        width: 15px;
+        height: 15px;
+        font-size: 15px;
+        line-height: 15px;
+        top: 12px;
         right: 15px;
         z-index: 3333;
         text-align: center;
         color: #fff;
+        display: inline-block;
     }
 
     .feature-checkbox:checked + .feature-title{
