@@ -5494,6 +5494,18 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .collapser.-private:before{
         background-image: url("/assets/icons/Mob/002-bench.svg");
     }
+    .collapser.-ball:before{
+        background-image: url("/assets/icons/Mob/003-football-ball.svg");
+    }
+    .collapser.-pool:before{
+        background-image: url("/assets/icons/Mob/004-swimming-pool.svg");
+    }
+    .collapser.-yoga:before{
+        background-image: url("/assets/icons/Mob/005-pilates.svg");
+    }
+    .collapser.-baby:before{
+        background-image: url("/assets/icons/Mob/006-twins.svg");
+    }
     .menu-footer{
         position: relative;
         padding-top: 10px;
@@ -5633,5 +5645,26 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
     .sport-walk-section .section-header .section-title:before{
         display: none;
+    }
+    .sport-types-mobile .sport-text{
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 1.4;
+        color: #828282;
+        margin-top: 39px;
+        margin-bottom: 51px;
+    }
+    .mobile-prefooter{
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 1.4;
+        color: #828282;
+        padding-bottom: 38px;
+        padding-top: 21px;
+        border-top: 1px solid #AAA8AB;
     }
 }
