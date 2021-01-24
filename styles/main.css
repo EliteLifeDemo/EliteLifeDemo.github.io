@@ -5088,6 +5088,9 @@ section.range-slider input[type=range]::-moz-focus-outer {
         border-bottom: 1px solid #AAA8AB;
         width: 100%;
     }
+    .footer-info-column{
+        padding-top: 0;
+    }
     .footer-nav-text{
         text-align: center;
         font-family: Room;
@@ -5114,5 +5117,8 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .footer-nav-item.active{
         border-color: #BDA269;
         color: #BDA269;
+    }
+    .private-section{
+        padding-bottom: 0;
     }
 }
