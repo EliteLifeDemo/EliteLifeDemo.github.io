@@ -46,10 +46,15 @@ function togglers() {
         let selector = button.getAttribute('data-toggle-target');
         let element = document.querySelector(selector);
         let siblings = element.parentElement.querySelectorAll('.toggled');
+        let buttonSiblings = button.parentElement.querySelectorAll('[data-toggle-target]');
         button.addEventListener('click', function (e) {
             siblings.forEach(function (el) {
                 el.classList.remove('active')
             });
+            buttonSiblings.forEach(function (el) {
+                el.classList.remove('active')
+            });
+            button.classList.add('active');
             element.classList.add('active')
         });
     });
