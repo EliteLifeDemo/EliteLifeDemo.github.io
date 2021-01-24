@@ -248,12 +248,29 @@ function getVals() {
 function scrollConfig() {
     let map = document.querySelector('.map-section');
     if (map) {
-        map.scrollLeft = 767
+        let scroller = map.querySelector('.mobile-scroller');
+        if(scroller){
+            scroller.style.left = "767px";
+        }
+        map.scrollLeft = 767;
     }
     let spaceLine = document.querySelector('.space-line-section');
     if (spaceLine) {
-        spaceLine.scrollLeft = 272
+        let scroller = spaceLine.querySelector('.mobile-scroller');
+        if(scroller) {
+            scroller.style.left = "272px";
+        }
+        spaceLine.scrollLeft = 272;
     }
+    let scrollers = document.querySelectorAll('.mobile-scroller');
+    scrollers.forEach(function (scroller) {
+        let parent = scroller.parentElement;
+        parent.addEventListener('scroll',function (e) {
+            if(!scroller.classList.contains('scrolled')){
+                scroller.classList.add('scrolled')
+            }
+        })
+    })
 }
 window.onload = function () {
     // Initialize Sliders
