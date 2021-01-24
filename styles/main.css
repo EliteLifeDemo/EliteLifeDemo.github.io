@@ -5627,4 +5627,8 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .mobile-relative{
         position: relative !important;
     }
+    .section.-full.mobile-only{
+        margin-bottom: 75px;
+        margin-top: 35px;
+    }
 }
