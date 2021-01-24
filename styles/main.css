@@ -5339,7 +5339,6 @@ section.range-slider input[type=range]::-moz-focus-outer {
         line-height: 80px;
         text-transform: uppercase;
         opacity: 1;
-        transition: opacity .4s ease;
     }
     .text-wrapper{
         margin-bottom: 40px;
@@ -5358,5 +5357,11 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
     .collapser.-sport:before{
         background-image: url("/assets/icons/Mob/running.svg");
+    }
+    .collapser.-security:before{
+        background-image: url("/assets/icons/Mob/001-protection.svg");
+    }
+    .collapser.-private:before{
+        background-image: url("/assets/icons/Mob/002-bench.svg");
     }
 }
