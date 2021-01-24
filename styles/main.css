@@ -4892,11 +4892,16 @@ section.range-slider input[type=range]::-moz-focus-outer {
         overflow-x: auto;
         display: block;
         white-space: nowrap;
+        margin-bottom: 0;
     }
     .nav-button{
         color: #BDA269;
         white-space: nowrap;
         display: inline-block;
+    }
+    .nav-button.active{
+        border-bottom: 2px solid #BDA269;
+        background: transparent;
     }
     .flex-block.-mobile-wrap{
         flex-wrap: wrap;
