@@ -4900,6 +4900,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
     .nav-button{
         white-space: nowrap;
+        display: inline-block;
     }
     .news-page .nav-button{
         color: #BDA269;
