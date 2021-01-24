@@ -5210,10 +5210,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
     .mobile-table {
         border: 0;
-    }
-
-    .mobile-table caption {
-        font-size: 1.3em;
+        display: block;
     }
 
     .mobile-table thead {
@@ -5263,5 +5260,41 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
     .mobile-tables-wrapper{
         display: flex;
+    }
+    .mobile-table-wrapper{
+        min-width: 100%;
+        position: relative;
+        padding-top: 115px;
+    }
+    .mobile-table-wrapper img{
+        display: block;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    .mobile-table-wrapper .mobile-table{
+        padding: 0 50px;
+    }
+    .mobile-table-wrapper .mobile-table td{
+        border: none;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 300 !important;
+        font-size: 18px;
+        line-height: 21px;
+        color: #4F4F4F;
+        text-align: left !important;
+        padding-bottom: 38px;
+    }
+    .mobile-table-wrapper .mobile-table td::before{
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        color: #4F4F4F;
+        padding-bottom: 5px;
+        padding-top: 0;
     }
 }
