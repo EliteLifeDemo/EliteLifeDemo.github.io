@@ -804,6 +804,7 @@ img {
     justify-content: center;
     margin: 0 auto 64px;
     flex-wrap: wrap;
+    position: relative;
 }
 
 .distances-info-block {
