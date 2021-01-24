@@ -138,21 +138,58 @@
                                 </label>
                             </div>
                         </div>
+                        <div class="column mobile-only">
+                            <div class="range-title">Комнаты</div>
+                            <div class="rooms">
+                                <span class="room">
+                                    <span class="room-type">S</span>
+                                    <span class="room-title">студия</span>
+                                </span>
+                                <span class="room">
+                                    <span class="room-type">2<span class="text-upper">E</span></span>
+                                    <span class="room-title">одна</span>
+                                </span>
+                                <span class="room">
+                                    <span class="room-type">3<span class="text-upper">E</span></span>
+                                    <span class="room-title">две</span>
+                                </span>
+                                <span class="room">
+                                    <span class="room-type">4<span class="text-upper">E</span></span>
+                                    <span class="room-title">три</span>
+                                </span>
+                                <span class="room">
+                                    <span class="room-type">D</span>
+                                    <span class="room-title">duplex</span>
+                                </span>
+                            </div>
+                        </div>
                         <div class="column">
                             <div class="range">
-                                <div class="range-title">Площадь, м²</div>
+                                <div class="range-title mobile-only">Метраж, м²</div>
+                                <div class="range-title -m-hidden">Площадь, м²</div>
                                 <section class="range-slider">
                                     <input name="space-1" value="1" min="1" max="150" step="1" type="range">
                                     <input name="space-2" value="150" min="1" max="150" step="1" type="range">
-                                    <span class="rangeValues"></span>
+                                    <span class="rangeValues -m-hidden"></span>
+                                    <div class="ranges mobile-only">
+                                        <span class="range-from-wrapper">
+                                            <span class="range-text">от</span>
+                                            <span class="range-value -from">от</span>
+                                        </span>
+                                        <span class="range-from-wrapper">
+                                            <span class="range-text">до</span>
+                                            <span class="range-value -from">от</span>
+                                        </span>
+                                    </div>
                                 </section>
                             </div>
                             <div class="range">
-                                <div class="range-title">Стоимость, млн ₸</div>
+                                <div class="range-title mobile-only">стоимость, млн тенге:</div>
+                                <div class="range-title -m-hidden">Стоимость, млн ₸</div>
                                 <section class="range-slider">
                                     <input name="price-1" value="1" min="1" max="25" step="0.1" type="range">
                                     <input name="price-2" value="25" min="1" max="25" step="0.1" type="range">
-                                    <span class="rangeValues"></span>
+                                    <span class="rangeValues -m-hidden"></span>
                                 </section>
                             </div>
                         </div>

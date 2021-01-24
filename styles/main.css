@@ -5050,6 +5050,22 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .filter-section.-params .column:last-child{
         width: 100%;
         flex: 0 0 100%;
+        display: flex;
+    }
+    .filter-section.-params .column:last-child .range{
+        width: 100%;
+        flex: 0 0 100%;
+    }
+    .filter-section.-params .column:last-child .range:first-child{
+        order: 2;
+    }
+    .range-title{
+        font-family: Room;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 18px;
+        line-height: 1.3;
+        color: #AAA8AB;
     }
     .filter-section.-params{
         background: #293F2C;
@@ -5297,7 +5313,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
         right: 0;
         position: absolute;
     }
-    .mobile-table-wrapper .mobile-table{
+    .mobile-table-wrapper .mobile-table tr{
         padding: 0 50px;
     }
     .mobile-table-wrapper .mobile-table td{
@@ -5393,5 +5409,59 @@ section.range-slider input[type=range]::-moz-focus-outer {
         position: relative;
         padding-top: 10px;
         padding-bottom: 20px;
+    }
+    .ranges{
+        display: flex !important;
+        justify-content: space-between;
+    }
+    .range-text{
+        font-family: Room;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #AAA8AB;
+    }
+    .range-value{
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        text-decoration: underline;
+        color: #fff;
+    }
+    .rooms{
+        display: flex;
+    }
+    .room{
+        padding: 11px 0;
+        color: #fff;
+        flex: 1;
+        margin-right: 3px;
+    }
+    .room .text-upper{
+        font-family: Room;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .room:last-child{
+        margin-right: 0;
+    }
+    .room-type{
+        font-family: Room;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    .room-title{
+        font-family: Room;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 10px;
+        display: block;
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
     }
 }
