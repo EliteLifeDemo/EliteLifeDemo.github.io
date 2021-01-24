@@ -2384,6 +2384,7 @@ img {
     bottom: -136px;
     transition: bottom .4s ease;
     text-align: center;
+    overflow: hidden;
 }
 
 .sport-types-section .column {
@@ -5304,6 +5305,18 @@ section.range-slider input[type=range]::-moz-focus-outer {
         padding-bottom: 0;
         background-size: auto;
     }
+    .mobile-scroller.-special-2{
+        background-image: url("/assets/scroller-special-2.png");
+        padding-top: 2px;
+        padding-bottom: 0;
+        background-size: auto;
+    }
+    .sport-distances .distances-info{
+        margin-bottom: 0;
+    }
+    .sport-walk-section .section-header .section-catch{
+        color: #fff;
+    }
     .mobile-scroller.gold{
         color: #BDA269;
     }
@@ -5597,6 +5610,15 @@ section.range-slider input[type=range]::-moz-focus-outer {
         border-bottom: 1px solid #45694A;
     }
     .old-price{
+        display: none;
+    }
+    .section.sport-types-section .section-header{
+        text-align: left;
+    }
+    .section.sport-types-section .section-title{
+        padding: 0;
+    }
+    .section.sport-types-section .section-title:before{
         display: none;
     }
 }
