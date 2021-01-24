@@ -30,6 +30,7 @@ body {
 
 a {
     transition: color .4s ease;
+    color: inherit;
 }
 
 a, a:hover, a:focus, a:visited {
@@ -2404,7 +2405,7 @@ img {
     margin-right: 0;
 }
 
-.sport-types-section .image-holder {
+.sport-types-section .column .image-holder {
     position: absolute;
     top: 0;
     left: 0;
@@ -5139,6 +5140,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
     .flats-filter-content{
         height: auto;
+        display: block;
     }
     .flats-table td{
         border-bottom: 1px solid #AAA8AB;
