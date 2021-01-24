@@ -4892,20 +4892,23 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .sidebar-title{
         margin-bottom: 60px;
     }
-    .news-page .nav{
+    .nav{
         overflow-x: auto;
         display: block;
         white-space: nowrap;
         margin-bottom: 0;
     }
+    .nav-button{
+        white-space: nowrap;
+    }
     .news-page .nav-button{
         color: #BDA269;
-        white-space: nowrap;
         display: inline-block;
     }
     .news-page .nav-button.active{
         border-bottom: 2px solid #BDA269;
         background: transparent;
+        color: #fff;
     }
     .flex-block.-mobile-wrap{
         flex-wrap: wrap;
