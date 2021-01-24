@@ -5166,7 +5166,8 @@ section.range-slider input[type=range]::-moz-focus-outer {
         color: #BDA269;
     }
     .private-section{
-        padding-bottom: 0;
+        padding-bottom: 0 !important;
+        padding-top: 0 !important;
     }
     .mobile-scroller{
         display: block;
@@ -5189,6 +5190,9 @@ section.range-slider input[type=range]::-moz-focus-outer {
         opacity: 1;
         visibility: visible;
         transition: opacity .4s ease, visibility .4s ease;
+    }
+    .news-list{
+        margin-top: 35px;
     }
     .mobile-scroller.-special-1{
         background-image: url("/assets/scroller-special-1.png");
