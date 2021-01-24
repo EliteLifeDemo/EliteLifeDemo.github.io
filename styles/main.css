@@ -5240,6 +5240,10 @@ section.range-slider input[type=range]::-moz-focus-outer {
         display: block;
     }
 
+    .mobile-table tbody {
+        display: block;
+    }
+
     .mobile-table td {
         display: block;
         text-align: center;
