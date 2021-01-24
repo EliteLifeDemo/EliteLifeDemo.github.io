@@ -5234,7 +5234,6 @@ section.range-slider input[type=range]::-moz-focus-outer {
     .mobile-table td {
         display: block;
         text-align: center;
-        padding-bottom: 11px;
         font-family: Gilroy;
         font-style: normal;
         font-weight: 500;
