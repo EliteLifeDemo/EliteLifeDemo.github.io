@@ -797,7 +797,6 @@ img {
 .distances-info-block {
     margin-left: 50px;
     min-width: 200px;
-    text-align: center;
 }
 
 .distances-info-block:first-child {
@@ -2246,6 +2245,7 @@ img {
 
 .sport-distances .distances-info-block {
     margin-left: 150px;
+    text-align: center;
 }
 
 .sport-season-section {
