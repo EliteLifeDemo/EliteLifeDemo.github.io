@@ -795,12 +795,13 @@ img {
 }
 
 .distances-info-block {
-    margin-right: 50px;
+    margin-left: 50px;
     min-width: 200px;
+    text-align: center;
 }
 
-.distances-info-block:last-child {
-    margin-right: 0 !important;
+.distances-info-block:first-child {
+    margin-left: 0 !important;
 }
 
 .distances-value {
@@ -1805,7 +1806,7 @@ img {
 }
 
 .additional-page-content .distances-info-block {
-    margin-right: 29px;
+    margin-left: 29px;
     margin-bottom: 29px;
 }
 
@@ -2244,7 +2245,7 @@ img {
 }
 
 .sport-distances .distances-info-block {
-    margin-right: 150px;
+    margin-left: 150px;
 }
 
 .sport-season-section {
@@ -4092,14 +4093,6 @@ section.range-slider input[type=range]::-moz-focus-outer {
 .mobile-scroller {
     display: none;
 }
-
-.toggled {
-    display: none !important;
-}
-
-.toggled.active {
-    display: block !important;
-}
 @media (min-width: 1001px) {
     .mobile-only {
         display: none !important;
@@ -4252,7 +4245,7 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
 
     .sport-distances .distances-info-block {
-        margin-right: 80px;
+        margin-left: 80px;
     }
 
     .sport-distances .distances-info {
@@ -5059,11 +5052,11 @@ section.range-slider input[type=range]::-moz-focus-outer {
     }
 
     .sport-distances .distances-info-block {
-        margin-right: 20px;
+        margin-left: 20px;
     }
 
     .distances-info-block {
-        margin-right: 0;
+        margin-left: 0;
         text-align: center;
     }
 
@@ -5853,5 +5846,13 @@ section.range-slider input[type=range]::-moz-focus-outer {
         color: #828282;
         border-top: 1px solid #AAA8AB;
         padding: 21px 15px 38px;
+    }
+
+    .toggled {
+        display: none !important;
+    }
+
+    .toggled.active {
+        display: block !important;
     }
 }
