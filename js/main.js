@@ -1,5 +1,5 @@
 if(location.pathname === '/flats.html' &&  window.outerWidth <= 1000){
-    location = '/flats-filter.html'
+    location = './flats-filter.html'
 }
 document.addEventListener('DOMContentLoaded', function () {
     pageReady();
@@ -26,7 +26,7 @@ function menuOpener() {
             menu.style.cssText = "display:block !important";
             document.body.style.overflow = "hidden";
         } else {
-            location = '/'
+            location = './index.html'
         }
     })
 }
@@ -37,7 +37,7 @@ function polyfills() {
     }
     let menuOpener = document.querySelector('.menu-opener-button');
     menuOpener.addEventListener('click', function () {
-        location = "/";
+        location = "./index.html";
     });
 }
 
